@@ -1,0 +1,97 @@
+.navbar_container {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.navbar_wrapper {
+    margin: 15px 25px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    animation: A_fadeIn 4s forwards;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.navbar_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_left img {
+    margin-right: 15px;
+    animation: A_breathe 2s infinite;
+    width: 70px;
+    height: 70px;
+}
+
+.navbar_left div p {
+    color: rgb(172, 172, 172);
+}
+
+.navbar_right {
+    flex: 3;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar_right ul {
+    display: flex;
+}
+
+.navbar_right ul li {
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar_right ul li a {
+    color: rgb(199, 199, 199);
+}
+
+#social-links li {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#page-links {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#page-links li {
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+    padding: 5px 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#page-links li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+#page-links li:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#page-links li a:hover {
+    color: white;
+}
