@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import "./header.css"; // Make sure to include your CSS file
 
-const Header = ({ headerText, imgSrc }) => {
+export default function Header({ headerText, imgSrc }) {
     // Sparke Animation
     const [sparklesCreated, setSparklesCreated] = useState(false);
 
@@ -55,6 +55,4 @@ const Header = ({ headerText, imgSrc }) => {
             </div>
         </div>
     );
-};
-
-export default Header;
+}

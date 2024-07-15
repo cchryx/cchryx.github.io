@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import "./effects.css";
 
-function GlowingBorder(props) {
+export default function GlowingBorder(props) {
     let [borderRad, setBorderRad] = useState("0px");
     let [dimensions, setDimensions] = useState({ width: 0, height: 0 });
     const containerRef = useRef(null);
@@ -68,5 +68,3 @@ function GlowingBorder(props) {
         </div>
     );
 }
-
-export default GlowingBorder;

@@ -1,7 +1,7 @@
 import "./effects.css";
 import { useEffect, useState, useRef } from "react";
 
-function FadeInSection(props) {
+export default function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
     const domRef = useRef();
     useEffect(() => {
@@ -20,5 +20,3 @@ function FadeInSection(props) {
         </div>
     );
 }
-
-export default FadeInSection;

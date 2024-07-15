@@ -8,7 +8,7 @@ import "./navbar.css";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 
-function Navbar() {
+export default function Navbar() {
     // Scroll navbar visibility
     useEffect(() => {
         const navbar = document.querySelector(".navbar_wrapper");
@@ -106,5 +106,3 @@ function Navbar() {
         </div>
     );
 }
-
-export default Navbar;

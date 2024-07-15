@@ -11,7 +11,7 @@ import Header from "../../components/Header/Header";
 
 import landing_header from "../../assets/headers/landing_header.png"; // Import an image
 
-function Landing() {
+export default function Landing() {
     const [navbarHeight, setNavbarHeight] = useState(0);
 
     // Calculate navbar height and store it in state
@@ -137,5 +137,3 @@ function Landing() {
         </>
     );
 }
-
-export default Landing;

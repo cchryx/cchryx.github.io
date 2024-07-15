@@ -6,11 +6,9 @@ import Projects from "./pages/Projects/Projects";
 
 export default function App() {
     return (
-        <>
-            <Routes>
-                <Route path="/" element={<Landing />}></Route>
-                <Route path="/projects" exact element={<Projects />}></Route>
-            </Routes>
-        </>
+        <Routes>
+            <Route path="/" element={<Landing />}></Route>
+            <Route path="/projects" exact element={<Projects />}></Route>
+        </Routes>
     );
 }

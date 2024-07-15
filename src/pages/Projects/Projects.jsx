@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import "./projects.css";
 // import Header from "../../components/Header/Header";
 
-function Projects() {
+export default function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
 
     // Calculate navbar height and store it in state
@@ -45,5 +45,3 @@ function Projects() {
         </>
     );
 }
-
-export default Projects;
