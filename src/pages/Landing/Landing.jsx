@@ -106,7 +106,7 @@ export default function Landing() {
                                 </a>
                             </li>
                             <li>
-                                <a href="/projects">
+                                <a href="#/projects">
                                     <p>Projects and accomplishments</p>
                                     <div>
                                         <FontAwesomeIcon

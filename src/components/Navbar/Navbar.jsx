@@ -51,7 +51,7 @@ export default function Navbar() {
                             <a href={`/`}>Landing</a>
                         </li>
                         <li>
-                            <a href={`/projects`}>Projects</a>
+                            <a href={`#/projects`}>Projects</a>
                         </li>
                     </ul>
                     <ul id="social-links">
