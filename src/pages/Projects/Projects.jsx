@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./projects.css";
-import Header from "../../components/Header/Header";
+// import Header from "../../components/Header/Header";
 
 function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -41,7 +41,7 @@ function Projects() {
     return (
         <>
             <Navbar />
-            <Header />
+            <div>hello?</div>
         </>
     );
 }
