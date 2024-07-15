@@ -74,3 +74,12 @@ u {
         opacity: 0;
     }
 }
+
+.sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: sparkle 1s infinite alternate;
+}
