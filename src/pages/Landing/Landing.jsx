@@ -142,8 +142,55 @@ export default function Landing() {
                 </div>
             </FadeInSection>
             <FadeInSection>
-                <div className="section_container" id="section2">
-                    For programming and engineering and robotics overview
+                <div
+                    className="section_container"
+                    id="section2"
+                    style={{ flexDirection: "column" }}
+                >
+                    <GlowingBorder>
+                        <div
+                            id="PERImg_container"
+                            style={{ borderRadius: "20px" }}
+                        >
+                            <img
+                                src="https://res.cloudinary.com/decele1ao/image/upload/v1721145052/Project%20Helios/PER/czaqpchumqrxz7aokgud.png"
+                                alt=""
+                            />
+                            <img
+                                src="https://res.cloudinary.com/decele1ao/image/upload/v1721144937/Project%20Helios/PER/nrjzrrxmew89rtis8z5o.jpg"
+                                alt=""
+                            />
+                            <img
+                                src="https://res.cloudinary.com/decele1ao/image/upload/v1721144934/Project%20Helios/PER/j7rpr9woxmj9dclmulei.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </GlowingBorder>
+                    <div id="PERImg_text">
+                        <h1>My Projects and Accomplishments</h1>
+                        <h2>Programming, Engineering, and Robotics</h2>
+                        <p>
+                            I am a curious and adventurous individual, always
+                            eager to explore new opportunities and continually
+                            learn and discover new things. In the world of
+                            programming, engineering, and robotics, I have found
+                            limitless potential for innovation and creativity,
+                            constantly inspiring me to learn and grow. I like to
+                            think of all my experiences as a boundless universe,
+                            where every project and accomplishment ignites
+                            another star that enlightens the universe. Although
+                            not every project goes as planned, as long as I've
+                            learned something and had fun, it is more than
+                            enough. Feel free to check out my projects and
+                            accomplishments in the link below!
+                        </p>
+                        <br />
+                        <u>
+                            <a href="/#/projects" className="q_link">
+                                &#9654; View my projects and accomplishments
+                            </a>
+                        </u>
+                    </div>
                 </div>
             </FadeInSection>
             <FadeInSection>

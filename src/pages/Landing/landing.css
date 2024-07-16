@@ -3,7 +3,7 @@ body {
 }
 
 .section_container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,10 +40,10 @@ body {
     content: "";
     position: absolute;
     border-radius: 20px;
-    top: 200px;
-    left: 720px;
-    width: 630px;
-    height: 360px;
+    bottom: 20vh;
+    right: 8vw;
+    width: 42vw;
+    height: 50vh;
     background-color: #1d202f;
     z-index: -1;
     -webkit-box-shadow: 10px 10px 15px 10px #1d202f;
@@ -163,4 +163,65 @@ body {
 
 .q_link {
     line-height: 200%;
+}
+
+#PERImg_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#PERImg_container img {
+    flex: 1;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#PERImg_text {
+    width: 100%;
+    background-color: #292c39;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+#PERImg_text h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+#PERImg_text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(179, 179, 179);
+}
+
+#PERImg_container::before {
+    content: "";
+    position: absolute;
+    transform: translate(-80px, -80px);
+    z-index: -1;
+    background-color: rgb(89, 84, 157);
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, #9a73b4 0%, #4751c0 100%);
+    animation: morph 3s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transition: all 1s ease-in-out;
+}
+
+#PERImg_text::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    transform: translate(-50px, -50px);
+    z-index: -1;
+    background-color: rgb(118, 123, 155);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #88d5bf 0%, #5d6bf8 100%);
+    animation: morph 3s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transition: all 1s ease-in-out;
 }
