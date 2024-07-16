@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 200px;
 }
 
 /* Sparkle animation */
@@ -20,12 +21,6 @@ body {
         transform: translate(50%, 50%);
         opacity: 0.5;
     }
-}
-
-#section1 {
-    display: flex;
-    align-items: center;
-    padding: 0 200px;
 }
 
 #meImg {
@@ -131,4 +126,41 @@ body {
     border-radius: 5px;
     padding: 0 10px;
     font-weight: 600;
+}
+
+#skateVideo video {
+    height: 450px;
+    height: 450px;
+    border-radius: 50px;
+    display: block;
+}
+
+#artImg img {
+    height: 450px;
+    width: 420px;
+    border-radius: 50px;
+    display: block;
+}
+
+#artImg {
+    margin-right: 150px;
+}
+
+#skateVideo {
+    margin-left: 150px;
+}
+
+.box_title {
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.box_desc {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.q_link {
+    line-height: 200%;
 }

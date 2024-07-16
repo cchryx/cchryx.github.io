@@ -10,6 +10,7 @@ import GlowingBorder from "../../components/Effects/GlowingBorder";
 import Header from "../../components/Header/Header";
 
 import landing_header from "../../assets/headers/landing_header.png"; // Import an image
+import Box1 from "../../components/Effects/Boxes/Box1";
 
 export default function Landing() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -89,8 +90,19 @@ export default function Landing() {
                             Bethune C.I. in Scarborough, Ontario, expected to
                             graduate in 2025. I am very passionate about
                             problem-solving and innovation, which is why I love{" "}
-                            <u>programming</u> and <u>robotics</u>, where I
-                            continually seek to expand my skills and knowledge.
+                            <u>
+                                <b>programming</b>
+                            </u>
+                            ,{" "}
+                            <u>
+                                <b>engineering</b>
+                            </u>
+                            , and{" "}
+                            <u>
+                                <b>robotics</b>
+                            </u>
+                            , where I continually seek to expand my skills and
+                            knowledge.
                         </p>
                         <br />
                         <br />
@@ -106,7 +118,7 @@ export default function Landing() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#/projects">
+                                <a href="#section2">
                                     <p>Projects and accomplishments</p>
                                     <div>
                                         <FontAwesomeIcon
@@ -116,7 +128,7 @@ export default function Landing() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#section2">
+                                <a href="#section3">
                                     <p>Other hobbies and interests</p>
                                     <div>
                                         <FontAwesomeIcon
@@ -131,7 +143,83 @@ export default function Landing() {
             </FadeInSection>
             <FadeInSection>
                 <div className="section_container" id="section2">
-                    Hello
+                    For programming and engineering and robotics overview
+                </div>
+            </FadeInSection>
+            <FadeInSection>
+                <div className="section_container" id="section3">
+                    <Box1>
+                        <h1 className="box_title">Skateboarding</h1>
+                        <p className="box_desc">
+                            Argument: Raising funds for increased public safety
+                            through taxes or borrowing can have economic
+                            repercussions. Higher taxes or increased debt might
+                            burden businesses and individuals, potentially
+                            stifling economic growth and reducing overall
+                            quality of life.
+                        </p>
+                        <br />
+                        <br />
+                        <u>
+                            <a href="#section4" className="q_link">
+                                &#9654; Next: Art
+                            </a>
+                        </u>
+                        <br />
+                        <u>
+                            <a href="#section2" className="q_link">
+                                &#9654; Projects and Accomplishments:
+                                Programming, Engineering and Robotics
+                            </a>
+                        </u>
+                    </Box1>
+                    <div id="skateVideo">
+                        <GlowingBorder width={382} height={450}>
+                            <video autoPlay={true} muted loop>
+                                <source
+                                    src="https://res.cloudinary.com/decele1ao/video/upload/v1721074684/Project%20Helios/Skateboarding/k2ernznsxoomrz14mcz1.mov"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </GlowingBorder>
+                    </div>
+                </div>
+            </FadeInSection>
+            <FadeInSection>
+                <div className="section_container" id="section4">
+                    <div id="artImg">
+                        <GlowingBorder>
+                            <img
+                                src="https://res.cloudinary.com/decele1ao/image/upload/v1721074791/Project%20Helios/Art/ukw1t0r0spc4aoznwdaq.png"
+                                alt="artImg"
+                            />
+                        </GlowingBorder>
+                    </div>
+                    <Box1 className="box">
+                        <h1 className="box_title">Art</h1>
+                        <p className="box_desc">
+                            Argument: Raising funds for increased public safety
+                            through taxes or borrowing can have economic
+                            repercussions. Higher taxes or increased debt might
+                            burden businesses and individuals, potentially
+                            stifling economic growth and reducing overall
+                            quality of life.
+                        </p>
+                        <br />
+                        <br />
+                        <u>
+                            <a href="#section3" className="q_link">
+                                &#9654; Previous: Skateboarding
+                            </a>
+                        </u>
+                        <br />
+                        <u>
+                            <a href="#section2" className="q_link">
+                                &#9654; Projects and Accomplishments:
+                                Programming, Engineering and Robotics
+                            </a>
+                        </u>
+                    </Box1>
                 </div>
             </FadeInSection>
         </>

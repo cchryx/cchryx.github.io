@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
 import "./effects.css";
 
-export default function GlowingBorder(props) {
-    let [borderRad, setBorderRad] = useState("0px");
-    let [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+export default function GlowingBorder({ children, width, height }) {
+    const [borderRad, setBorderRad] = useState("0px");
+    const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -12,10 +12,19 @@ export default function GlowingBorder(props) {
             const computedStyle = getComputedStyle(firstChild);
             setBorderRad(computedStyle.borderRadius);
 
-            const rect = firstChild.getBoundingClientRect();
-            setDimensions({ width: rect.width, height: rect.height });
+            if (width && height) {
+                setDimensions({
+                    width,
+                    height,
+                });
+            } else {
+                setDimensions({
+                    width: firstChild.getBoundingClientRect().width,
+                    height: firstChild.getBoundingClientRect().height,
+                });
+            }
         }
-    }, [props.children, borderRad]);
+    }, [children, width, height]);
 
     const glowBorderStyles = {
         borderRadius: borderRad,
@@ -46,8 +55,8 @@ export default function GlowingBorder(props) {
         top: "0",
         left: "0",
         zIndex: "-1",
-        height: dimensions.height + 30,
-        width: dimensions.width + 30,
+        height: `${dimensions.height + 30}px`,
+        width: `${dimensions.width + 30}px`,
         margin: "0 auto",
         transform: "scale(0.8)",
         filter: "blur(90px)",
@@ -59,12 +68,12 @@ export default function GlowingBorder(props) {
     };
 
     return (
-        <div>
+        <>
             <div ref={containerRef} style={glowBorderStyles}>
-                {props.children}
+                {children}
                 <div style={glowBorderBeforeStyles}></div>
                 <div style={glowBorderAfterStyles}></div>
             </div>
-        </div>
+        </>
     );
 }

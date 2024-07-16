@@ -9,7 +9,7 @@ export default function FadeInSection(props) {
             entries.forEach((entry) => setVisible(entry.isIntersecting));
         });
         observer.observe(domRef.current);
-    }, []);
+    }, [isVisible]);
 
     return (
         <div
