@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import "./projects.css";
-// import Header from "../../components/Header/Header";
+
+import projects_header from "../../assets/headers/projects_header.png";
+import Navbar from "../../components/Navbar/Navbar";
+import Header from "../../components/Header/Header";
 
 export default function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -41,7 +43,10 @@ export default function Projects() {
     return (
         <>
             <Navbar />
-            <div>hello?</div>
+            <Header
+                imgSrc={projects_header}
+                headerText={"Explore my projects and accomplishments."}
+            />
         </>
     );
 }

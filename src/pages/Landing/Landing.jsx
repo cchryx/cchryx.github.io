@@ -47,20 +47,6 @@ export default function Landing() {
         });
     }, [navbarHeight]);
 
-    // Header Text Animation
-    useEffect(() => {
-        const headerTxt = document.getElementById("header_text");
-        const words = headerTxt.textContent.split(" ");
-        headerTxt.innerHTML = words
-            .map(
-                (word, index) =>
-                    `<span style="animation: A_fadeIn 0.8s ${
-                        0.1 * index
-                    }s forwards cubic-bezier(0.11, 0, 0.5, 0);">${word}</span>`
-            )
-            .join(" ");
-    }, []);
-
     return (
         <>
             <Navbar />

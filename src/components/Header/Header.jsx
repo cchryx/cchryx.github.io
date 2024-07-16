@@ -4,6 +4,20 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import "./header.css"; // Make sure to include your CSS file
 
 export default function Header({ headerText, imgSrc }) {
+    // Header Text Animation
+    useEffect(() => {
+        const headerTxt = document.getElementById("header_text");
+        const words = headerTxt.textContent.split(" ");
+        headerTxt.innerHTML = words
+            .map(
+                (word, index) =>
+                    `<span style="animation: A_fadeIn 0.8s ${
+                        0.1 * index
+                    }s forwards cubic-bezier(0.11, 0, 0.5, 0);">${word}</span>`
+            )
+            .join(" ");
+    }, []);
+
     // Sparke Animation
     const [sparklesCreated, setSparklesCreated] = useState(false);
 

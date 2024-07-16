@@ -10,19 +10,6 @@ body {
     padding: 0 200px;
 }
 
-/* Sparkle animation */
-@keyframes sparkle {
-    0% {
-        transform: translate(-50%, -50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translate(50%, 50%);
-        opacity: 0.5;
-    }
-}
-
 #meImg {
     object-fit: cover;
     width: 400px;

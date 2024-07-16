@@ -50,3 +50,25 @@
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     animation: A_fadeMoveDown 1.5s ease-in-out infinite;
 }
+
+.sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: sparkle 1s infinite alternate;
+}
+
+/* Sparkle animation */
+@keyframes sparkle {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(50%, 50%);
+        opacity: 0.5;
+    }
+}
