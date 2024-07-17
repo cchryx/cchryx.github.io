@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb5e2cbb.css",
+    "main.css": "/static/css/main.8c0e830f.css",
     "main.js": "/static/js/main.09e59844.js",
     "static/media/projects_header.png": "/static/media/projects_header.3f97ea7de1aac310e90d.png",
     "static/media/landing_header.png": "/static/media/landing_header.15196a85a987c61da274.png",
     "static/media/helios.png": "/static/media/helios.3ebe861130fa1cd16bfa.png",
     "static/media/chrischenresume.pdf": "/static/media/chrischenresume.7d3cc2a5102a29991842.pdf",
     "index.html": "/index.html",
-    "main.fb5e2cbb.css.map": "/static/css/main.fb5e2cbb.css.map",
+    "main.8c0e830f.css.map": "/static/css/main.8c0e830f.css.map",
     "main.09e59844.js.map": "/static/js/main.09e59844.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb5e2cbb.css",
+    "static/css/main.8c0e830f.css",
     "static/js/main.09e59844.js"
   ]
 }
