@@ -8,7 +8,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import FadeInSection from "../../components/Effects/FadeInSection";
 import GlowingBorder from "../../components/Effects/GlowingBorder";
 import Header from "../../components/Header/Header";
-import Box1 from "../../components/Effects/Boxes/Box1";
+import Box1 from "../../components/Boxes/Box1";
 
 import landing_header from "../../assets/headers/landing_header.png";
 import resumePDF from "../../assets/PDFs/chrischenresume.pdf";
@@ -188,12 +188,16 @@ export default function Landing() {
                     <Box1>
                         <h1 className="box_title">Skateboarding</h1>
                         <p className="box_desc">
-                            Argument: Raising funds for increased public safety
-                            through taxes or borrowing can have economic
-                            repercussions. Higher taxes or increased debt might
-                            burden businesses and individuals, potentially
-                            stifling economic growth and reducing overall
-                            quality of life.
+                            This hobby started during the summer of the pandemic
+                            when there was nothing to do. After trying out
+                            skateboarding and watching many videos of others
+                            doing cool tricks, I immediately fell in love with
+                            the sport. Nearly every day during the following
+                            summers, besides coding, I would be skateboarding
+                            for at least three hours a day, practicing and
+                            trying new tricks at the skatepark and enjoying time
+                            with friends. Hopefully, I can land consistent
+                            tre-flips in the near future! 🛹
                         </p>
                         <br />
                         <br />
@@ -235,12 +239,19 @@ export default function Landing() {
                     <Box1 className="box">
                         <h1 className="box_title">Art</h1>
                         <p className="box_desc">
-                            Argument: Raising funds for increased public safety
-                            through taxes or borrowing can have economic
-                            repercussions. Higher taxes or increased debt might
-                            burden businesses and individuals, potentially
-                            stifling economic growth and reducing overall
-                            quality of life.
+                            After being forced to attend art classes at the age
+                            of 7, I unexpectedly enjoyed visual arts and
+                            drawing. I love creating things and found that in
+                            art, I was able to use various tools and media to
+                            create something cool. I love realistic art because
+                            it demonstrates a high level of technical skill and
+                            attention to detail. My favorite art media to use
+                            are plain old graphite and colored pencils to create
+                            realistic images, as well as watercolor. However,
+                            because art pieces take a lot of time and robotics,
+                            school, and programming are more important, I
+                            haven't created any art pieces recently. Here is a
+                            gallery of some of my past art.
                         </p>
                         <br />
                         <br />
