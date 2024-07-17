@@ -66,7 +66,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <a
-                                href="https://www.linkedin.com/in/chris-chen-a69924288/"
+                                href="https://www.linkedin.com/in/x-chris-chen/"
                                 target="_"
                             >
                                 <FontAwesomeIcon
