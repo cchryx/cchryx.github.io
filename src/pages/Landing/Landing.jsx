@@ -8,9 +8,10 @@ import Navbar from "../../components/Navbar/Navbar";
 import FadeInSection from "../../components/Effects/FadeInSection";
 import GlowingBorder from "../../components/Effects/GlowingBorder";
 import Header from "../../components/Header/Header";
-
-import landing_header from "../../assets/headers/landing_header.png"; // Import an image
 import Box1 from "../../components/Effects/Boxes/Box1";
+
+import landing_header from "../../assets/headers/landing_header.png";
+import resumePDF from "../../assets/PDFs/chrischenresume.pdf";
 
 export default function Landing() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -94,8 +95,11 @@ export default function Landing() {
                         <br />
                         <ul id="contents_list">
                             <li>
-                                <a href="/">
-                                    <p>Resume</p>
+                                <a
+                                    href={resumePDF}
+                                    download="chrischenresume.pdf"
+                                >
+                                    <p>Resume (PDF Download)</p>
                                     <div>
                                         <FontAwesomeIcon
                                             icon={faArrowRightLong}
