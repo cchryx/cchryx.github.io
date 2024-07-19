@@ -7,18 +7,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 12vw;
 }
 
 #meImg {
     object-fit: cover;
-    width: 400px;
-    height: 400px;
+    width: 25vw;
+    height: 25vw;
     border-radius: 50px;
 }
 
 .text_template1 {
-    padding: 40px;
+    padding: 2.5vw;
     border-radius: 20px;
     background-color: #292c39;
 }
@@ -28,8 +28,8 @@ body {
     position: absolute;
     border-radius: 20px;
     bottom: 20vh;
-    right: 8vw;
-    width: 42vw;
+    right: 10vw;
+    width: 40vw;
     height: 50vh;
     background-color: #1d202f;
     z-index: -1;
@@ -39,13 +39,13 @@ body {
 }
 
 .text_template1 h1 {
-    font-size: 40px;
+    font-size: 2.5vw;
     margin-bottom: 10px;
 }
 
 .text_template1 p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
 }
 
 #meImg_container {
@@ -85,7 +85,7 @@ body {
 }
 
 #contents_list p {
-    font-size: 22px;
+    font-size: 1.2vw;
     line-height: 40px;
     color: #d8d8d8;
     flex: 1;
@@ -145,7 +145,8 @@ body {
 
 .box_desc {
     line-height: 25px;
-    font-size: 18px;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
 }
 
 .q_link {
@@ -159,35 +160,40 @@ body {
 
 #PERImg_container img {
     flex: 1;
-    height: 200px;
-    width: 400px;
+    height: 16vw;
+    width: 20vw;
     object-fit: cover;
 }
 
 #PERImg_text {
-    width: 100%;
+    width: 65vw;
     background-color: #292c39;
-    padding: 40px;
+    padding: 2vw;
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 2vw;
 }
 
 #PERImg_text h1 {
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 #PERImg_text h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
     color: rgb(179, 179, 179);
 }
 
-#PERImg_container::before {
+#PERImg_text p {
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+
+#PERImg_text::before {
     content: "";
     position: absolute;
-    transform: translate(-80px, -80px);
-    z-index: -1;
+    transform: translate(-10vw, -5vw);
+    z-index: -2;
     background-color: rgb(89, 84, 157);
     width: 400px;
     height: 400px;
@@ -201,11 +207,11 @@ body {
     content: "";
     position: absolute;
     right: 0;
-    transform: translate(-50px, -50px);
-    z-index: -1;
+    transform: translate(-10vw, -5vw);
+    z-index: -2;
     background-color: rgb(118, 123, 155);
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     background: linear-gradient(45deg, #88d5bf 0%, #5d6bf8 100%);
     animation: morph 3s ease-in-out infinite;

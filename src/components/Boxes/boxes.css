@@ -1,7 +1,7 @@
 .box1_container {
     position: relative;
     background-color: #292c39;
-    padding: 30px;
+    padding: 2.5vw;
     border-radius: 20px;
 }
 
@@ -9,7 +9,7 @@
     content: "";
     position: absolute;
     transform: translate(-100px, -150px);
-    z-index: -1;
+    z-index: -2;
     background-color: rgb(89, 84, 157);
     width: 350px;
     height: 350px;
@@ -24,7 +24,7 @@
     position: absolute;
     right: 0;
     transform: translate(50px, -50px);
-    z-index: -1;
+    z-index: -2;
     background-color: rgb(118, 123, 155);
     width: 200px;
     height: 200px;
