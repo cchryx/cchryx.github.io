@@ -116,15 +116,13 @@ body {
 }
 
 #skateVideo video {
-    height: 450px;
-    height: 450px;
+    width: 25vw;
     border-radius: 50px;
     display: block;
 }
 
 #artImg img {
-    height: 450px;
-    width: 420px;
+    width: 25vw;
     border-radius: 50px;
     display: block;
 }
@@ -163,7 +161,7 @@ body {
 #PERImg_container img {
     flex: 1;
     height: 16vw;
-    width: 20vw;
+    width: 25vw;
     object-fit: cover;
 }
 
@@ -209,7 +207,7 @@ body {
     content: "";
     position: absolute;
     right: 0;
-    transform: translate(-10vw, -5vw);
+    transform: translate(-7vw, -7vw);
     z-index: -2;
     background-color: rgb(118, 123, 155);
     width: 15vw;

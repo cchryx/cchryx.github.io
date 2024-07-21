@@ -4,7 +4,7 @@ import "./projects.css";
 import projects_header from "../../assets/headers/projects_header.png";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
-import GlowBorder from "../../components/Effects/GlowBorder";
+import ProjectsList from "./ProjetctsList";
 
 export default function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -40,7 +40,6 @@ export default function Projects() {
             });
         });
     }, [navbarHeight]);
-
     return (
         <>
             <Navbar />
@@ -49,24 +48,26 @@ export default function Projects() {
                 headerText={"Explore my projects and accomplishments."}
                 jumpLink="mainSection"
             />
-            <div className="section_container" id="mainSection">
+            <div
+                className="section_container"
+                id="mainSection"
+                style={{ display: "block" }}
+            >
+                <h1 className="F_aquire">Robotics</h1>
                 <div className="projects_container">
-                    <GlowBorder borderRadius={20}>
-                        <div className="box">
-                            <img
-                                style={{ height: 200 }}
-                                src="https://res.cloudinary.com/decele1ao/image/upload/v1720844653/Project%20Helios/cc.rix1.jpg"
-                                alt="cc.rix1"
-                            />
-                        </div>
-                    </GlowBorder>
-
-                    <div className="box">Box 1</div>
-                    <div className="box">Box 1</div>
-                    <div className="box">Box 1</div>
-                    <div className="box">Box 1</div>
-                    <div className="box">Box 1</div>
-                    <div className="box">Box 1</div>
+                    <ProjectsList list="robotics" />
+                </div>
+            </div>
+            <div className="section_container" style={{ display: "block" }}>
+                <h1 className="F_aquire">Progamming</h1>
+                <div className="projects_container">
+                    <ProjectsList list="programming" />
+                </div>
+            </div>
+            <div className="section_container" style={{ display: "block" }}>
+                <h1 className="F_aquire">Engineering</h1>
+                <div className="projects_container">
+                    <ProjectsList list="engineering" />
                 </div>
             </div>
         </>

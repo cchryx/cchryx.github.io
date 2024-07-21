@@ -21,17 +21,15 @@
 }
 
 .E_glowBorder {
-    background: #3c67e3;
+    background: transparent;
     position: relative;
-    display: grid;
-    place-content: center;
 }
 
 .E_glowBorder::before,
 .E_glowBorder::after {
     content: "";
     position: absolute;
-    inset: -0.6rem;
+    inset: -0.6vw;
     z-index: -1;
     background: linear-gradient(
         var(--gradient-angle),

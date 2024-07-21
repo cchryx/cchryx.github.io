@@ -24,6 +24,10 @@ body {
     scrollbar-width: none; /* Firefox */
 }
 
+img {
+    display: block;
+}
+
 a {
     pointer-events: initial;
 }
