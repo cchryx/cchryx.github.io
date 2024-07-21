@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Navbar from "../../components/Navbar/Navbar";
 import FadeInSection from "../../components/Effects/FadeInSection";
-import GlowingBorder from "../../components/Effects/GlowingBorder";
+import GlowBorder from "../../components/Effects/GlowBorder";
 import Header from "../../components/Header/Header";
 import Box1 from "../../components/Boxes/Box1";
 
@@ -56,17 +56,18 @@ export default function Landing() {
                 headerText={
                     "Welcome to my personal portfolio. Dive in and explore more about me and my projects."
                 }
+                jumpLink="section1"
             />
             <FadeInSection>
                 <div className="section_container" id="section1">
                     <div id="meImg_container">
-                        <GlowingBorder>
+                        <GlowBorder borderRadius={50}>
                             <img
                                 id="meImg"
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1720844653/Project%20Helios/cc.rix1.jpg"
                                 alt="cc.rix1"
                             />
-                        </GlowingBorder>
+                        </GlowBorder>
                     </div>
                     <div className="text_template1">
                         <div className="typewriter">
@@ -137,11 +138,8 @@ export default function Landing() {
                     id="section2"
                     style={{ flexDirection: "column" }}
                 >
-                    <GlowingBorder>
-                        <div
-                            id="PERImg_container"
-                            style={{ borderRadius: "20px" }}
-                        >
+                    <GlowBorder borderRadius={20}>
+                        <div id="PERImg_container">
                             <img
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1721145052/Project%20Helios/PER/czaqpchumqrxz7aokgud.png"
                                 alt=""
@@ -155,7 +153,7 @@ export default function Landing() {
                                 alt=""
                             />
                         </div>
-                    </GlowingBorder>
+                    </GlowBorder>
                     <div id="PERImg_text">
                         <h1>My Projects and Accomplishments</h1>
                         <h2>Programming, Engineering, and Robotics</h2>
@@ -215,26 +213,26 @@ export default function Landing() {
                         </u>
                     </Box1>
                     <div id="skateVideo">
-                        <GlowingBorder width={382} height={450}>
+                        <GlowBorder borderRadius={50}>
                             <video autoPlay={true} muted loop>
                                 <source
                                     src="https://res.cloudinary.com/decele1ao/video/upload/v1721074684/Project%20Helios/Skateboarding/k2ernznsxoomrz14mcz1.mov"
                                     type="video/mp4"
                                 />
                             </video>
-                        </GlowingBorder>
+                        </GlowBorder>
                     </div>
                 </div>
             </FadeInSection>
             <FadeInSection>
                 <div className="section_container" id="section4">
                     <div id="artImg">
-                        <GlowingBorder>
+                        <GlowBorder borderRadius={50}>
                             <img
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1721074791/Project%20Helios/Art/ukw1t0r0spc4aoznwdaq.png"
                                 alt="artImg"
                             />
-                        </GlowingBorder>
+                        </GlowBorder>
                     </div>
                     <Box1 className="box">
                         <h1 className="box_title">Art</h1>

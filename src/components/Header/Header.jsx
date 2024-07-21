@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import "./header.css"; // Make sure to include your CSS file
 
-export default function Header({ headerText, imgSrc }) {
+export default function Header({ headerText, imgSrc, jumpLink }) {
     // Header Text Animation
     useEffect(() => {
         const headerTxt = document.getElementById("header_text");
@@ -59,7 +59,7 @@ export default function Header({ headerText, imgSrc }) {
             <img id="header_img" src={imgSrc} alt="header_img" />
             <h1 id="header_text">{headerText}</h1>
             <div id="downArrow_container">
-                <a href="#section1">
+                <a href={`#${jumpLink}`}>
                     <FontAwesomeIcon
                         id="downArrow"
                         icon={faAngleDown}

@@ -14,16 +14,44 @@
 }
 
 /* Glowing Border */
-@property --rotate {
+@property --gradient-angle {
     syntax: "<angle>";
-    initial-value: 132deg;
+    initial-value: 0deg;
     inherits: false;
 }
-@keyframes spin {
+
+.E_glowBorder {
+    background: #3c67e3;
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+
+.E_glowBorder::before,
+.E_glowBorder::after {
+    content: "";
+    position: absolute;
+    inset: -0.6rem;
+    z-index: -1;
+    background: linear-gradient(
+        var(--gradient-angle),
+        #5ddcff,
+        #3c67e3 43%,
+        #4e00c2
+    );
+    border-radius: inherit;
+    animation: rotation 2.5s linear infinite;
+}
+
+.E_glowBorder::after {
+    filter: blur(3.5rem);
+}
+
+@keyframes rotation {
     0% {
-        --rotate: 0deg;
+        --gradient-angle: 0deg;
     }
     100% {
-        --rotate: 360deg;
+        --gradient-angle: 360deg;
     }
 }
