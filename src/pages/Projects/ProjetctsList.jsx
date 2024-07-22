@@ -1,3 +1,4 @@
+import FadeInSection from "../../components/Effects/FadeInSection";
 import GlowBorder from "../../components/Effects/GlowBorder";
 
 const tagsList = {
@@ -45,13 +46,29 @@ const tagsList = {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/arduino.png",
         color: null,
     },
+    PHP: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/php.png",
+        color: null,
+    },
+    DiscordJS: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/discordjs.png",
+        color: null,
+    },
+    MongoDB: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/mongodb.png",
+        color: null,
+    },
+    Heroku: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/heroku.png",
+        color: null,
+    },
 };
 
 const projectsList_R = [
     {
         coverImg:
             "https://res.cloudinary.com/decele1ao/image/upload/v1721144934/Project%20Helios/PER/j7rpr9woxmj9dclmulei.jpg",
-        title: "FTC Centerstage Competative Robot (PLUTO)",
+        title: "FTC Centerstage Competitive Robot (PLUTO)",
         date: "Jun 2023 - Apr 2024",
         tags: ["Java", "TensorFlow", "OpenCV", "Devolotics"],
         caption: "[Add Caption]",
@@ -112,17 +129,17 @@ const projectsList_P = [
     },
     {
         coverImg:
-            "https://res.cloudinary.com/decele1ao/image/upload/v1721589111/Project%20Helios/Projects/xenon.png",
-        title: "Xenon Economy (Discord Bot)",
-        date: "Jun 2022 - Sep 2022",
+            "https://res.cloudinary.com/decele1ao/image/upload/v1721589111/Project%20Helios/Projects/dankex.png",
+        title: "Dank Exclusive (Discord Bot)",
+        date: "Jul 2022 - Sep 2023",
         tags: ["DiscordJS", "Javascript", "MongoDB", "Heroku"],
         caption: "[Add Caption]",
     },
     {
         coverImg:
-            "https://res.cloudinary.com/decele1ao/image/upload/v1721589111/Project%20Helios/Projects/dankex.png",
-        title: "Dank Exclusive (Discord Bot)",
-        date: "Jul 2022 - Present",
+            "https://res.cloudinary.com/decele1ao/image/upload/v1721589111/Project%20Helios/Projects/xenon.png",
+        title: "Xenon Economy (Discord Bot)",
+        date: "Jun 2022 - Sep 2022",
         tags: ["DiscordJS", "Javascript", "MongoDB", "Heroku"],
         caption: "[Add Caption]",
     },
@@ -134,50 +151,53 @@ export default function ProjectsList({ list }) {
             return (
                 <>
                     {projectsList_R.map((proj, index) => (
-                        <div key={index}>
-                            <GlowBorder borderRadius={20}>
-                                <div className="proj_container">
-                                    <div className="img_container">
-                                        <img
-                                            src={proj.coverImg}
-                                            alt="Project cover"
-                                        />
-                                        <div className="img_frost"></div>
-                                    </div>
-                                    <div className="proj_desc">
-                                        <div className="top">
-                                            <h1>{proj.title}</h1>
-                                            <p>{proj.date}</p>
+                        <FadeInSection key={index}>
+                            <div>
+                                <GlowBorder borderRadius={20}>
+                                    <div className="proj_container proj_linked">
+                                        <div className="img_container">
+                                            <img
+                                                className="cover_img"
+                                                src={proj.coverImg}
+                                                alt="Project cover"
+                                            />
+                                            <div className="img_frost"></div>
                                         </div>
-                                        <ul className="tags">
-                                            {proj.tags.map((tag) => {
-                                                const fetchTag =
-                                                    tagsList[tag] || null;
-                                                return (
-                                                    <li key={tag}>
-                                                        {fetchTag &&
-                                                        fetchTag.icon ? (
-                                                            <>
-                                                                <img
-                                                                    src={
-                                                                        fetchTag.icon
-                                                                    }
-                                                                    alt=""
-                                                                />
-                                                                <p>{tag}</p>
-                                                            </>
-                                                        ) : (
-                                                            tag
-                                                        )}
-                                                    </li>
-                                                );
-                                            })}
-                                        </ul>
-                                        <p>{proj.caption}</p>
+                                        <div className="proj_desc">
+                                            <div className="top">
+                                                <h1>{proj.title}</h1>
+                                                <p>{proj.date}</p>
+                                            </div>
+                                            <ul className="tags">
+                                                {proj.tags.map((tag) => {
+                                                    const fetchTag =
+                                                        tagsList[tag] || null;
+                                                    return (
+                                                        <li key={tag}>
+                                                            {fetchTag &&
+                                                            fetchTag.icon ? (
+                                                                <>
+                                                                    <img
+                                                                        src={
+                                                                            fetchTag.icon
+                                                                        }
+                                                                        alt=""
+                                                                    />
+                                                                    <p>{tag}</p>
+                                                                </>
+                                                            ) : (
+                                                                tag
+                                                            )}
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                            <p>{proj.caption}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </GlowBorder>
-                        </div>
+                                </GlowBorder>
+                            </div>
+                        </FadeInSection>
                     ))}
                 </>
             );
@@ -185,50 +205,53 @@ export default function ProjectsList({ list }) {
             return (
                 <>
                     {projectsList_E.map((proj, index) => (
-                        <div key={index}>
-                            <GlowBorder borderRadius={20}>
-                                <div className="proj_container">
-                                    <div className="img_container">
-                                        <img
-                                            src={proj.coverImg}
-                                            alt="Project cover"
-                                        />
-                                        <div className="img_frost"></div>
-                                    </div>
-                                    <div className="proj_desc">
-                                        <div className="top">
-                                            <h1>{proj.title}</h1>
-                                            <p>{proj.date}</p>
+                        <FadeInSection key={index}>
+                            <div>
+                                <GlowBorder borderRadius={20}>
+                                    <div className="proj_container">
+                                        <div className="img_container">
+                                            <img
+                                                className="cover_img"
+                                                src={proj.coverImg}
+                                                alt="Project cover"
+                                            />
+                                            <div className="img_frost"></div>
                                         </div>
-                                        <ul className="tags">
-                                            {proj.tags.map((tag) => {
-                                                const fetchTag =
-                                                    tagsList[tag] || null;
-                                                return (
-                                                    <li key={tag}>
-                                                        {fetchTag &&
-                                                        fetchTag.icon ? (
-                                                            <>
-                                                                <img
-                                                                    src={
-                                                                        fetchTag.icon
-                                                                    }
-                                                                    alt=""
-                                                                />
-                                                                <p>{tag}</p>
-                                                            </>
-                                                        ) : (
-                                                            tag
-                                                        )}
-                                                    </li>
-                                                );
-                                            })}
-                                        </ul>
-                                        <p>{proj.caption}</p>
+                                        <div className="proj_desc">
+                                            <div className="top">
+                                                <h1>{proj.title}</h1>
+                                                <p>{proj.date}</p>
+                                            </div>
+                                            <ul className="tags">
+                                                {proj.tags.map((tag) => {
+                                                    const fetchTag =
+                                                        tagsList[tag] || null;
+                                                    return (
+                                                        <li key={tag}>
+                                                            {fetchTag &&
+                                                            fetchTag.icon ? (
+                                                                <>
+                                                                    <img
+                                                                        src={
+                                                                            fetchTag.icon
+                                                                        }
+                                                                        alt=""
+                                                                    />
+                                                                    <p>{tag}</p>
+                                                                </>
+                                                            ) : (
+                                                                tag
+                                                            )}
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                            <p>{proj.caption}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </GlowBorder>
-                        </div>
+                                </GlowBorder>
+                            </div>
+                        </FadeInSection>
                     ))}
                 </>
             );
@@ -236,50 +259,53 @@ export default function ProjectsList({ list }) {
             return (
                 <>
                     {projectsList_P.map((proj, index) => (
-                        <div key={index}>
-                            <GlowBorder borderRadius={20}>
-                                <div className="proj_container">
-                                    <div className="img_container">
-                                        <img
-                                            src={proj.coverImg}
-                                            alt="Project cover"
-                                        />
-                                        <div className="img_frost"></div>
-                                    </div>
-                                    <div className="proj_desc">
-                                        <div className="top">
-                                            <h1>{proj.title}</h1>
-                                            <p>{proj.date}</p>
+                        <FadeInSection key={index}>
+                            <div>
+                                <GlowBorder borderRadius={20}>
+                                    <div className="proj_container">
+                                        <div className="img_container">
+                                            <img
+                                                className="cover_img"
+                                                src={proj.coverImg}
+                                                alt="Project cover"
+                                            />
+                                            <div className="img_frost"></div>
                                         </div>
-                                        <ul className="tags">
-                                            {proj.tags.map((tag) => {
-                                                const fetchTag =
-                                                    tagsList[tag] || null;
-                                                return (
-                                                    <li key={tag}>
-                                                        {fetchTag &&
-                                                        fetchTag.icon ? (
-                                                            <>
-                                                                <img
-                                                                    src={
-                                                                        fetchTag.icon
-                                                                    }
-                                                                    alt=""
-                                                                />
-                                                                <p>{tag}</p>
-                                                            </>
-                                                        ) : (
-                                                            tag
-                                                        )}
-                                                    </li>
-                                                );
-                                            })}
-                                        </ul>
-                                        <p>{proj.caption}</p>
+                                        <div className="proj_desc">
+                                            <div className="top">
+                                                <h1>{proj.title}</h1>
+                                                <p>{proj.date}</p>
+                                            </div>
+                                            <ul className="tags">
+                                                {proj.tags.map((tag) => {
+                                                    const fetchTag =
+                                                        tagsList[tag] || null;
+                                                    return (
+                                                        <li key={tag}>
+                                                            {fetchTag &&
+                                                            fetchTag.icon ? (
+                                                                <>
+                                                                    <img
+                                                                        src={
+                                                                            fetchTag.icon
+                                                                        }
+                                                                        alt=""
+                                                                    />
+                                                                    <p>{tag}</p>
+                                                                </>
+                                                            ) : (
+                                                                tag
+                                                            )}
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                            <p>{proj.caption}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </GlowBorder>
-                        </div>
+                                </GlowBorder>
+                            </div>
+                        </FadeInSection>
                     ))}
                 </>
             );

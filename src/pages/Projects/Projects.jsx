@@ -27,7 +27,7 @@ export default function Projects() {
                     this.getAttribute("href")
                 );
 
-                const offset = navbarHeight + 40; // Adjust this value as needed
+                const offset = navbarHeight - 40; // Adjust this value as needed
                 const elementPosition =
                     targetElement.getBoundingClientRect().top;
                 const offsetPosition =
