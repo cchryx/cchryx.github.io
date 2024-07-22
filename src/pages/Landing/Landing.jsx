@@ -237,21 +237,23 @@ export default function Landing() {
                     <Box1 className="box">
                         <h1 className="box_title">Art</h1>
                         <p className="box_desc">
-                            After being forced to attend art classes at the age
-                            of 7, I unexpectedly enjoyed visual arts and
-                            drawing. I love creating things and found that in
-                            art, I was able to use various tools and media to
-                            create something cool. I love realistic art because
-                            it demonstrates a high level of technical skill and
-                            attention to detail. My favorite art media to use
-                            are plain old graphite and colored pencils to create
-                            realistic images, as well as watercolor. However,
-                            because art pieces take a lot of time and robotics,
-                            school, and programming are more important, I
-                            haven't created any art pieces recently. Here is a
-                            gallery of some of my past art.
+                            I began art classes at age 7 and unexpectedly
+                            enjoyed visual arts and drawing. I love creating
+                            things and using various tools and media to bring
+                            ideas to life. Realistic art appeals to me for its
+                            technical skill and attention to detail. My favorite
+                            media are graphite, colored pencils, and watercolor.
+                            However, due to my commitments to robotics, school,
+                            and programming, I haven't created any recent art
+                            pieces. Here is a gallery of some of my past work.
                         </p>
                         <br />
+                        <br />
+                        <u>
+                            <a href="/" className="q_link">
+                                &#9654; Artwork Gallery
+                            </a>
+                        </u>
                         <br />
                         <u>
                             <a href="#section3" className="q_link">

@@ -54,12 +54,6 @@
     color: rgb(199, 199, 199);
 }
 
-#social-links li {
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
 #page-links {
     list-style-type: none;
     margin-right: 20px;
@@ -94,4 +88,25 @@
 
 #page-links li a:hover {
     color: white;
+}
+
+#social-links li {
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+#social-links a {
+    transition: all 0.3s ease;
+}
+
+#social-links a:hover {
+    transform: scale(1.2);
+}
+
+#social-links a:hover {
+    box-shadow: 0px 0px 30px 0px #ff7f5fde;
+    background-color: #ff7f5f5e;
+    backdrop-filter: blur(30px);
+    border-radius: 50%;
 }
