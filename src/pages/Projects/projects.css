@@ -95,7 +95,7 @@
 }
 
 .tags li {
-    padding: 5px;
+    padding: 0.5vw;
     background-color: rgb(68, 69, 87);
     margin: 10px 10px 0 0;
     border-radius: 10px;
@@ -110,7 +110,7 @@
 }
 
 .tags li img {
-    width: 25px;
+    width: 1.8vw;
 }
 
 .cover_img {
@@ -125,4 +125,34 @@
 
 #sourceCode p {
     margin-left: 5px;
+}
+
+.link_container {
+    margin: 2vw 0 0.5vw 0;
+}
+
+.link_container li img {
+    width: 1.8vw;
+    height: 1.8vw;
+    margin-right: 10px;
+}
+
+.link_container a {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.link_container a:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+    box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+    background-color: rgba(60, 103, 227, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 0.4vw;
+    font-weight: 600;
 }

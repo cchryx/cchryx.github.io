@@ -77,7 +77,7 @@ const projectsList = {
             date: "Jun 2023 - Apr 2024",
             tags: ["Java", "TensorFlow", "OpenCV", "Onshape", "Devolotics"],
             caption:
-                "I was a builder and programmer for my FIRST Tech Challenge team, 19498 Devolotics. I was part of the mechanical design and programming of our robot, PLUTO. This robot featured a mecanum drivetrain, angled slides, surgical tubing intake, pixel (scoring element) storage and deposit system with 2 degrees of motion, a hanging system, a drone (paper airplane) launcher, and an autonomous program that allows the robot to navigate the playing field and score points without a human driver.",
+                "This was my first year in robotics, and I served as a builder and programmer for my FIRST Tech Challenge team, 19498 Devolotics. After 10 months worth of hard work, we placed #2 in Ontario for the FIRST Tech Challenge and competed at the 2024 World Championships in Houston, Texas. I contributed to the mechanical design and programming of our robot, PLUTO. This robot featured a mecanum drivetrain, angled slides, a surgical tubing intake, a pixel (scoring element) storage and deposit system with 2 degrees of motion, a hanging system, a drone (paper airplane) launcher, and an autonomous program that allowed the robot to navigate the playing field and score points without a human driver.",
             link: "robotics_ftc_centerstage",
         },
         {
@@ -87,6 +87,18 @@ const projectsList = {
             date: "Jun 2023 - Present",
             tags: ["SSA", "Devolotics"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "SSA Instagram",
+                    url: "https://www.instagram.com/scarborough.stem.alliance/",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721694277/Project%20Helios/Icons/instagram.png",
+                },
+                {
+                    tag: "SSA Workshop Gallery",
+                    url: "https://devolotics.github.io/pages/outreach.html",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721695587/Project%20Helios/Icons/website.png",
+                },
+            ],
         },
     ],
     engineering: [
@@ -255,6 +267,23 @@ export default function ProjectsList({ list }) {
                                         <p className="proj_caption">
                                             {proj.caption}
                                         </p>
+                                        {proj.links ? (
+                                            <ul className="link_container">
+                                                {proj.links.map((l) => {
+                                                    return (
+                                                        <li key={l}>
+                                                            <a href={l.url}>
+                                                                <img
+                                                                    src={l.icon}
+                                                                    alt=""
+                                                                />
+                                                                <p>{l.tag}</p>
+                                                            </a>
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                        ) : null}
                                     </div>
                                 </div>
                             )}
