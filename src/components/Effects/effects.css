@@ -53,3 +53,10 @@
         --gradient-angle: 360deg;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .E_glowBorder::before,
+    .E_glowBorder::after {
+        inset: -1.5vw;
+    }
+}

@@ -118,15 +118,6 @@
     object-fit: scale-down;
 }
 
-#sourceCode {
-    display: flex;
-    margin-top: 20px;
-}
-
-#sourceCode p {
-    margin-left: 5px;
-}
-
 .link_container {
     margin: 2vw 0 0.5vw 0;
 }
@@ -155,4 +146,99 @@
     border-radius: 5px;
     padding: 0.4vw;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .section_header {
+        font-size: 8vw;
+        padding-bottom: 8vw;
+    }
+
+    .projects_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20vw;
+    }
+
+    .proj_desc {
+        padding: 20px;
+    }
+
+    .proj_desc .top {
+        flex-direction: column;
+    }
+
+    .proj_caption {
+        font-size: 3.5vw;
+        color: #dbdbdb;
+        font-style: italic;
+    }
+
+    .proj_desc .top h1 {
+        flex: 1;
+        font-size: 8vw;
+        margin-bottom: 3vw;
+    }
+
+    .proj_desc .top p {
+        font-size: 3vw;
+        color: rgb(207, 207, 207);
+    }
+
+    .tags {
+        margin: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tags li {
+        padding: 1vw;
+        background-color: rgb(68, 69, 87);
+        margin: 10px 10px 0 0;
+        border-radius: 10px;
+        font-size: 3.6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags li p {
+        margin-left: 5px;
+    }
+
+    .tags li img {
+        width: 6vw;
+    }
+
+    .proj_linked::after {
+        font-size: 6vw;
+    }
+
+    .link_container {
+        margin: 5vw 0 1vw 0;
+    }
+
+    .link_container li img {
+        width: 5vw;
+        height: 5vw;
+        margin-right: 10px;
+    }
+
+    .link_container a {
+        transition: all 0.3s ease;
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .link_container a:hover {
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+        box-shadow: 0px 0px 10px 0px rgba(60, 103, 227, 0.9);
+        background-color: rgba(60, 103, 227, 0.4);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 5px;
+        padding: 1vw;
+        font-weight: 600;
+    }
 }
