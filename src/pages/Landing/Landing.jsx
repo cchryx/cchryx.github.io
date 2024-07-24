@@ -176,7 +176,7 @@ export default function Landing() {
                         <br />
                         <u>
                             <a href="/#/projects" className="q_link">
-                                &#9654; View my projects and accomplishments
+                                ➤ View my projects and accomplishments
                             </a>
                         </u>
                     </div>
@@ -202,14 +202,14 @@ export default function Landing() {
                         <br />
                         <u>
                             <a href="#section4" className="q_link">
-                                &#9654; Next: Art
+                                ➤ Next: Art
                             </a>
                         </u>
                         <br />
                         <u>
                             <a href="#section2" className="q_link">
-                                &#9654; Projects and Accomplishments:
-                                Programming, Engineering and Robotics
+                                ➤ Projects and Accomplishments: Programming,
+                                Engineering and Robotics
                             </a>
                         </u>
                     </Box1>
@@ -252,20 +252,20 @@ export default function Landing() {
                         <br />
                         <u>
                             <a href="/" className="q_link">
-                                &#9654; Artwork Gallery
+                                ➤ Artwork Gallery
                             </a>
                         </u>
                         <br />
                         <u>
                             <a href="#section3" className="q_link">
-                                &#9654; Previous: Skateboarding
+                                ➤ Previous: Skateboarding
                             </a>
                         </u>
                         <br />
                         <u>
                             <a href="#section2" className="q_link">
-                                &#9654; Projects and Accomplishments:
-                                Programming, Engineering and Robotics
+                                ➤ Projects and Accomplishments: Programming,
+                                Engineering and Robotics
                             </a>
                         </u>
                     </Box1>

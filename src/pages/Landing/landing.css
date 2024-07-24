@@ -143,6 +143,18 @@
 
 .q_link {
     line-height: 200%;
+    font-size: 1.1vw;
+    text-decoration: underline rgb(136, 136, 241);
+    text-underline-offset: 0.5vh;
+    text-decoration-thickness: 3px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    padding: 5px;
+}
+
+.q_link:hover {
+    background-color: rgba(60, 103, 227, 0.4);
+    text-decoration: underline rgb(158, 200, 242);
 }
 
 #PERImg_container {

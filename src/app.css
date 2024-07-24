@@ -7,23 +7,6 @@ a {
     pointer-events: initial;
 }
 
-u {
-    text-decoration: underline rgb(136, 136, 241);
-    text-underline-offset: 0.5vh;
-    text-decoration-thickness: 3px;
-    border-radius: 5px;
-    transition: all 0.2s ease-in;
-}
-
-u a {
-    padding: 5px;
-}
-
-u:hover {
-    background-color: rgba(60, 103, 227, 0.4);
-    text-decoration: underline rgb(158, 200, 242);
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
