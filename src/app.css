@@ -1,32 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/aquire");
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    font-family: "Roboto", sans-serif;
-
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-img {
-    pointer-events: none;
-}
-
-body {
-    scroll-behavior: smooth;
-    background-color: rgb(19, 19, 30);
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-
 img {
     display: block;
+    pointer-events: none;
 }
 
 a {
@@ -39,7 +13,6 @@ u {
     text-decoration-thickness: 3px;
     border-radius: 5px;
     transition: all 0.2s ease-in;
-    font-size: 1.2vw;
 }
 
 u a {
@@ -75,5 +48,14 @@ u:hover {
     to {
         opacity: 1;
         filter: blur(0);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100vw;
+    }
+    u {
+        text-underline-offset: 0.3vh;
     }
 }

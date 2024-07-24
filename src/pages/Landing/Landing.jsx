@@ -14,6 +14,7 @@ import landing_header from "../../assets/headers/landing_header.png";
 import resumePDF from "../../assets/PDFs/chrischenresume.pdf";
 
 export default function Landing() {
+    const mobile = window.innerWidth < 1200;
     const [navbarHeight, setNavbarHeight] = useState(0);
 
     // Calculate navbar height and store it in state
@@ -61,7 +62,7 @@ export default function Landing() {
             <FadeInSection>
                 <div className="section_container" id="section1">
                     <div id="meImg_container">
-                        <GlowBorder borderRadius={50}>
+                        <GlowBorder borderRadius={mobile ? 20 : 50}>
                             <img
                                 id="meImg"
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1720844653/Project%20Helios/cc.rix1.jpg"
@@ -138,7 +139,7 @@ export default function Landing() {
                     id="section2"
                     style={{ flexDirection: "column" }}
                 >
-                    <GlowBorder borderRadius={20}>
+                    <GlowBorder borderRadius={mobile ? 20 : 50}>
                         <div id="PERImg_container">
                             <img
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1721145052/Project%20Helios/PER/czaqpchumqrxz7aokgud.png"
@@ -213,7 +214,7 @@ export default function Landing() {
                         </u>
                     </Box1>
                     <div id="skateVideo">
-                        <GlowBorder borderRadius={50}>
+                        <GlowBorder borderRadius={mobile ? 20 : 50}>
                             <video autoPlay={true} muted loop>
                                 <source
                                     src="https://res.cloudinary.com/decele1ao/video/upload/v1721074684/Project%20Helios/Skateboarding/k2ernznsxoomrz14mcz1.mov"
@@ -227,7 +228,7 @@ export default function Landing() {
             <FadeInSection>
                 <div className="section_container" id="section4">
                     <div id="artImg">
-                        <GlowBorder borderRadius={50}>
+                        <GlowBorder borderRadius={mobile ? 20 : 50}>
                             <img
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1721074791/Project%20Helios/Art/ukw1t0r0spc4aoznwdaq.png"
                                 alt="artImg"
