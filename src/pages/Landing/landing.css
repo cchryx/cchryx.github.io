@@ -340,43 +340,43 @@
 
     #PERImg_container img {
         flex: 1;
-        height: 16vw;
-        width: 25vw;
+        height: 30vw;
+        width: 30vw;
         object-fit: cover;
     }
 
     #PERImg_text {
-        width: 70vw;
+        width: 80vw;
         background-color: #292c39;
-        padding: 2vw;
+        padding: 6vw;
         border-radius: 20px;
-        margin-top: 2vw;
+        margin-top: 10vw;
     }
 
     #PERImg_text h1 {
-        letter-spacing: 2px;
-        font-size: 2vw;
+        letter-spacing: 1vw;
+        font-size: 6vw;
     }
 
     #PERImg_text h2 {
-        font-size: 1.4vw;
-        margin-bottom: 1vw;
+        font-size: 4.5vw;
+        margin-bottom: 3vw;
         color: rgb(179, 179, 179);
     }
 
     #PERImg_text p {
-        font-size: 1.2vw;
-        line-height: 1.6vw;
+        font-size: 3.4vw;
+        line-height: 5vw;
     }
 
     #PERImg_text::before {
         content: "";
         position: absolute;
-        transform: translate(-10vw, -10vw);
+        transform: translate(-10vw, -60vw);
         z-index: -2;
         background-color: rgb(89, 84, 157);
-        width: 300px;
-        height: 300px;
+        width: 50vw;
+        height: 50vw;
         background: linear-gradient(45deg, #9a73b4 0%, #4751c0 100%);
         animation: morph 3s ease-in-out infinite;
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -387,11 +387,11 @@
         content: "";
         position: absolute;
         right: 0;
-        transform: translate(-7vw, -7vw);
+        transform: translate(-1vw, -10vw);
         z-index: -2;
         background-color: rgb(118, 123, 155);
-        width: 15vw;
-        height: 15vw;
+        width: 40vw;
+        height: 40vw;
         border-radius: 50%;
         background: linear-gradient(45deg, #88d5bf 0%, #5d6bf8 100%);
         animation: morph 3s ease-in-out infinite;
