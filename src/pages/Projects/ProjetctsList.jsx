@@ -167,7 +167,7 @@ export default function ProjectsList({ list }) {
     return (
         <>
             {projectsList[list].map((proj, index) => (
-                <FadeInSection key={index}>
+                <FadeInSection key={`${index}`}>
                     <div>
                         <GlowBorder borderRadius={20}>
                             {proj.link ? (
@@ -269,9 +269,9 @@ export default function ProjectsList({ list }) {
                                         </p>
                                         {proj.links ? (
                                             <ul className="link_container">
-                                                {proj.links.map((l) => {
+                                                {proj.links.map((l, index) => {
                                                     return (
-                                                        <li key={l}>
+                                                        <li key={index}>
                                                             <a href={l.url}>
                                                                 <img
                                                                     src={l.icon}

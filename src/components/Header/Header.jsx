@@ -19,38 +19,41 @@ export default function Header({ headerText, imgSrc, jumpLink }) {
     }, []);
 
     // Sparke Animation
+
     const [sparklesCreated, setSparklesCreated] = useState(false);
 
     useEffect(() => {
-        if (!sparklesCreated) {
-            // Number of sparkles to be created
-            const numSparkles = 40;
+        if (window.innerWidth > 1200) {
+            if (!sparklesCreated) {
+                // Number of sparkles to be created
+                const numSparkles = 40;
 
-            // Get all sparkle boxes
-            const sparkleBoxes = document.querySelectorAll(".sparkle-box");
+                // Get all sparkle boxes
+                const sparkleBoxes = document.querySelectorAll(".sparkle-box");
 
-            // Function to create a sparkle
-            function createSparkle() {
-                // Create a sparkle element
-                const sparkle = document.createElement("div");
-                sparkle.classList.add("sparkle");
-                sparkle.style.left = Math.random() * 100 + "%"; // Random left position
-                sparkle.style.top = Math.random() * 100 + "%"; // Random top position
+                // Function to create a sparkle
+                function createSparkle() {
+                    // Create a sparkle element
+                    const sparkle = document.createElement("div");
+                    sparkle.classList.add("sparkle");
+                    sparkle.style.left = Math.random() * 100 + "%"; // Random left position
+                    sparkle.style.top = Math.random() * 100 + "%"; // Random top position
 
-                // Append the sparkle to the sparkle box
-                this.appendChild(sparkle);
-            }
-
-            // Add sparkles to each sparkle box
-            sparkleBoxes.forEach((item) => {
-                // Add sparkles based on the number
-                for (let i = 0; i < numSparkles; i++) {
-                    createSparkle.call(item); // Call the function in the context of the sparkle box
+                    // Append the sparkle to the sparkle box
+                    this.appendChild(sparkle);
                 }
-            });
 
-            // Set the state to true to prevent further sparkle creation
-            setSparklesCreated(true);
+                // Add sparkles to each sparkle box
+                sparkleBoxes.forEach((item) => {
+                    // Add sparkles based on the number
+                    for (let i = 0; i < numSparkles; i++) {
+                        createSparkle.call(item); // Call the function in the context of the sparkle box
+                    }
+                });
+
+                // Set the state to true to prevent further sparkle creation
+                setSparklesCreated(true);
+            }
         }
     }, [sparklesCreated]); // Dependency array includes sparklesCreated
 
@@ -59,12 +62,8 @@ export default function Header({ headerText, imgSrc, jumpLink }) {
             <img id="header_img" src={imgSrc} alt="header_img" />
             <h1 id="header_text">{headerText}</h1>
             <div id="downArrow_container">
-                <a href={`#${jumpLink}`}>
-                    <FontAwesomeIcon
-                        id="downArrow"
-                        icon={faAngleDown}
-                        size="xl"
-                    />
+                <a href={`#${jumpLink}`} id="downArrow">
+                    <FontAwesomeIcon icon={faAngleDown} size="xl" />
                 </a>
             </div>
         </div>

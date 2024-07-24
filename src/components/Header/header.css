@@ -4,20 +4,19 @@
     object-fit: cover;
 }
 
-#header_container {
+.header_container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #header_text {
     position: absolute;
     z-index: 2;
     font-size: 2.4vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 60vw;
 }
 
 #header_text span {
@@ -28,12 +27,8 @@
 
 #downArrow_container {
     position: absolute;
-    background-color: black;
     z-index: 2;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    top: 70%;
     display: flex;
     justify-content: center;
 }
@@ -43,12 +38,24 @@
 }
 
 #downArrow {
-    position: absolute;
-    z-index: 2;
     cursor: pointer;
-    font-size: 70px;
+    font-size: 4vw;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     animation: A_fadeMoveDown 1.5s ease-in-out infinite;
+}
+
+@keyframes A_fadeMoveDown {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
 }
 
 .sparkle {
@@ -70,5 +77,17 @@
     100% {
         transform: translate(50%, 50%);
         opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #header_text {
+        font-size: 7vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    #downArrow {
+        font-size: 10vw;
     }
 }
