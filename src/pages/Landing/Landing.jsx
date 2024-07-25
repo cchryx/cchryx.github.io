@@ -139,7 +139,7 @@ export default function Landing() {
                     id="section2"
                     style={{ flexDirection: "column" }}
                 >
-                    <GlowBorder borderRadius={mobile ? 20 : 50}>
+                    <GlowBorder borderRadius={20}>
                         <div id="PERImg_container">
                             <img
                                 src="https://res.cloudinary.com/decele1ao/image/upload/v1721145052/Project%20Helios/PER/czaqpchumqrxz7aokgud.png"
