@@ -149,7 +149,6 @@
     text-decoration-thickness: 3px;
     border-radius: 5px;
     transition: all 0.2s ease-in;
-    padding: 5px;
 }
 
 .q_link:hover {
@@ -328,7 +327,6 @@
     .q_link {
         font-size: 3vw;
         line-height: 180%;
-        padding: 0;
     }
 
     #PERImg_container {
