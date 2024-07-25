@@ -159,19 +159,15 @@ export default function Landing() {
                         <h1>My Projects and Accomplishments</h1>
                         <h2>Programming, Engineering, and Robotics</h2>
                         <p>
-                            I am a curious and adventurous individual, always
-                            eager to explore new opportunities and continually
-                            learn and discover new things. In the world of
-                            programming, engineering, and robotics, I have found
-                            limitless potential for innovation and creativity,
-                            constantly inspiring me to learn and grow. I like to
-                            think of all my experiences as a boundless universe,
-                            where every project and accomplishment ignites
-                            another star that enlightens the universe. Although
-                            not every project goes as planned, as long as I've
-                            learned something and had fun, it is more than
-                            enough. Feel free to check out my projects and
-                            accomplishments in the link below!
+                            I am a curious and adventurous 12th grader with over
+                            four years of programming experience and two years
+                            in robotics and engineering. I see my experiences as
+                            a boundless universe, where each project is a star,
+                            lighting up the sky with new knowledge and
+                            creativity. Even when things don't go as planned,
+                            learning and having fun are what matter most. Feel
+                            free to explore my projects and accomplishments
+                            through the link below!
                         </p>
                         <br />
                         <u>
