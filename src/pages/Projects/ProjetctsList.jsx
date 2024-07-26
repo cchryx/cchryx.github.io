@@ -86,7 +86,8 @@ const projectsList = {
             title: "Scarborough STEM Alliance",
             date: "Jun 2023 - Present",
             tags: ["SSA", "Devolotics"],
-            caption: "[Add Caption]",
+            caption:
+                "My team, 19498 Devolotics, aimed to spread robotics and STEM in our community to inspire younger students. To achieve this, we founded and operated the non-profit organization Scarborough STEM Alliance (SSA). Through SSA, we have reached thousands of students by hosting workshops in FIRST Lego League (FLL) and P5.JS coding at summer camps, libraries, community centers, and schools. As of 2024, we have expanded our operations beyond our community. Our initiatives include members traveling to China to host workshops and sending custom-made mini Arduino robots. We partner with outreach organizations, such as Just Cause Canada, to send these kits to Uganda. I serve as an operations executive, creating lesson plans, and as a volunteer coordinator, training volunteers. I strongly believe our initiative is impactful and life-changing, providing students with valuable experiences in STEM and robotics.",
             links: [
                 {
                     tag: "SSA Instagram",
@@ -119,6 +120,13 @@ const projectsList = {
             date: "Jul 2024",
             tags: ["ReactJS", "HTML/CSS", "Javascript"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/cchryx.github.io",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -127,6 +135,13 @@ const projectsList = {
             date: "Jul 2023 - Present",
             tags: ["Devolotics", "HTML/CSS", "Javascript"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/Devolotics_Website",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -135,6 +150,13 @@ const projectsList = {
             date: "Jun 2024",
             tags: ["Python", "Pygame"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/StoryOfStarBoy",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -143,6 +165,13 @@ const projectsList = {
             date: "Oct 2023",
             tags: ["PHP", "HTML/CSS", "Javascript"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/Noutes",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -151,6 +180,13 @@ const projectsList = {
             date: "Jul 2022 - Sep 2023",
             tags: ["DiscordJS", "Javascript", "MongoDB", "Heroku"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/Dank_Exclusive",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -159,6 +195,13 @@ const projectsList = {
             date: "Jun 2022 - Sep 2022",
             tags: ["DiscordJS", "Javascript", "MongoDB", "Heroku"],
             caption: "[Add Caption]",
+            links: [
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/Xenon",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
     ],
 };
@@ -272,7 +315,10 @@ export default function ProjectsList({ list }) {
                                                 {proj.links.map((l, index) => {
                                                     return (
                                                         <li key={index}>
-                                                            <a href={l.url}>
+                                                            <a
+                                                                href={l.url}
+                                                                target="_"
+                                                            >
                                                                 <img
                                                                     src={l.icon}
                                                                     alt=""

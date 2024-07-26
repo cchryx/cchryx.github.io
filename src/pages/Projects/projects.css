@@ -86,6 +86,7 @@
 .proj_desc .top p {
     font-size: 1vw;
     color: rgb(207, 207, 207);
+    margin-left: 5vw;
 }
 
 .tags {
