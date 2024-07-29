@@ -6,6 +6,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import ProjetctsListRender from "./ProjetctsListRender";
 import { skillsCount, projCount } from "./ProjectsListData";
+import SkillsListRender from "./SkillsListRender";
 
 export default function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -64,6 +65,10 @@ export default function Projects() {
                         <p>Projects Recorded</p>
                     </div>
                 </div>
+                <h1 className="F_aquire section_header">My Skills</h1>
+                <SkillsListRender />
+            </div>
+            <div className="section_container" style={{ display: "block" }}>
                 <h1 className="F_aquire section_header">Robotics</h1>
                 <div className="projects_container">
                     <ProjetctsListRender list="robotics" />

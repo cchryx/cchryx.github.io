@@ -26,10 +26,12 @@ const D_LogoList = {
     Devolotics: {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/devolotics.png",
         color: null,
+        notSkill: true,
     },
     SSA: {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/ssa.png",
         color: null,
+        notSkill: true,
     },
     Python: {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/python.png",

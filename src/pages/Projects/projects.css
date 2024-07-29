@@ -4,6 +4,7 @@
 
 .section_header {
     font-size: 3vw;
+    margin-bottom: 3vw;
 }
 
 .projects_container {
@@ -150,7 +151,7 @@
 }
 
 .stats_container {
-    padding: 0 5vw 10vw 5vw;
+    margin-bottom: 5vw;
     display: flex;
     justify-content: center;
 }
@@ -215,6 +216,25 @@
     text-align: center;
     margin-top: 10px;
     padding: 1vw;
+}
+
+.skills_container {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.skill_logo {
+    height: 5vw;
+    margin: 1vw 0.5vw;
+    display: flex;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.skill_logo:hover {
+    transform: scale(1.2);
+    margin: 1.5vw;
 }
 
 @media screen and (max-width: 1200px) {
@@ -340,5 +360,10 @@
     .stat_bubble::after,
     .stat_bubble::before {
         inset: -1.2vw;
+    }
+
+    .skills_container img {
+        height: 18vw;
+        margin: 1vw;
     }
 }
