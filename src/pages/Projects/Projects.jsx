@@ -4,7 +4,8 @@ import "./projects.css";
 import projects_header from "../../assets/headers/projects_header.png";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
-import ProjectsList from "./ProjetctsList";
+import ProjetctsListRender from "./ProjetctsListRender";
+import { skillsCount, projCount } from "./ProjectsListData";
 
 export default function Projects() {
     const [navbarHeight, setNavbarHeight] = useState(0);
@@ -53,21 +54,31 @@ export default function Projects() {
                 id="mainSection"
                 style={{ display: "block" }}
             >
+                <div className="stats_container">
+                    <div className="stat_bubble">
+                        <h1>{skillsCount.toLocaleString()}</h1>
+                        <p>Skills Recorded</p>
+                    </div>
+                    <div className="stat_bubble">
+                        <h1>{projCount.toLocaleString()}</h1>
+                        <p>Projects Recorded</p>
+                    </div>
+                </div>
                 <h1 className="F_aquire section_header">Robotics</h1>
                 <div className="projects_container">
-                    <ProjectsList list="robotics" />
+                    <ProjetctsListRender list="robotics" />
                 </div>
             </div>
             <div className="section_container" style={{ display: "block" }}>
                 <h1 className="F_aquire section_header">Progamming</h1>
                 <div className="projects_container">
-                    <ProjectsList list="programming" />
+                    <ProjetctsListRender list="programming" />
                 </div>
             </div>
             <div className="section_container" style={{ display: "block" }}>
                 <h1 className="F_aquire section_header">Engineering</h1>
                 <div className="projects_container">
-                    <ProjectsList list="engineering" />
+                    <ProjetctsListRender list="engineering" />
                 </div>
             </div>
         </>

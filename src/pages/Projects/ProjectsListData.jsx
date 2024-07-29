@@ -1,7 +1,4 @@
-import FadeInSection from "../../components/Effects/FadeInSection";
-import GlowBorder from "../../components/Effects/GlowBorder";
-
-const tagsList = {
+const D_LogoList = {
     ReactJS: {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584570/Project%20Helios/Icons/reactjs.png",
         color: null,
@@ -68,7 +65,7 @@ const tagsList = {
     },
 };
 
-const projectsList = {
+const D_ProjList = {
     robotics: [
         {
             coverImg:
@@ -79,6 +76,18 @@ const projectsList = {
             caption:
                 "This was my first year in robotics, and I served as a builder and programmer for my FIRST Tech Challenge team, 19498 Devolotics. After 10 months worth of hard work, we placed #2 in Ontario for the FIRST Tech Challenge and competed at the 2024 World Championships in Houston, Texas. I contributed to the mechanical design and programming of our robot, PLUTO. This robot featured a mecanum drivetrain, angled slides, a surgical tubing intake, a pixel (scoring element) storage and deposit system with 2 degrees of motion, a hanging system, a drone (paper airplane) launcher, and an autonomous program that allowed the robot to navigate the playing field and score points without a human driver.",
             link: "robotics_ftc_centerstage",
+            links: [
+                {
+                    tag: "Devolotics Website",
+                    url: "https://devolotics.github.io/",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721695587/Project%20Helios/Icons/website.png",
+                },
+                {
+                    tag: "Robot Source Code",
+                    url: "https://github.com/cchryx/19498DevoloticsCenterstage_2023-2024",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
         },
         {
             coverImg:
@@ -119,7 +128,7 @@ const projectsList = {
             title: "Personal Website",
             date: "Jul 2024",
             tags: ["ReactJS", "HTML/CSS", "Javascript"],
-            caption: "[Add Caption]",
+            caption: `This website was created as a portfolio to share my life. Although I previously struggled with ReactJS and relied on YouTube tutorials, I've now gained a better understanding of web development. I revisited ReactJS to build something new, learning to organize the website into different pages with components, implement routing, and use ReactJS functions like "useEffect()" and "useState()". While this website doesn't fully utilize ReactJS's capabilities, I plan to work on a future project, such as a social media or communications site, incorporating features like login/signup, live messaging, posts, and basic encryption security. I am also looking to learn how to use Google's Firebase for website hosting and integrate my database knowledge with MongoDB and Cloudinary for storing media files.`,
             links: [
                 {
                     tag: "Source Code",
@@ -134,8 +143,14 @@ const projectsList = {
             title: "Devolotics Website",
             date: "Jul 2023 - Present",
             tags: ["Devolotics", "HTML/CSS", "Javascript"],
-            caption: "[Add Caption]",
+            caption:
+                "This is the first professional website showcasing my team, Devolotics. The website serves both as an outreach tool and a platform to attract potential sponsors who may wish to support our team financially. In creating this website, I learned how to style a public website with dynamic navigation, image galleries, and organized text boxes. I also dedicated significant time to making it dynamic and mobile-compatible.",
             links: [
+                {
+                    tag: "Devolotics Website",
+                    url: "https://devolotics.github.io/",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721695587/Project%20Helios/Icons/website.png",
+                },
                 {
                     tag: "Source Code",
                     url: "https://github.com/cchryx/Devolotics_Website",
@@ -149,7 +164,8 @@ const projectsList = {
             title: "Story of Star Boy RPG",
             date: "Jun 2024",
             tags: ["Python", "Pygame"],
-            caption: "[Add Caption]",
+            caption:
+                "I created a 2D catcher game using Pygame for my grade 11 computer science course submission. This game incorporated all the basics of Python programming taught throughout the year. It features the dropping and collection of stars, a fuel management system, an HP management system for both the player and bosses, and a mechanic allowing the player to shoot light pulses to defeat bosses. Additionally, a short storyline was included to enhance the game with RPG elements.",
             links: [
                 {
                     tag: "Source Code",
@@ -164,7 +180,8 @@ const projectsList = {
             title: "Noutes",
             date: "Oct 2023",
             tags: ["PHP", "HTML/CSS", "Javascript"],
-            caption: "[Add Caption]",
+            caption:
+                "The purpose of creating this website was to learn how to implement PHP in web development. The website uses PHP's session storage to provide a fully functional signup and login mechanism. Users can create accounts, and their activities are saved in the session storage. When logged in, users can create notes with a title, description, and image. The website also features a car shop, demonstrating simple e-commerce functionality, including adding cars to a cart, clearing the cart, and live total price updates. Cars in the shop are represented by objects with images, prices, and descriptions to inform users about the details. Additionally, I learned how to implement lazy loading for images that take longer to load.",
             links: [
                 {
                     tag: "Source Code",
@@ -206,137 +223,19 @@ const projectsList = {
     ],
 };
 
-export default function ProjectsList({ list }) {
-    return (
-        <>
-            {projectsList[list].map((proj, index) => (
-                <FadeInSection key={`${index}`}>
-                    <div>
-                        <GlowBorder borderRadius={20}>
-                            {proj.link ? (
-                                <a href={proj.link}>
-                                    {" "}
-                                    <div
-                                        className={`proj_container ${
-                                            proj.link ? "proj_linked" : null
-                                        }`}
-                                    >
-                                        <div className="img_container">
-                                            <img
-                                                className="cover_img"
-                                                src={proj.coverImg}
-                                                alt="Project cover"
-                                            />
-                                            <div className="img_frost"></div>
-                                        </div>
-                                        <div className="proj_desc">
-                                            <div className="top">
-                                                <h1>{proj.title}</h1>
-                                                <p>{proj.date}</p>
-                                            </div>
-                                            <ul className="tags">
-                                                {proj.tags.map((tag) => {
-                                                    const fetchTag =
-                                                        tagsList[tag] || null;
-                                                    return (
-                                                        <li key={tag}>
-                                                            {fetchTag &&
-                                                            fetchTag.icon ? (
-                                                                <>
-                                                                    <img
-                                                                        src={
-                                                                            fetchTag.icon
-                                                                        }
-                                                                        alt=""
-                                                                    />
-                                                                    <p>{tag}</p>
-                                                                </>
-                                                            ) : (
-                                                                tag
-                                                            )}
-                                                        </li>
-                                                    );
-                                                })}
-                                            </ul>
-                                            <p className="proj_caption">
-                                                {proj.caption}
-                                            </p>
-                                        </div>
-                                    </div>{" "}
-                                </a>
-                            ) : (
-                                <div
-                                    className={`proj_container ${
-                                        proj.link ? "proj_linked" : null
-                                    }`}
-                                >
-                                    <div className="img_container">
-                                        <img
-                                            className="cover_img"
-                                            src={proj.coverImg}
-                                            alt="Project cover"
-                                        />
-                                        <div className="img_frost"></div>
-                                    </div>
-                                    <div className="proj_desc">
-                                        <div className="top">
-                                            <h1>{proj.title}</h1>
-                                            <p>{proj.date}</p>
-                                        </div>
-                                        <ul className="tags">
-                                            {proj.tags.map((tag) => {
-                                                const fetchTag =
-                                                    tagsList[tag] || null;
-                                                return (
-                                                    <li key={tag}>
-                                                        {fetchTag &&
-                                                        fetchTag.icon ? (
-                                                            <>
-                                                                <img
-                                                                    src={
-                                                                        fetchTag.icon
-                                                                    }
-                                                                    alt=""
-                                                                />
-                                                                <p>{tag}</p>
-                                                            </>
-                                                        ) : (
-                                                            tag
-                                                        )}
-                                                    </li>
-                                                );
-                                            })}
-                                        </ul>
-                                        <p className="proj_caption">
-                                            {proj.caption}
-                                        </p>
-                                        {proj.links ? (
-                                            <ul className="link_container">
-                                                {proj.links.map((l, index) => {
-                                                    return (
-                                                        <li key={index}>
-                                                            <a
-                                                                href={l.url}
-                                                                target="_"
-                                                            >
-                                                                <img
-                                                                    src={l.icon}
-                                                                    alt=""
-                                                                />
-                                                                <p>{l.tag}</p>
-                                                            </a>
-                                                        </li>
-                                                    );
-                                                })}
-                                            </ul>
-                                        ) : null}
-                                    </div>
-                                </div>
-                            )}
-                        </GlowBorder>
-                    </div>
-                </FadeInSection>
-            ))}
-        </>
-    );
+function countProjects(projectsList) {
+    let totalProjects = 0;
+
+    for (const category in projectsList) {
+        if (projectsList.hasOwnProperty(category)) {
+            totalProjects += projectsList[category].length;
+        }
+    }
+
+    return totalProjects;
 }
+
+const projCount = countProjects(D_ProjList);
+const skillsCount = Object.keys(D_LogoList).length;
+
+export { D_LogoList, D_ProjList, projCount, skillsCount };
