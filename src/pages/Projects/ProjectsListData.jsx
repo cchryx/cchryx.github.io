@@ -65,6 +65,38 @@ const D_LogoList = {
         icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/onshape.png",
         color: null,
     },
+    TypeScript: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/typescript.png",
+        color: null,
+    },
+    Vite: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/vite.png",
+        color: null,
+    },
+    Appwrite: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/appwrite.png",
+        color: null,
+    },
+    TailwindCSS: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/tailwind.png",
+        color: null,
+    },
+    Shadcn: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/shadcn.png",
+        color: null,
+    },
+    Zod: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/zod.png",
+        color: null,
+    },
+    TanStack: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/tanstack.png",
+        color: null,
+    },
+    Vercel: {
+        icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721584715/Project%20Helios/Icons/vercel.png",
+        color: null,
+    },
 };
 
 const D_ProjList = {
@@ -124,6 +156,37 @@ const D_ProjList = {
         },
     ],
     programming: [
+        {
+            coverImg:
+                "https://res.cloudinary.com/decele1ao/image/upload/v1725140325/Project%20Helios/Projects/noutesv2.png",
+            title: "Noutes Social Media App V2",
+            date: "Aug 2024",
+            tags: [
+                "ReactJS",
+                "HTML/CSS",
+                "TypeScript",
+                "Vite",
+                "Appwrite",
+                "TailwindCSS",
+                "Shadcn",
+                "Zod",
+                "TanStack",
+                "Vercel",
+            ],
+            caption: `Caption comming soon.`,
+            links: [
+                {
+                    tag: "Noutes V2 Website",
+                    url: "https://noutes-sooty.vercel.app",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721695587/Project%20Helios/Icons/website.png",
+                },
+                {
+                    tag: "Source Code",
+                    url: "https://github.com/cchryx/NoutesV2",
+                    icon: "https://res.cloudinary.com/decele1ao/image/upload/v1721921637/Project%20Helios/Icons/link.png",
+                },
+            ],
+        },
         {
             coverImg:
                 "https://res.cloudinary.com/decele1ao/image/upload/v1721584905/Project%20Helios/Projects/personalwebsite.png",
