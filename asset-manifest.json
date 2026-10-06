@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.54872f74.css",
-    "main.js": "/static/js/main.88fc0d06.js",
+    "main.css": "/static/css/main.7dd2761a.css",
+    "main.js": "/static/js/main.c6c84ce4.js",
     "static/media/chrischenresume.pdf": "/static/media/chrischenresume.7797f508d4da10734bb1.pdf",
     "index.html": "/index.html",
-    "main.54872f74.css.map": "/static/css/main.54872f74.css.map",
-    "main.88fc0d06.js.map": "/static/js/main.88fc0d06.js.map"
+    "main.7dd2761a.css.map": "/static/css/main.7dd2761a.css.map",
+    "main.c6c84ce4.js.map": "/static/js/main.c6c84ce4.js.map"
   },
   "entrypoints": [
-    "static/css/main.54872f74.css",
-    "static/js/main.88fc0d06.js"
+    "static/css/main.7dd2761a.css",
+    "static/js/main.c6c84ce4.js"
   ]
 }
