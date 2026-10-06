@@ -20,16 +20,16 @@ export function levelPct(level) {
 /** Mecha-style label for a project stage. */
 export function stageLabel(p) {
     const s = String(p.stage || p.status || "").toUpperCase();
-    if (s.includes("BUILD")) return "IN DEVELOPMENT";
-    if (s.includes("SHIP") || s.includes("COMPLETE") || s.includes("LIVE")) return "DEPLOYED";
-    if (s.includes("IDEA") || s.includes("PLAN")) return "IN PLANNING";
-    return s || "ARCHIVED";
+    if (s.includes("BUILD")) return "In development";
+    if (s.includes("SHIP") || s.includes("COMPLETE") || s.includes("LIVE")) return "Shipped";
+    if (s.includes("IDEA") || s.includes("PLAN")) return "Planning";
+    return s ? s.charAt(0) + s.slice(1).toLowerCase() : "Archived";
 }
 
 export function stageTone(p) {
     const l = stageLabel(p);
-    if (l === "IN DEVELOPMENT") return "yellow";
-    if (l === "DEPLOYED") return "blue";
+    if (l === "In development") return "yellow";
+    if (l === "Shipped") return "blue";
     return "red";
 }
 

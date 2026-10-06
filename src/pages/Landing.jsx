@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Boot from "../components/Boot";
 import Nav from "../components/Nav";
 import MechHead from "../components/MechHead";
 import ProjectCard from "../components/ProjectCard";
@@ -26,6 +25,7 @@ const FEATURED = 3;
 
 export default function Landing() {
     const loc = useLocation();
+    const [heroImg, setHeroImg] = useState(true);
 
     useEffect(() => {
         const id = loc.state && loc.state.scrollTo;
@@ -41,10 +41,10 @@ export default function Landing() {
     const avatar = imgUrl(me.avatar);
 
     const stats = [
-        { k: "MISSIONS", v: projects.length },
-        { k: "IN DEVELOPMENT", v: building },
-        { k: "SYSTEMS ONLINE", v: skills.length },
-        { k: "PROFILE VIEWS", v: totalViews },
+        { k: "Projects", v: projects.length },
+        { k: "In development", v: building },
+        { k: "Skills", v: skills.length },
+        { k: "Profile views", v: totalViews },
     ];
 
     const featured = projects.slice(0, FEATURED);
@@ -53,67 +53,65 @@ export default function Landing() {
 
     return (
         <>
-            <Boot />
             <Nav />
 
             {/* HERO */}
             <section className="hero" id="top">
                 <div className="hero-grid">
                     <div className="hero-copy">
-                        <p className="mono hero-kicker">
-                            <span className="led" /> PILOT ONLINE // UNIT RX-CC
+                        <p className="eyebrow">
+                            <span className="dot" /> Toronto, Canada
                         </p>
-                        <h1 className="hero-title">
-                            {displayName.split(" ")[0].toUpperCase()}
-                            <span>{displayName.split(" ").slice(1).join(" ").toUpperCase()}</span>
-                        </h1>
+                        <h1 className="hero-title">{displayName}</h1>
                         <p className="hero-sub">
                             {me.headline && me.headline.title
                                 ? `${me.headline.title} at ${me.headline.organization}`
-                                : "Builder. Roboticist. Computer science student at the University of Toronto."}
+                                : "Builder, roboticist and computer science student at the University of Toronto."}
                         </p>
+                        <p className="hero-lead">I design and build software and robots, and I ship projects people actually use.</p>
                         <div className="hero-actions">
                             <button
                                 className="btn"
                                 onClick={() => document.getElementById("missions").scrollIntoView({ behavior: "smooth" })}
                             >
-                                Launch missions
+                                View projects
                             </button>
                             <a className="btn btn-ghost" href={resumePDF} download="chrischenresume.pdf">
                                 Download resume
                             </a>
                         </div>
-                        <ul className="hero-stats">
-                            {stats.map((s) => (
-                                <li key={s.k}>
-                                    <b>{s.v.toLocaleString()}</b>
-                                    <small>{s.k}</small>
-                                </li>
-                            ))}
-                        </ul>
                     </div>
 
                     <div className="hero-art" aria-hidden="true">
-                        <div className="radar">
-                            <i />
-                            <i />
-                            <i />
-                            <span className="sweep" />
+                        <div className="stage">
+                            <span className="ring ring-1" />
+                            <span className="ring ring-2" />
+                            {heroImg ? (
+                                <img
+                                    className="stage-img"
+                                    src={`${process.env.PUBLIC_URL}/assets/mecha.jpg`}
+                                    alt=""
+                                    onError={() => setHeroImg(false)}
+                                />
+                            ) : (
+                                <MechHead />
+                            )}
                         </div>
-                        <MechHead />
-                        <p className="mono hero-art-tag">SYNC RATE 100%</p>
                     </div>
                 </div>
-                <div className="hero-ticker mono">
-                    <span>
-                        {"// FTC WORLDS 2024 // INKFERENCE ONLINE // CS @ U OF T // BUILD. SHIP. REPEAT. // FTC WORLDS 2024 // INKFERENCE ONLINE // CS @ U OF T // BUILD. SHIP. REPEAT. //"}
-                    </span>
-                </div>
+                <ul className="hero-stats">
+                    {stats.map((s) => (
+                        <li key={s.k}>
+                            <b>{s.v.toLocaleString()}</b>
+                            <small>{s.k}</small>
+                        </li>
+                    ))}
+                </ul>
             </section>
 
             {/* 01 PILOT */}
             <section className="sec" id="pilot">
-                <SectionHead no="01" title="PILOT DATA" sub="Who is in the cockpit" />
+                <SectionHead no="01" title="About" sub="A little about me." />
                 <div className="pilot-grid">
                     <Hud tone="blue" className="pilot-card">
                         <div className="pilot-avatar">
@@ -121,31 +119,31 @@ export default function Landing() {
                         </div>
                         <dl className="spec">
                             <div>
-                                <dt>NAME</dt>
+                                <dt>Name</dt>
                                 <dd>{displayName}</dd>
                             </div>
                             <div>
-                                <dt>CALLSIGN</dt>
+                                <dt>Username</dt>
                                 <dd>@{me.username || "cchryx"}</dd>
                             </div>
                             <div>
-                                <dt>BASE</dt>
+                                <dt>Location</dt>
                                 <dd>Toronto, ON</dd>
                             </div>
                             <div>
-                                <dt>STATUS</dt>
-                                <dd className="ok">ACTIVE</dd>
+                                <dt>School</dt>
+                                <dd>University of Toronto</dd>
                             </div>
                         </dl>
                     </Hud>
                     <Hud tone="blue" className="pilot-bio">
-                        <h3 className="panel-title">PILOT BRIEFING</h3>
+                        <h3 className="panel-title">Bio</h3>
                         {bioParts.map((t, i) => (
                             <p key={i}>{t}</p>
                         ))}
                         {me.profileUrl ? (
                             <a className="btn btn-sm" href={me.profileUrl} target="_blank" rel="noreferrer">
-                                View full Inkference profile
+                                View Inkference profile
                             </a>
                         ) : null}
                     </Hud>
@@ -154,7 +152,7 @@ export default function Landing() {
 
             {/* 02 MISSIONS */}
             <section className="sec" id="missions">
-                <SectionHead no="02" title="MISSION LOG" sub="Latest projects, straight from Inkference" />
+                <SectionHead no="02" title="Projects" sub="Recent work, pulled live from Inkference." />
                 <div className="proj-grid">
                     {featured.map((p, i) => (
                         <ProjectCard key={p.id} p={p} index={i} />
@@ -162,14 +160,14 @@ export default function Landing() {
                 </div>
                 <div className="center">
                     <Link className="btn" to="/projects">
-                        Open all {projects.length} missions
+                        See all {projects.length} projects
                     </Link>
                 </div>
             </section>
 
             {/* 03 SYSTEMS */}
             <section className="sec" id="systems">
-                <SectionHead no="03" title="SYSTEMS" sub="Skills and how strong they are" />
+                <SectionHead no="03" title="Skills" sub="What I work with and how well." />
                 <Hud tone="yellow" className="systems">
                     {ranked.length ? (
                         <ul className="bars">
@@ -177,9 +175,9 @@ export default function Landing() {
                                 <li key={s.name}>
                                     <div className="bar-top">
                                         <span>{s.name}</span>
-                                        <small className="mono">
-                                            {String(s.level).toUpperCase()}
-                                            {s.usingNow ? " // ACTIVE" : ""}
+                                        <small >
+                                            {String(s.level).charAt(0).toUpperCase() + String(s.level).slice(1).toLowerCase()}
+                                            {s.usingNow ? " · In use" : ""}
                                         </small>
                                     </div>
                                     <div className="bar">
@@ -191,7 +189,7 @@ export default function Landing() {
                     ) : null}
                     {others.length ? (
                         <>
-                            <h3 className="panel-title">AUXILIARY MODULES</h3>
+                            <h3 className="panel-title">Also familiar with</h3>
                             <ul className="chips chips-lg">
                                 {others.map((s) => (
                                     <li key={s.name}>{s.name}</li>
@@ -204,7 +202,7 @@ export default function Landing() {
 
             {/* 04 RECORD */}
             <section className="sec" id="record">
-                <SectionHead no="04" title="SERVICE RECORD" sub="Experience and roles" />
+                <SectionHead no="04" title="Experience" sub="Roles and responsibilities." />
                 <ol className="timeline">
                     {experience.map((e) => {
                         const title =
@@ -218,12 +216,12 @@ export default function Landing() {
                                 <Hud tone={e.current ? "yellow" : "blue"} className="tl-card">
                                     <div className="tl-top">
                                         <h3>{title}</h3>
-                                        {e.current ? <Tag tone="yellow">ACTIVE</Tag> : null}
+                                        {e.current ? <Tag tone="yellow">Current</Tag> : null}
                                     </div>
                                     <p className="tl-org">{org}</p>
                                     {start ? (
-                                        <p className="mono dim">
-                                            {start} &gt; {e.current ? "NOW" : end || ""}
+                                        <p className="dim sm">
+                                            {start} to {e.current ? "Present" : end || ""}
                                         </p>
                                     ) : null}
                                     {e.description ? <p>{e.description}</p> : null}
@@ -234,28 +232,9 @@ export default function Landing() {
                 </ol>
             </section>
 
-            {/* 05 COMMS */}
-            <section className="sec" id="comms">
-                <SectionHead no="05" title="COMMS" sub="Open a channel" />
-                <div className="comms">
-                    {(me.links || []).map((l) => (
-                        <a key={l.url} className="comm" href={l.url} target="_blank" rel="noreferrer">
-                            <small className="mono">CHANNEL</small>
-                            <b>{l.host || hostOf(l.url)}</b>
-                        </a>
-                    ))}
-                    {me.profileUrl ? (
-                        <a className="comm comm-hot" href={me.profileUrl} target="_blank" rel="noreferrer">
-                            <small className="mono">HOME BASE</small>
-                            <b>inkference.app</b>
-                        </a>
-                    ) : null}
-                </div>
-            </section>
-
             {/* 06 OFF DUTY */}
             <section className="sec" id="offduty">
-                <SectionHead no="06" title="OFF DUTY" sub="Skateboarding and art" />
+                <SectionHead no="05" title="Beyond code" sub="Skateboarding and art." />
                 <div className="off-grid">
                     <Hud tone="blue" className="off-card">
                         <div className="off-media">
@@ -266,7 +245,7 @@ export default function Landing() {
                                 />
                             </video>
                         </div>
-                        <h3 className="panel-title">SKATEBOARDING</h3>
+                        <h3 className="panel-title">Skateboarding</h3>
                         <p>
                             This hobby started during the summer of the pandemic. I watched many videos of cool tricks and
                             fell in love with the sport. Most summers I skated at least three hours a day with friends.
@@ -280,7 +259,7 @@ export default function Landing() {
                                 alt="Artwork by Chris"
                             />
                         </div>
-                        <h3 className="panel-title">ART</h3>
+                        <h3 className="panel-title">Art</h3>
                         <p>
                             I started art classes at age 7. I like realistic art and use graphite, colored pencils and
                             watercolor. I have been busy with robotics, school and code, but this is some of my past work.
@@ -289,9 +268,28 @@ export default function Landing() {
                 </div>
             </section>
 
-            <footer className="foot mono">
-                <span>{`RX-CC // ${new Date().getFullYear()} // ${displayName.toUpperCase()}`}</span>
-                <span>{fetchedAt ? `DATA SYNCED FROM INKFERENCE ${fetchedAt.slice(0, 10)}` : "DATA: SAVED COPY"}</span>
+            {/* 05 COMMS */}
+            <section className="sec" id="comms">
+                <SectionHead no="06" title="Contact" sub="Find me online." />
+                <div className="comms">
+                    {(me.links || []).map((l) => (
+                        <a key={l.url} className="comm" href={l.url} target="_blank" rel="noreferrer">
+                            <small>Link</small>
+                            <b>{l.host || hostOf(l.url)}</b>
+                        </a>
+                    ))}
+                    {me.profileUrl ? (
+                        <a className="comm comm-hot" href={me.profileUrl} target="_blank" rel="noreferrer">
+                            <small>Portfolio platform</small>
+                            <b>inkference.app</b>
+                        </a>
+                    ) : null}
+                </div>
+            </section>
+
+            <footer className="foot">
+                <span>{`${new Date().getFullYear()} ${displayName}`}</span>
+                <span>{fetchedAt ? `Data synced from Inkference ${fetchedAt.slice(0, 10)}` : "Data from Inkference"}</span>
             </footer>
         </>
     );

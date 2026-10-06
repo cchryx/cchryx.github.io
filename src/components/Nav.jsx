@@ -3,12 +3,12 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { displayName } from "../lib/data";
 
 const LINKS = [
-    { label: "Pilot", id: "pilot" },
-    { label: "Mission log", id: "missions" },
-    { label: "Systems", id: "systems" },
-    { label: "Service record", id: "record" },
-    { label: "Comms", id: "comms" },
-    { label: "Off duty", id: "offduty" },
+    { label: "About", id: "pilot" },
+    { label: "Projects", id: "missions" },
+    { label: "Skills", id: "systems" },
+    { label: "Experience", id: "record" },
+    { label: "Beyond code", id: "offduty" },
+    { label: "Contact", id: "comms" },
 ];
 
 export default function Nav() {
@@ -29,14 +29,10 @@ export default function Nav() {
     return (
         <header className="nav">
             <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
-                <span className="nav-stripes">
-                    <i />
-                    <i />
-                    <i />
-                </span>
+                <span className="nav-mark" />
                 <span className="nav-name">
-                    <b>{displayName.toUpperCase()}</b>
-                    <small>PILOT UNIT // RX-CC</small>
+                    <b>{displayName}</b>
+                    <small>Developer and roboticist</small>
                 </span>
             </Link>
 
@@ -47,14 +43,11 @@ export default function Nav() {
                     </button>
                 ))}
                 <Link to="/projects" className="nav-link nav-hot" onClick={() => setOpen(false)}>
-                    All missions
+                    All projects
                 </Link>
             </nav>
 
-            <div className="nav-status">
-                <span className="led" />
-                <span>ONLINE</span>
-            </div>
+            
             <button className="nav-burger" aria-label="Menu" onClick={() => setOpen(!open)}>
                 <i />
                 <i />

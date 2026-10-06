@@ -5,13 +5,13 @@ import { SectionHead } from "../components/Hud";
 import { projects, stageLabel, displayName, fetchedAt } from "../lib/data";
 
 export default function Projects() {
-    const [filter, setFilter] = useState("ALL");
+    const [filter, setFilter] = useState("All");
     const [q, setQ] = useState("");
 
-    const stages = useMemo(() => ["ALL", ...Array.from(new Set(projects.map(stageLabel)))], []);
+    const stages = useMemo(() => ["All", ...Array.from(new Set(projects.map(stageLabel)))], []);
 
     const shown = projects.filter((p) => {
-        if (filter !== "ALL" && stageLabel(p) !== filter) return false;
+        if (filter !== "All" && stageLabel(p) !== filter) return false;
         const t = q.trim().toLowerCase();
         if (!t) return true;
         const hay = [p.title, p.summary, ...(p.skills || []).map((s) => s.name)].join(" ").toLowerCase();
@@ -22,7 +22,7 @@ export default function Projects() {
         <>
             <Nav />
             <section className="sec sec-top">
-                <SectionHead no="//" title="ALL MISSIONS" sub={`${projects.length} projects logged by ${displayName}`} />
+                <SectionHead no="Work" title="All projects" sub={`${projects.length} projects by ${displayName}, synced from Inkference.`} />
 
                 <div className="filters">
                     <div className="filter-chips">
@@ -34,7 +34,7 @@ export default function Projects() {
                     </div>
                     <input
                         className="search"
-                        placeholder="SEARCH MISSIONS OR SKILLS..."
+                        placeholder="Search projects or skills"
                         value={q}
                         onChange={(e) => setQ(e.target.value)}
                     />
@@ -45,12 +45,12 @@ export default function Projects() {
                         <ProjectCard key={p.id} p={p} index={i} />
                     ))}
                 </div>
-                {!shown.length ? <p className="mono dim center">NO MISSIONS MATCH THIS SEARCH.</p> : null}
+                {!shown.length ? <p className="dim center">No projects match your search.</p> : null}
             </section>
 
-            <footer className="foot mono">
-                <span>{`RX-CC // ${displayName.toUpperCase()}`}</span>
-                <span>{fetchedAt ? `DATA SYNCED FROM INKFERENCE ${fetchedAt.slice(0, 10)}` : "DATA: SAVED COPY"}</span>
+            <footer className="foot">
+                <span>{displayName}</span>
+                <span>{fetchedAt ? `Synced from Inkference ${fetchedAt.slice(0, 10)}` : "Data from Inkference"}</span>
             </footer>
         </>
     );

@@ -7,7 +7,7 @@ export default function ProjectCard({ p, index = 0 }) {
     const icon = imgUrl(p.icon);
     const start = fmtMonth(p.startDate);
     const end = fmtMonth(p.endDate);
-    const when = start ? `${start} > ${end || "NOW"}` : null;
+    const when = start ? `${start} to ${end || "Now"}` : null;
     const links = linkList(p);
 
     return (
@@ -20,15 +20,14 @@ export default function ProjectCard({ p, index = 0 }) {
                         <span>{String(index + 1).padStart(2, "0")}</span>
                     </div>
                 )}
-                <div className="proj-scan" />
-                <Tag tone={stageTone(p)}>{stageLabel(p)}</Tag>
+                                <Tag tone={stageTone(p)}>{stageLabel(p)}</Tag>
             </div>
             <div className="proj-body">
                 <div className="proj-top">
                     {icon ? <img className="proj-icon" src={icon} alt="" loading="lazy" /> : null}
                     <div>
                         <h3>{p.title}</h3>
-                        {when ? <p className="mono dim">{when}</p> : null}
+                        {when ? <p className="dim sm">{when}</p> : null}
                     </div>
                 </div>
                 {p.summary ? <p className="proj-sum">{p.summary}</p> : null}
