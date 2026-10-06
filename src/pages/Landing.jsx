@@ -253,6 +253,42 @@ export default function Landing() {
                 </div>
             </section>
 
+            {/* 06 OFF DUTY */}
+            <section className="sec" id="offduty">
+                <SectionHead no="06" title="OFF DUTY" sub="Skateboarding and art" />
+                <div className="off-grid">
+                    <Hud tone="blue" className="off-card">
+                        <div className="off-media">
+                            <video autoPlay muted loop playsInline>
+                                <source
+                                    src="https://res.cloudinary.com/decele1ao/video/upload/v1721074684/Project%20Helios/Skateboarding/k2ernznsxoomrz14mcz1.mov"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </div>
+                        <h3 className="panel-title">SKATEBOARDING</h3>
+                        <p>
+                            This hobby started during the summer of the pandemic. I watched many videos of cool tricks and
+                            fell in love with the sport. Most summers I skated at least three hours a day with friends.
+                            Next goal: land consistent tre-flips.
+                        </p>
+                    </Hud>
+                    <Hud tone="yellow" className="off-card">
+                        <div className="off-media">
+                            <img
+                                src="https://res.cloudinary.com/decele1ao/image/upload/v1721074791/Project%20Helios/Art/ukw1t0r0spc4aoznwdaq.png"
+                                alt="Artwork by Chris"
+                            />
+                        </div>
+                        <h3 className="panel-title">ART</h3>
+                        <p>
+                            I started art classes at age 7. I like realistic art and use graphite, colored pencils and
+                            watercolor. I have been busy with robotics, school and code, but this is some of my past work.
+                        </p>
+                    </Hud>
+                </div>
+            </section>
+
             <footer className="foot mono">
                 <span>{`RX-CC // ${new Date().getFullYear()} // ${displayName.toUpperCase()}`}</span>
                 <span>{fetchedAt ? `DATA SYNCED FROM INKFERENCE ${fetchedAt.slice(0, 10)}` : "DATA: SAVED COPY"}</span>

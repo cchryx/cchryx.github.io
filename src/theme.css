@@ -1,16 +1,16 @@
 /* ===== Mecha theme: white, blue, red and yellow panels on a dark cockpit ===== */
 
 :root {
-    --bg: #070b16;
-    --panel: #0d1530;
-    --panel2: #111c40;
-    --line: #27407f;
-    --blue: #2b6cff;
-    --blue-soft: #6a9bff;
-    --red: #e5333a;
-    --yellow: #ffd23f;
-    --white: #eef2fa;
-    --muted: #8ea0c8;
+    --bg: #0c0b10;
+    --panel: #17140f;
+    --panel2: #201b12;
+    --line: #6b5620;
+    --blue: #e0b23a;
+    --blue-soft: #f3d98a;
+    --red: #7fd8ff;
+    --yellow: #fff1b8;
+    --white: #fbf8f0;
+    --muted: #b3a88b;
     --cyan: #4de8ff;
     --green: #3ddc84;
     --head: "Orbitron", "Rajdhani", sans-serif;
@@ -87,8 +87,8 @@ button {
 .bg-grid {
     position: absolute;
     inset: -2px;
-    background-image: linear-gradient(rgba(43, 108, 255, 0.09) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(43, 108, 255, 0.09) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(224, 178, 58, 0.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(224, 178, 58, 0.09) 1px, transparent 1px);
     background-size: 44px 44px;
     mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 80%);
     -webkit-mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 80%);
@@ -100,7 +100,7 @@ button {
     left: 50%;
     top: -25vw;
     transform: translateX(-50%);
-    background: radial-gradient(circle, rgba(43, 108, 255, 0.28), transparent 62%);
+    background: radial-gradient(circle, rgba(224, 178, 58, 0.28), transparent 62%);
 }
 .bg-scan {
     position: absolute;
@@ -169,7 +169,7 @@ button {
     align-items: center;
     gap: 20px;
     padding: 10px 28px;
-    background: rgba(7, 11, 22, 0.86);
+    background: rgba(12, 11, 16, 0.86);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--line);
 }
@@ -241,7 +241,7 @@ button {
     background: var(--red);
 }
 .nav-hot:hover {
-    background: #ff4b52;
+    background: #a8e6ff;
 }
 .nav-status {
     display: flex;
@@ -310,7 +310,7 @@ button {
     background: var(--yellow);
 }
 .hud-red {
-    background: #7d2226;
+    background: #2d6b85;
 }
 .hud-red::after {
     background: var(--red);
@@ -335,7 +335,7 @@ button {
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #fff;
+    color: #1a1400;
     background: var(--blue);
     clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
     transition: background 0.2s, transform 0.2s;
@@ -348,7 +348,7 @@ button {
     background: transparent;
     box-shadow: inset 0 0 0 2px var(--blue-soft);
     color: var(--white);
-    background: rgba(43, 108, 255, 0.12);
+    background: rgba(224, 178, 58, 0.12);
 }
 .btn-ghost:hover {
     background: var(--yellow);
@@ -369,7 +369,7 @@ button {
 }
 .tag-blue {
     background: var(--blue);
-    color: #fff;
+    color: #1a1400;
 }
 .tag-yellow {
     background: var(--yellow);
@@ -377,7 +377,7 @@ button {
 }
 .tag-red {
     background: var(--red);
-    color: #fff;
+    color: #1a1400;
 }
 
 .chips {
@@ -391,7 +391,7 @@ button {
     padding: 3px 10px;
     border: 1px solid var(--line);
     color: var(--blue-soft);
-    background: rgba(43, 108, 255, 0.08);
+    background: rgba(224, 178, 58, 0.08);
 }
 .chips-lg li {
     font-size: 14px;
@@ -469,7 +469,7 @@ button {
     line-height: 0.95;
     letter-spacing: 0.03em;
     margin: 14px 0 12px;
-    text-shadow: 0 0 40px rgba(43, 108, 255, 0.5);
+    text-shadow: 0 0 40px rgba(224, 178, 58, 0.5);
 }
 .hero-title span {
     display: block;
@@ -480,7 +480,7 @@ button {
 .hero-sub {
     font-size: 22px;
     max-width: 560px;
-    color: #c8d4f0;
+    color: #ece6d6;
 }
 .hero-actions {
     display: flex;
@@ -497,7 +497,7 @@ button {
 .hero-stats li {
     border-left: 3px solid var(--red);
     padding: 4px 0 4px 12px;
-    background: linear-gradient(90deg, rgba(229, 51, 58, 0.12), transparent);
+    background: linear-gradient(90deg, rgba(127, 216, 255, 0.12), transparent);
 }
 .hero-stats b {
     display: block;
@@ -519,8 +519,8 @@ button {
     align-items: center;
 }
 .mech-head {
-    width: min(300px, 70%);
-    filter: drop-shadow(0 0 28px rgba(43, 108, 255, 0.55));
+    width: min(440px, 92%);
+    filter: drop-shadow(0 0 28px rgba(224, 178, 58, 0.55));
     animation: float 5s ease-in-out infinite;
     position: relative;
     z-index: 2;
@@ -619,7 +619,7 @@ button {
 }
 .pilot-avatar {
     aspect-ratio: 1;
-    background: radial-gradient(circle, rgba(43, 108, 255, 0.28), rgba(7, 11, 22, 0.6));
+    background: radial-gradient(circle, rgba(224, 178, 58, 0.28), rgba(12, 11, 16, 0.6));
     clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
     display: flex;
     align-items: center;
@@ -655,7 +655,7 @@ button {
 }
 .pilot-bio p {
     margin-bottom: 14px;
-    color: #d3dcf3;
+    color: #ece6d6;
 }
 .pilot-bio .panel-title {
     margin-top: 0;
@@ -675,7 +675,7 @@ button {
 .proj-banner {
     position: relative;
     aspect-ratio: 16 / 9;
-    background: linear-gradient(135deg, #14214d, #0a1130);
+    background: linear-gradient(135deg, #2a2214, #120f0a);
     overflow: hidden;
 }
 .proj-banner img {
@@ -692,7 +692,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: repeating-linear-gradient(45deg, rgba(43, 108, 255, 0.1) 0 12px, transparent 12px 24px);
+    background: repeating-linear-gradient(45deg, rgba(224, 178, 58, 0.1) 0 12px, transparent 12px 24px);
 }
 .proj-banner-empty span {
     font-family: var(--head);
@@ -704,7 +704,7 @@ button {
 .proj-scan {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, transparent, rgba(7, 11, 22, 0.6));
+    background: linear-gradient(to bottom, transparent, rgba(12, 11, 16, 0.6));
 }
 .proj-banner .tag {
     position: absolute;
@@ -737,7 +737,7 @@ button {
     line-height: 1.2;
 }
 .proj-sum {
-    color: #c3cfee;
+    color: #e4dcc6;
     font-size: 17px;
     flex: 1;
 }
@@ -774,10 +774,10 @@ button {
 .fchip:hover {
     background: var(--blue);
     border-color: var(--blue);
-    color: #fff;
+    color: #1a1400;
 }
 .search {
-    background: rgba(13, 21, 48, 0.9);
+    background: rgba(23, 20, 15, 0.9);
     border: 1px solid var(--line);
     color: var(--white);
     padding: 10px 14px;
@@ -815,7 +815,7 @@ button {
 }
 .bar {
     height: 12px;
-    background: #060a18;
+    background: #08070b;
     border: 1px solid var(--line);
     padding: 2px;
 }
@@ -823,7 +823,7 @@ button {
     display: block;
     height: 100%;
     background: repeating-linear-gradient(90deg, var(--yellow) 0 8px, transparent 8px 11px);
-    box-shadow: 0 0 12px rgba(255, 210, 63, 0.45);
+    box-shadow: 0 0 12px rgba(255, 241, 184, 0.45);
     transform-origin: left;
     animation: fill 1.2s ease-out both;
 }
@@ -887,7 +887,7 @@ button {
     display: block;
     padding: 18px 22px;
     border: 1px solid var(--line);
-    background: rgba(13, 21, 48, 0.85);
+    background: rgba(23, 20, 15, 0.85);
     border-left: 5px solid var(--blue);
     transition: transform 0.2s, border-color 0.2s, background 0.2s;
 }
@@ -959,7 +959,7 @@ button {
         right: 0;
         flex-direction: column;
         gap: 0;
-        background: rgba(7, 11, 22, 0.97);
+        background: rgba(12, 11, 16, 0.97);
         border-bottom: 1px solid var(--line);
         padding: 8px 16px 16px;
     }
@@ -1012,4 +1012,45 @@ button {
         animation: none !important;
         transition: none !important;
     }
+}
+
+/* ===== Off duty (skateboarding and art) ===== */
+.off-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.off-media {
+    margin-bottom: 16px;
+    background: #000;
+    overflow: hidden;
+    clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+.off-media video,
+.off-media img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+.ma-halo {
+    animation: halo 3s ease-in-out infinite;
+    transform-origin: 200px 34px;
+}
+@keyframes halo {
+    50% {
+        opacity: 0.55;
+        transform: scale(1.06);
+    }
+}
+@media (max-width: 960px) {
+    .off-grid {
+        grid-template-columns: 1fr;
+    }
+    .off-media video,
+    .off-media img {
+        height: 260px;
+    }
+}
+.off-card {
+    padding: 18px;
 }

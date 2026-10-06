@@ -8,6 +8,7 @@ const LINKS = [
     { label: "Systems", id: "systems" },
     { label: "Service record", id: "record" },
     { label: "Comms", id: "comms" },
+    { label: "Off duty", id: "offduty" },
 ];
 
 export default function Nav() {
