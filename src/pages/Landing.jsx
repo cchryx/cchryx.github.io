@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Nav from "../components/Nav";
+import Wings from "../components/Wings";
 import MechHead from "../components/MechHead";
 import ProjectCard from "../components/ProjectCard";
 import { Hud, SectionHead, Tag } from "../components/Hud";
@@ -21,12 +22,11 @@ import resumePDF from "../assets/PDFs/chrischenresume.pdf";
 
 const bioParts = (me.bio || "").split(/\n\s*\n/).filter(Boolean);
 
-const FEATURED = 3;
+const FEATURED = 6;
 
 export default function Landing() {
     const loc = useLocation();
-    const [heroImg, setHeroImg] = useState(true);
-
+    
     useEffect(() => {
         const id = loc.state && loc.state.scrollTo;
         if (id) {
@@ -82,20 +82,18 @@ export default function Landing() {
                         </div>
                     </div>
 
-                    <div className="hero-art" aria-hidden="true">
+                    <div className="hero-art">
                         <div className="stage">
-                            <span className="ring ring-1" />
-                            <span className="ring ring-2" />
-                            {heroImg ? (
-                                <img
-                                    className="stage-img"
-                                    src={`${process.env.PUBLIC_URL}/assets/mecha.jpg`}
-                                    alt=""
-                                    onError={() => setHeroImg(false)}
-                                />
-                            ) : (
-                                <MechHead />
-                            )}
+                            <Wings />
+                            <span className="halo" />
+                            <div className="portrait">
+                                {avatar ? <img src={avatar} alt={displayName} /> : <MechHead />}
+                                <i className="cr cr-tl" />
+                                <i className="cr cr-tr" />
+                                <i className="cr cr-bl" />
+                                <i className="cr cr-br" />
+                            </div>
+                            <p className="readout">UNIT 01 // {displayName.toUpperCase()}</p>
                         </div>
                     </div>
                 </div>

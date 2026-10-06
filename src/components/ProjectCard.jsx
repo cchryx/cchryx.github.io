@@ -28,6 +28,7 @@ export default function ProjectCard({ p, index = 0 }) {
                     <div>
                         <h3>{p.title}</h3>
                         {when ? <p className="dim sm">{when}</p> : null}
+                        {p.role ? <p className="role">{p.role}</p> : null}
                     </div>
                 </div>
                 {p.summary ? <p className="proj-sum">{p.summary}</p> : null}

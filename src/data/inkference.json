@@ -5,12 +5,27 @@
         "username": "cchryx",
         "headline": null,
         "bio": "CS student at the University of Toronto, St. George, Class of 2030.\n\nI build things people actually use. Right now that's Inkference, a portfolio and social app with portfolios, live chat, planners, and communities, all built and shipped by me.\n\nBefore that, I spent my high school years on FTC robotics. With Pluto we placed #2 in Ontario and went to the 2024 World Championship.",
-        "avatar": null,
-        "banner": null,
+        "avatar": {
+            "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp",
+            "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp"
+        },
+        "banner": {
+            "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.jpg",
+            "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.jpg"
+        },
         "links": [
-            { "url": "https://github.com/cchryx", "host": "github.com" },
-            { "url": "https://www.linkedin.com/in/x-chris-chen/", "host": "linkedin.com" },
-            { "url": "https://www.instagram.com/cc.rix/", "host": "instagram.com" }
+            {
+                "url": "https://github.com/cchryx",
+                "host": "github.com"
+            },
+            {
+                "url": "https://www.linkedin.com/in/x-chris-chen/",
+                "host": "linkedin.com"
+            },
+            {
+                "url": "https://www.instagram.com/cc.rix/",
+                "host": "instagram.com"
+            }
         ],
         "resume": null,
         "profileUrl": "https://inkference.app/profile/cchryx"
@@ -22,59 +37,40 @@
             "summary": "A portfolio and social app for builders. Show your work, chat live, plan your week, run a booth and join communities, all in one place.",
             "stage": "BUILDING",
             "status": "In progress",
-            "startDate": null,
+            "startDate": "2025-07-08T00:00:00.000Z",
             "endDate": null,
-            "icon": null,
+            "icon": {
+                "url": "https://i.imgur.com/t219D4s.png",
+                "thumbnail": "https://i.imgur.com/t219D4s.png"
+            },
             "banner": null,
             "links": [],
-            "skills": [{ "name": "Next.js" }, { "name": "TypeScript" }, { "name": "Node.js" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/8aab756e-3c0c-4999-998b-0ee8ddebff13"
-        },
-        {
-            "id": "f2adffff-6582-4187-b7e5-a50c01457494",
-            "title": "Nozzle Nook",
-            "summary": "Everyday 3D printed gadgets and organizers I design, print and sell at my booth.",
-            "stage": "BUILDING",
-            "status": "In progress",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
-            "banner": null,
-            "links": [],
-            "skills": [{ "name": "3D Printing" }, { "name": "Onshape" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/f2adffff-6582-4187-b7e5-a50c01457494"
-        },
-        {
-            "id": "cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
-            "title": "BigFluffyRobot",
-            "summary": "A boxing robot on a Bracket Bot, driven from a web dashboard and posed by human moves seen through a camera.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
-            "banner": null,
-            "links": [],
-            "skills": [{ "name": "Python" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/cc6dffeb-bc8c-4b82-8381-86d51a87ba96"
-        },
-        {
-            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
-            "title": "Pluto",
-            "summary": "Built and programmed FTC robot PLUTO; placed #2 in Ontario and competed at 2024 Worlds. Focused on design, code, and autonomous systems.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
-            "banner": null,
-            "links": [],
-            "skills": [{ "name": "Java" }, { "name": "Onshape" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/64cecfaf-1fc9-4832-a0e8-676d6a74682e"
+            "skills": [
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "Prisma ORM"
+                },
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "Node.js"
+                },
+                {
+                    "name": "Tailwind CSS"
+                }
+            ],
+            "stats": {
+                "views": 9,
+                "likes": 4
+            },
+            "url": "https://inkference.app/project/8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "role": null
         },
         {
             "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
@@ -82,14 +78,200 @@
             "summary": "Custom CNC robot with dual slides and turret intake. Iterative design and coding let us compete at FTC's first New England Premier event.",
             "stage": "SHIPPED",
             "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
+            "startDate": "2024-09-05T00:00:00.000Z",
+            "endDate": "2025-04-04T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.w400.webp"
+            },
             "banner": null,
             "links": [],
-            "skills": [{ "name": "Java" }, { "name": "Onshape" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/00773c95-5f04-4096-ae82-67c038cb1b21"
+            "skills": [
+                {
+                    "name": "Onshape"
+                },
+                {
+                    "name": "3D Printing"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "CNC"
+                },
+                {
+                    "name": "PIDs"
+                },
+                {
+                    "name": "CAD"
+                }
+            ],
+            "stats": {
+                "views": 17,
+                "likes": 5
+            },
+            "url": "https://inkference.app/project/00773c95-5f04-4096-ae82-67c038cb1b21",
+            "role": null
+        },
+        {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto",
+            "summary": "Built and programmed FTC robot PLUTO; placed #2 in Ontario and competed at 2024 Worlds. Focused on design, code, and autonomous systems.",
+            "stage": "SHIPPED",
+            "status": "Complete",
+            "startDate": "2023-05-31T00:00:00.000Z",
+            "endDate": "2024-04-19T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.w400.webp"
+            },
+            "banner": null,
+            "links": [],
+            "skills": [
+                {
+                    "name": "Onshape"
+                },
+                {
+                    "name": "OpenCV"
+                },
+                {
+                    "name": "TensorFlow"
+                },
+                {
+                    "name": "Robotics"
+                },
+                {
+                    "name": "3D Printing"
+                }
+            ],
+            "stats": {
+                "views": 5,
+                "likes": 3
+            },
+            "url": "https://inkference.app/project/64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "role": null
+        },
+        {
+            "id": "x-rsx-mars-rover-2026-2027",
+            "title": "RSX Mars Rover 2026-2027",
+            "stage": "BUILDING",
+            "startDate": "2026-09-18T00:00:00.000Z",
+            "endDate": null,
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.w400.webp"
+            },
+            "role": "Mech team member + 3D printer",
+            "skills": [],
+            "stats": {
+                "views": 3,
+                "likes": 0
+            },
+            "links": [],
+            "summary": "Building a Mars rover with UofT's Robotics for Space Exploration team to compete in international rover challenges.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
+        },
+        {
+            "id": "f2adffff-6582-4187-b7e5-a50c01457494",
+            "title": "Nozzle Nook",
+            "summary": "Everyday 3D printed gadgets and organizers I design, print and sell at my booth.",
+            "stage": "BUILDING",
+            "status": "In progress",
+            "startDate": "2026-10-02T00:00:00.000Z",
+            "endDate": null,
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.w400.webp"
+            },
+            "banner": null,
+            "links": [],
+            "skills": [
+                {
+                    "name": "3D Printing"
+                },
+                {
+                    "name": "Onshape"
+                }
+            ],
+            "stats": {
+                "views": 1,
+                "likes": 0
+            },
+            "url": "https://inkference.app/project/f2adffff-6582-4187-b7e5-a50c01457494",
+            "role": null
+        },
+        {
+            "id": "x-lastpick.gg",
+            "title": "LastPick.gg",
+            "stage": "IDEA",
+            "startDate": "2026-09-30T00:00:00.000Z",
+            "endDate": null,
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/re0oc3il65ofwuwaptn1.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/re0oc3il65ofwuwaptn1.w400.webp"
+            },
+            "role": null,
+            "skills": [],
+            "stats": {
+                "views": 2,
+                "likes": 0
+            },
+            "links": [],
+            "summary": "An algorithmic draft engine predicting League of Legends match outcomes and exposing enemy win conditions.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
+        },
+        {
+            "id": "cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
+            "title": "BigFluffyRobot",
+            "summary": "A boxing robot on a Bracket Bot, driven from a web dashboard and posed by human moves seen through a camera.",
+            "stage": "SHIPPED",
+            "status": "Complete",
+            "startDate": "2026-09-11T00:00:00.000Z",
+            "endDate": "2026-09-11T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.w400.webp"
+            },
+            "banner": null,
+            "links": [],
+            "skills": [
+                {
+                    "name": "Python"
+                }
+            ],
+            "stats": {
+                "views": 2,
+                "likes": 0
+            },
+            "url": "https://inkference.app/project/cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
+            "role": null
+        },
+        {
+            "id": "x-playlistify",
+            "title": "Playlistify",
+            "stage": "SHIPPED",
+            "startDate": "2026-03-21T00:00:00.000Z",
+            "endDate": "2026-04-01T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.w400.webp"
+            },
+            "role": "CSC111 team project",
+            "skills": [
+                {
+                    "name": "Python"
+                }
+            ],
+            "stats": {
+                "views": 2,
+                "likes": 0
+            },
+            "links": [],
+            "summary": "Mood-aware music recommendation engine in Python with a GUI, built as a CSC111 team project.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
         },
         {
             "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
@@ -97,14 +279,37 @@
             "summary": "A social app with styled posts (Noutes), real-time chat, explore feed, infinite scroll, profile editing, and secure auth with email verification.",
             "stage": "SHIPPED",
             "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
+            "startDate": "2024-10-21T00:00:00.000Z",
+            "endDate": "2024-11-18T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.w400.webp"
+            },
             "banner": null,
             "links": [],
-            "skills": [{ "name": "React.js" }, { "name": "Tailwind CSS" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/4ab0dd37-1903-4ead-98e4-e14f4db3d479"
+            "skills": [
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "Socket.io"
+                },
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "TypeScript"
+                }
+            ],
+            "stats": {
+                "views": 4,
+                "likes": 2
+            },
+            "url": "https://inkference.app/project/4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "role": null
         },
         {
             "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
@@ -112,14 +317,90 @@
             "summary": "Noutes V2 is a TypeScript social app using React, Appwrite, and Tailwind. Features include auth, dynamic posts, responsive UI, and form validation.",
             "stage": "SHIPPED",
             "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
+            "startDate": "2024-08-06T00:00:00.000Z",
+            "endDate": "2024-08-10T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.w400.webp"
+            },
             "banner": null,
             "links": [],
-            "skills": [{ "name": "TypeScript" }, { "name": "React.js" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/2687a52e-d5d9-4555-90c2-793cb90bfce6"
+            "skills": [
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "TypeScript"
+                },
+                {
+                    "name": "Tailwind CSS"
+                },
+                {
+                    "name": "Vite"
+                }
+            ],
+            "stats": {
+                "views": 3,
+                "likes": 2
+            },
+            "url": "https://inkference.app/project/2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "role": null
+        },
+        {
+            "id": "x-personal-website-v1",
+            "title": "Personal Website V1",
+            "stage": "SHIPPED",
+            "startDate": "2024-06-30T00:00:00.000Z",
+            "endDate": "2024-07-02T00:00:00.000Z",
+            "icon": null,
+            "role": null,
+            "skills": [
+                {
+                    "name": "React.js"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                }
+            ],
+            "stats": {
+                "views": 1,
+                "likes": 2
+            },
+            "links": [],
+            "summary": "Personal portfolio site built with ReactJS, showcasing improved skills in routing, components, and state management.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
+        },
+        {
+            "id": "x-story-of-star-boy-rpg",
+            "title": "Story of Star Boy RPG",
+            "stage": "SHIPPED",
+            "startDate": "2024-05-31T00:00:00.000Z",
+            "endDate": "2024-06-23T00:00:00.000Z",
+            "icon": {
+                "url": "https://i.imgur.com/RkM0J1C.png",
+                "thumbnail": "https://i.imgur.com/RkM0J1C.png"
+            },
+            "role": null,
+            "skills": [
+                {
+                    "name": "Pygame"
+                },
+                {
+                    "name": "Python"
+                }
+            ],
+            "stats": {
+                "views": 6,
+                "likes": 3
+            },
+            "links": [],
+            "summary": "2D Pygame catcher game with star collection, fuel/HP systems, boss battles, shooting, and an RPG-style storyline.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
         },
         {
             "id": "ce163efd-13ec-4da6-91b6-84c1ee336276",
@@ -127,32 +408,217 @@
             "summary": "First professional website for Team Devolotics, built for outreach and sponsorship, with dynamic design, galleries, and mobile compatibility.",
             "stage": "SHIPPED",
             "status": "Complete",
-            "startDate": null,
-            "endDate": null,
-            "icon": null,
+            "startDate": "2023-07-03T00:00:00.000Z",
+            "endDate": "2023-10-11T00:00:00.000Z",
+            "icon": {
+                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.w400.webp",
+                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.w400.webp"
+            },
             "banner": null,
             "links": [],
-            "skills": [{ "name": "HTML" }, { "name": "Cascading Style Sheets (CSS)" }],
-            "stats": { "likes": 0, "views": 0 },
-            "url": "https://inkference.app/project/ce163efd-13ec-4da6-91b6-84c1ee336276"
+            "skills": [
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                }
+            ],
+            "stats": {
+                "views": 2,
+                "likes": 3
+            },
+            "url": "https://inkference.app/project/ce163efd-13ec-4da6-91b6-84c1ee336276",
+            "role": "Team Devolotics"
+        },
+        {
+            "id": "x-noutes-v1",
+            "title": "Noutes V1",
+            "stage": "SHIPPED",
+            "startDate": "2023-10-02T00:00:00.000Z",
+            "endDate": "2023-10-09T00:00:00.000Z",
+            "icon": null,
+            "role": null,
+            "skills": [
+                {
+                    "name": "PHP"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "HTML"
+                }
+            ],
+            "stats": {
+                "views": 3,
+                "likes": 3
+            },
+            "links": [],
+            "summary": "PHP site with session-based login/signup, note creation, and a car shop with cart, live pricing, and lazy-loaded images.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
+        },
+        {
+            "id": "x-dank-exclusive-(discord-bot)",
+            "title": "Dank Exclusive (Discord Bot)",
+            "stage": "SHIPPED",
+            "startDate": "2022-07-27T00:00:00.000Z",
+            "endDate": "2023-06-09T00:00:00.000Z",
+            "icon": {
+                "url": "https://i.imgur.com/JCFffQn.png",
+                "thumbnail": "https://i.imgur.com/JCFffQn.png"
+            },
+            "role": null,
+            "skills": [
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "Node.js"
+                },
+                {
+                    "name": "Heroku"
+                },
+                {
+                    "name": "Discord API"
+                }
+            ],
+            "stats": {
+                "views": 3,
+                "likes": 2
+            },
+            "links": [],
+            "summary": "Discord bot built during COVID to boost server activity with leveling, automated events, booster perks, moderation, and automod.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
+        },
+        {
+            "id": "x-xenon-economy-(discord-bot)",
+            "title": "Xenon Economy (Discord Bot)",
+            "stage": "SHIPPED",
+            "startDate": "2022-04-11T00:00:00.000Z",
+            "endDate": "2023-05-04T00:00:00.000Z",
+            "icon": {
+                "url": "https://i.imgur.com/nihVMpX.png",
+                "thumbnail": "https://i.imgur.com/nihVMpX.png"
+            },
+            "role": null,
+            "skills": [
+                {
+                    "name": "MongoDB"
+                },
+                {
+                    "name": "AWS"
+                },
+                {
+                    "name": "Heroku"
+                },
+                {
+                    "name": "Discord API"
+                }
+            ],
+            "stats": {
+                "views": 2,
+                "likes": 1
+            },
+            "links": [],
+            "summary": "An economy bot with trading, earning, events, mini-games and player battles. It grew to 100 servers during the COVID pandemic.",
+            "url": "https://inkference.app/profile/cchryx",
+            "banner": null
         }
     ],
     "skills": [
-        { "name": "Onshape", "level": "Advanced", "category": "Design", "usingNow": true },
-        { "name": "Java", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "Node.js", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "Next.js", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "TypeScript", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "JavaScript", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "Python", "level": "Advanced", "category": "Software", "usingNow": true },
-        { "name": "React.js", "level": null, "category": null, "usingNow": false },
-        { "name": "3D Printing", "level": null, "category": null, "usingNow": false },
-        { "name": "MongoDB", "level": null, "category": null, "usingNow": false },
-        { "name": "PHP", "level": null, "category": null, "usingNow": false },
-        { "name": "CSS", "level": null, "category": null, "usingNow": false },
-        { "name": "HTML", "level": null, "category": null, "usingNow": false },
-        { "name": "PWAs", "level": null, "category": null, "usingNow": false },
-        { "name": "Tailwind CSS", "level": null, "category": null, "usingNow": false }
+        {
+            "name": "Onshape",
+            "level": "Advanced",
+            "category": "Design",
+            "usingNow": true
+        },
+        {
+            "name": "Java",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "Node.js",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "Next.js",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "TypeScript",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "Python",
+            "level": "Advanced",
+            "category": "Software",
+            "usingNow": true
+        },
+        {
+            "name": "React.js",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "3D Printing",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "MongoDB",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "PHP",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "CSS",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "HTML",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "PWAs",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        },
+        {
+            "name": "Tailwind CSS",
+            "level": null,
+            "category": null,
+            "usingNow": false
+        }
     ],
     "experience": [
         {
