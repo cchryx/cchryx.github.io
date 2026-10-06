@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Live data from Inkference
+
+Projects, bio, skills and experience come from the Inkference API at build time.
+
+1. Make a key in Inkference: Settings > Developer API.
+2. Create a file named `.env.local` in this folder with one line: `INKFERENCE_API_KEY=ink_live_xxx`
+3. Run `npm run sync` to refresh `src/data/inkference.json`, or `npm run deploy` to refresh and publish.
+
+`.env.local` is ignored by git. Never commit the key. If there is no key, the saved copy in `src/data/inkference.json` is used.
