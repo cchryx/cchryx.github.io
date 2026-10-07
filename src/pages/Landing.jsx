@@ -163,20 +163,27 @@ export default function Landing() {
                         const title =
                             e.title || (e.positions && e.positions[0] && e.positions[0].title) || (e.project && e.project.title);
                         const orgName = e.organization || (e.project && e.project.title) || "";
-                        const start = fmtMonth(e.startDate || (e.positions && e.positions[0] && e.positions[0].startDate));
-                        const end = fmtMonth(e.endDate);
+                        // A role on a finished project cannot be "current": use the project's own dates.
+                        const proj = e.project && projects.find((p) => p.id === e.project.id);
+                        const projEnded = proj && proj.endDate && new Date(proj.endDate) < new Date();
+                        const fix = e.kind === "project" && e.current && projEnded;
+                        const isCurrent = fix ? false : e.current;
+                        const start = fmtMonth(
+                            fix ? proj.startDate : e.startDate || (e.positions && e.positions[0] && e.positions[0].startDate)
+                        );
+                        const end = fmtMonth(fix ? proj.endDate : e.endDate);
                         return (
                             <li key={e.id}>
                                 <span className="tl-dot" />
-                                <Hud tone={e.current ? "yellow" : "blue"} className="tl-card">
+                                <Hud tone={isCurrent ? "yellow" : "blue"} className="tl-card">
                                     <div className="tl-top">
                                         <h3>{title}</h3>
-                                        {e.current ? <Tag tone="yellow">Current</Tag> : null}
+                                        {isCurrent ? <Tag tone="yellow">Current</Tag> : null}
                                     </div>
                                     <p className="tl-org">{orgName}</p>
                                     {start ? (
                                         <p className="dim sm">
-                                            {start} to {e.current ? "Present" : end || ""}
+                                            {start} to {isCurrent ? "Present" : end || ""}
                                         </p>
                                     ) : null}
                                     {e.description ? <p>{e.description}</p> : null}

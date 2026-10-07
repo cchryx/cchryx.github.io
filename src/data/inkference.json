@@ -1,640 +1,2890 @@
 {
-    "fetchedAt": null,
-    "me": {
-        "name": "Chris Chen",
-        "username": "cchryx",
-        "headline": {
-            "title": null,
-            "organization": "Inkference",
-            "organizationUrl": "https://inkference.app"
-        },
-        "bio": "CS student at the University of Toronto, St. George, Class of 2030.\n\nI build things people actually use. Right now that's Inkference, a portfolio and social app with portfolios, live chat, planners, and communities, all built and shipped by me.\n\nBefore that, I spent my high school years on FTC robotics. With Pluto we placed #2 in Ontario and went to the 2024 World Championship.",
-        "avatar": {
-            "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp",
-            "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp"
-        },
-        "banner": {
-            "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.jpg",
-            "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.jpg"
-        },
-        "links": [
-            {
-                "url": "https://github.com/cchryx",
-                "host": "github.com"
-            },
-            {
-                "url": "https://www.linkedin.com/in/x-chris-chen/",
-                "host": "linkedin.com"
-            },
-            {
-                "url": "https://www.instagram.com/cc.rix/",
-                "host": "instagram.com"
-            }
-        ],
-        "resume": null,
-        "profileUrl": "https://inkference.app/profile/cchryx"
+  "fetchedAt": "2026-10-07T05:31:07.698Z",
+  "me": {
+    "id": "ebd0bfef-8b14-4693-9b3e-122687048078",
+    "name": "Chris Chen ",
+    "username": "cchryx",
+    "headline": {
+      "title": "Founder",
+      "organization": "Inkference",
+      "organizationUrl": "https://inkference.app/enterprise/inkference"
     },
-    "projects": [
+    "bio": "CS student at the University of Toronto, St. George, Class of 2030.\r\n\r\nI build things people actually use. Right now that's Inkference, the app you're on: portfolios, live chat, planners, and communities, all built and shipped by me.\r\n\r\nBefore that, I spent my high school years on FTC robotics. With Pluto we placed #2 in Ontario and went to the 2024 World Championship. With Hydra, a custom CNC robot, we competed at FTC's first New England Premier event. I did CAD, 3D printing and the code, from autonomous paths to vision with OpenCV.\r\n\r\nOff the keyboard: skateboarding, guitar and art.\r\n\r\nBuilding something cool? Send me a message. \r\n\r\nAlso looking to intern at a cool company for summer 2027!",
+    "avatar": {
+      "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.jpg",
+      "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp"
+    },
+    "banner": {
+      "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.jpg",
+      "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/ydsjqyvnmrzbgvvz7txu.w400.webp"
+    },
+    "links": [
+      {
+        "url": "https://github.com/cchryx",
+        "host": "github.com"
+      },
+      {
+        "url": "https://www.instagram.com/cc.rix/",
+        "host": "instagram.com"
+      },
+      {
+        "url": "https://www.linkedin.com/in/x-chris-chen/",
+        "host": "linkedin.com"
+      },
+      {
+        "url": "https://cchryx.github.io/",
+        "host": "cchryx.github.io"
+      }
+    ],
+    "resume": {
+      "url": "https://f005.backblazeb2.com/file/Inkference/raw/ebd0bfef-8b14-4693-9b3e-122687048078/resume/resume_1791084545287.pdf",
+      "name": "resume_swe_general.pdf",
+      "updatedAt": "2026-10-04T03:29:06.050Z"
+    },
+    "profileUrl": "https://inkference.app/profile/cchryx"
+  },
+  "projects": [
+    {
+      "id": "53ae031c-ca62-404e-9aa4-e70ffa1806dd",
+      "title": "RSX Mars Rover 2026-2027",
+      "summary": "Building a Mars rover with UofT's Robotics for Space Exploration team to compete in international rover challenges.",
+      "description": "I'm on Robotics for Space Exploration (RSX), the University of Toronto's design team that builds robots for space. This season our team is designing and building a Mars rover to compete in international rover challenges. This page follows the 2026-2027 build, from first designs to competition day.",
+      "stage": "BUILDING",
+      "status": "IN_PROGRESS",
+      "role": "contributor",
+      "contributedAs": "Mech Team Member + 3D Printer",
+      "startDate": "2026-09-19T00:00:00.000Z",
+      "endDate": null,
+      "createdAt": "2026-10-02T03:13:57.617Z",
+      "updatedAt": "2026-10-06T01:17:25.150Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.w400.webp"
+      },
+      "banner": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/vhworccawdigcgyuv0ul.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/vhworccawdigcgyuv0ul.w400.webp"
+      },
+      "gallery": [],
+      "links": [
         {
-            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
-            "title": "Inkference",
-            "summary": "A portfolio and social app for builders. Show your work, chat live, plan your week, run a booth and join communities, all in one place.",
-            "stage": "BUILDING",
-            "status": "In progress",
-            "startDate": "2025-07-08T00:00:00.000Z",
-            "endDate": null,
-            "icon": {
-                "url": "https://i.imgur.com/t219D4s.png",
-                "thumbnail": "https://i.imgur.com/t219D4s.png"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "React.js"
-                },
-                {
-                    "name": "Prisma ORM"
-                },
-                {
-                    "name": "Next.js"
-                },
-                {
-                    "name": "TypeScript"
-                },
-                {
-                    "name": "Node.js"
-                },
-                {
-                    "name": "Tailwind CSS"
-                }
-            ],
-            "stats": {
-                "views": 9,
-                "likes": 4
-            },
-            "url": "https://inkference.app/project/8aab756e-3c0c-4999-998b-0ee8ddebff13",
-            "role": null
+          "url": "https://rsx-utoronto.github.io/rsx-website/",
+          "label": "Official RSX Website"
+        }
+      ],
+      "skills": [],
+      "stats": {
+        "likes": 0,
+        "views": 3
+      },
+      "url": "https://inkference.app/project/53ae031c-ca62-404e-9aa4-e70ffa1806dd"
+    },
+    {
+      "id": "ce163efd-13ec-4da6-91b6-84c1ee336276",
+      "title": "Devolotics Website",
+      "summary": "First professional website for Team Devolotics, built for outreach and sponsorship, with dynamic design, galleries, and mobile compatibility.",
+      "description": "This is the first professional website showcasing my team, Devolotics. The website serves both as an outreach tool and a platform to attract potential sponsors who may wish to support our team financially. In creating this website, I learned how to style a public website with dynamic navigation, image galleries, and organized text boxes. I also dedicated significant time to making it dynamic and mobile-compatible.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2023-07-04T00:00:00.000Z",
+      "endDate": "2023-10-12T00:00:00.000Z",
+      "createdAt": "2025-08-04T05:49:41.658Z",
+      "updatedAt": "2026-10-05T03:40:16.771Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.w400.webp"
+      },
+      "banner": {
+        "url": "https://res.cloudinary.com/decele1ao/image/upload/v1721589616/Project%20Helios/Projects/devoloticswebsite.png",
+        "thumbnail": "https://res.cloudinary.com/decele1ao/image/upload/c_limit,w_400,f_auto,q_auto/v1721589616/Project%20Helios/Projects/devoloticswebsite.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://devolotics.github.io/",
+          "label": ""
         },
         {
+          "url": "https://github.com/cchryx/Devolotics_Website",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "718b15d3-29c6-475a-9ea6-f0902abb103a",
+          "name": "Cascading Style Sheets (CSS)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/css.svg"
+        },
+        {
+          "id": "a4a2d188-9e50-4de5-8bb4-f36f4bb06592",
+          "name": "HTML",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/html.svg"
+        }
+      ],
+      "stats": {
+        "likes": 3,
+        "views": 2
+      },
+      "url": "https://inkference.app/project/ce163efd-13ec-4da6-91b6-84c1ee336276"
+    },
+    {
+      "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+      "title": "Noutes V2",
+      "summary": "Noutes V2 is a TypeScript social app using React, Appwrite, and Tailwind. Features include auth, dynamic posts, responsive UI, and form validation.",
+      "description": "Noutes Social Media App V2 is a fully responsive, modern web application built using ReactJS, TypeScript, and Vite. It leverages a powerful tech stack including Appwrite for backend services, TailwindCSS and Shadcn for sleek UI components, and Zod for form validation. The app features a clean and dynamic user interface, allowing users to create accounts, log in, and interact with content in real time.\n\nThe primary goal of this version was to improve upon the original Noutes app by implementing scalable and maintainable code using modern web development practices. With the integration of TanStack for data fetching and caching, the app ensures smooth performance and real-time updates. Users can create and manage posts, while components are structured with reusable logic and optimized state management using React hooks like useState and useEffect.\n\nDeployed via Vercel for global performance, Noutes V2 also demonstrates strong design practices with mobile-first responsiveness and lazy-loaded media. This version lays the groundwork for future enhancements such as messaging, comments, and notification systems, while serving as a demonstration of full-stack app design using modern tools.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2024-08-07T00:00:00.000Z",
+      "endDate": "2024-08-11T00:00:00.000Z",
+      "createdAt": "2025-08-04T06:12:27.208Z",
+      "updatedAt": "2026-10-05T03:39:16.727Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.w400.webp"
+      },
+      "banner": {
+        "url": "https://res.cloudinary.com/decele1ao/image/upload/v1725140325/Project%20Helios/Projects/noutesv2.png",
+        "thumbnail": "https://res.cloudinary.com/decele1ao/image/upload/c_limit,w_400,f_auto,q_auto/v1725140325/Project%20Helios/Projects/noutesv2.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/NoutesV2",
+          "label": ""
+        },
+        {
+          "url": "https://noutesv1.vercel.app/",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "718b15d3-29c6-475a-9ea6-f0902abb103a",
+          "name": "Cascading Style Sheets (CSS)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/css.svg"
+        },
+        {
+          "id": "a4a2d188-9e50-4de5-8bb4-f36f4bb06592",
+          "name": "HTML",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/html.svg"
+        },
+        {
+          "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+          "name": "Node.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg"
+        },
+        {
+          "id": "13bb3f0e-b446-4b48-a73f-c49225483244",
+          "name": "React.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/react.svg"
+        },
+        {
+          "id": "d1b157c7-1d4e-4ab5-baa2-2871b089bec1",
+          "name": "Tailwind CSS",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tailwind-css.svg"
+        },
+        {
+          "id": "91f54e23-7be3-48f4-9d93-3539fd29076b",
+          "name": "TypeScript",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/typescript.svg"
+        },
+        {
+          "id": "f0e6c203-7f2d-4345-81ca-cee75105a95b",
+          "name": "Vite",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/vite.svg"
+        }
+      ],
+      "stats": {
+        "likes": 2,
+        "views": 3
+      },
+      "url": "https://inkference.app/project/2687a52e-d5d9-4555-90c2-793cb90bfce6"
+    },
+    {
+      "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+      "title": "Noutes (Final Product)",
+      "summary": "A social app with styled posts (Noutes), real-time chat, explore feed, infinite scroll, profile editing, and secure auth with email verification.",
+      "description": "Noutes is a full-stack social platform I built with a focus on real-time interaction, user expression, and seamless UX. The app features secure email authentication with full support for verification, password reset, and account recovery. Users can personalize their profiles by updating their name, username, email, bio, birthdate, and password. Each profile includes rich social features such as following, friending, and profile browsing.\n\nAt the core of the platform are Noutes—customizable post-like entries that support images and styled text via HTML parsing. Each Noute supports descriptions, liking, saving, and visibility across user feeds. The Explore page allows users to search both profiles and Noutes, while highlighting the most viewed and most liked content. Both the home feed and Explore feed implement infinite scrolling powered by TanStack Query for smooth, efficient data loading.\n\nTo support real-time communication, I integrated Socket.IO for instant messaging between friends. Combined with thoughtful UI/UX, scalable architecture, and robust authentication, Noutes delivers a dynamic and personalized social experience.\n\nI also made this app a Progressive Web App (PWA), allowing it to run full screen and provide users with a more immersive experience.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2024-10-22T00:00:00.000Z",
+      "endDate": "2024-11-19T00:00:00.000Z",
+      "createdAt": "2025-08-04T18:18:55.799Z",
+      "updatedAt": "2026-10-05T03:38:19.083Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.w400.webp"
+      },
+      "banner": {
+        "url": "https://i.imgur.com/EygQBtg.png",
+        "thumbnail": "https://i.imgur.com/EygQBtg.png"
+      },
+      "gallery": [
+        {
+          "id": "24fab330-33b9-435f-af6b-0331cc5f5ad2",
+          "caption": "This is the home infinite scroll feed, displaying all Noutes posted by users the person follows.",
+          "url": "https://i.imgur.com/FuNA6C4.png",
+          "thumbnail": "https://i.imgur.com/FuNA6C4.png"
+        },
+        {
+          "id": "5ca09b10-9dd8-4583-84da-d08399d622a0",
+          "caption": "This is the mobile layout, displaying a Noute’s profile in a clean and responsive format.",
+          "url": "https://i.imgur.com/LRLaHvr.png",
+          "thumbnail": "https://i.imgur.com/LRLaHvr.png"
+        },
+        {
+          "id": "69ba3059-9224-40ab-b7fe-3fc8e0c4eef1",
+          "caption": "In Settings, users can update their avatar, name, bio, gender, and location—each with cooldowns in place to prevent spamming.",
+          "url": "https://i.imgur.com/7faQBzb.png",
+          "thumbnail": "https://i.imgur.com/7faQBzb.png"
+        },
+        {
+          "id": "7469c6f8-7e81-4846-8a91-1840c0e1bc1d",
+          "caption": "Noute details with the title, description and tags.",
+          "url": "https://i.imgur.com/MpPMbBE.png",
+          "thumbnail": "https://i.imgur.com/MpPMbBE.png"
+        },
+        {
+          "id": "8d19e8ee-d95c-47a5-8cce-20105df41d8d",
+          "caption": "A Noute card can be shared via link with anyone, displaying its images, text content, title, description, and tags. Users can also like and save it.",
+          "url": "https://i.imgur.com/qrvYBvT.png",
+          "thumbnail": "https://i.imgur.com/qrvYBvT.png"
+        },
+        {
+          "id": "8f741c46-849f-491d-93df-91192dd8441b",
+          "caption": "Creating a noute by uploading an image to Cloudinary and cropper tool to resize and crop.",
+          "url": "https://i.imgur.com/yf8MmHh.png",
+          "thumbnail": "https://i.imgur.com/yf8MmHh.png"
+        },
+        {
+          "id": "931486e0-043c-47ec-915a-8212726d0465",
+          "caption": "The inbox displays incoming and pending friend requests, allowing users to view ongoing requests and accept new ones.",
+          "url": "https://i.imgur.com/OOi4Has.png",
+          "thumbnail": "https://i.imgur.com/OOi4Has.png"
+        },
+        {
+          "id": "a5067239-2093-4efc-a971-1538f2557f24",
+          "caption": "This section displays all contacts or friends, with a search feature that lets users quickly find and message them.",
+          "url": "https://i.imgur.com/FgDOqQL.png",
+          "thumbnail": "https://i.imgur.com/FgDOqQL.png"
+        },
+        {
+          "id": "b60e3d10-f9c9-400c-82cf-48bdecc0d5ed",
+          "caption": "This is a direct message chat channel where users can have real-time conversations with their friends.",
+          "url": "https://i.imgur.com/AYND7Mc.png",
+          "thumbnail": "https://i.imgur.com/AYND7Mc.png"
+        },
+        {
+          "id": "fb3878ba-3198-4fa8-9036-e646c958ecf8",
+          "caption": "This is the library, showing both the user’s posted Noutes and the Noutes they’ve saved.",
+          "url": "https://i.imgur.com/OWGpuhL.png",
+          "thumbnail": "https://i.imgur.com/OWGpuhL.png"
+        },
+        {
+          "id": "feab13c8-8715-413e-8b47-8e6a143bf9c8",
+          "caption": "In this section of Settings, users can update their email, birthdate, phone number, and password.",
+          "url": "https://i.imgur.com/ntr6jZe.png",
+          "thumbnail": "https://i.imgur.com/ntr6jZe.png"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://noutes.vercel.app/",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/cchryx/Noutes",
+          "label": ""
+        },
+        {
+          "url": "https://nextjs.org/",
+          "label": ""
+        },
+        {
+          "url": "https://vercel.com/",
+          "label": ""
+        },
+        {
+          "url": "https://tailwindcss.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.postman.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.mongodb.com/",
+          "label": ""
+        },
+        {
+          "url": "https://tanstack.com/",
+          "label": ""
+        },
+        {
+          "url": "https://zod.dev/",
+          "label": ""
+        },
+        {
+          "url": "https://socket.io/",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "6cb4331c-1a0b-4a77-b4d2-1ec590eb61c4",
+          "name": "MongoDB",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/mongodb.svg"
+        },
+        {
+          "id": "87435955-2efc-4921-810c-aec5743e4ad3",
+          "name": "Next.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/next-js.svg"
+        },
+        {
+          "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+          "name": "Node.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg"
+        },
+        {
+          "id": "ca7e52d9-44a3-41f8-9efb-469a5f0df28b",
+          "name": "Progressive Web Applications (PWAs)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/kfao8rkr1jzkbf2cc8th.png"
+        },
+        {
+          "id": "13bb3f0e-b446-4b48-a73f-c49225483244",
+          "name": "React.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/react.svg"
+        },
+        {
+          "id": "7bee50c6-d797-43b2-aac9-ff790e3bcff9",
+          "name": "Socket.io",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/socket-io.svg"
+        },
+        {
+          "id": "d1b157c7-1d4e-4ab5-baa2-2871b089bec1",
+          "name": "Tailwind CSS",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tailwind-css.svg"
+        },
+        {
+          "id": "91f54e23-7be3-48f4-9d93-3539fd29076b",
+          "name": "TypeScript",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/typescript.svg"
+        }
+      ],
+      "stats": {
+        "likes": 2,
+        "views": 4
+      },
+      "url": "https://inkference.app/project/4ab0dd37-1903-4ead-98e4-e14f4db3d479"
+    },
+    {
+      "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+      "title": "Pluto",
+      "summary": "Built and programmed FTC robot PLUTO; placed #2 in Ontario and competed at 2024 Worlds. Focused on design, code, and autonomous systems.",
+      "description": "In my first year with the FIRST Tech Challenge team 19498 Devolotics, I served as both a builder and programmer for our competitive robot, PLUTO. Over a 10-month season, we designed, built, and coded a robot for the Centerstage challenge. PLUTO featured a mecanum drivetrain for omnidirectional movement, angled linear slides, a surgical tubing intake, and a pixel storage/deposit system with two degrees of motion. We also engineered a drone (paper airplane) launcher and a hanging mechanism. On the software side, I helped develop an autonomous program using Java, TensorFlow, and OpenCV, enabling the robot to detect team props, navigate the field, and score points without driver input. Our efforts led to a #2 ranking in Ontario and qualification for the 2024 World Championships in Houston, Texas. I also contributed to CAD design using Onshape, subsystem optimization, and version control via GitHub. This experience strengthened my skills in robotics, teamwork, and real-world engineering. Being part of a high-performing team taught me how to rapidly iterate designs, debug complex systems, and stay adaptable under competitive pressure—essential skills I now bring to every technical challenge.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2023-06-01T00:00:00.000Z",
+      "endDate": "2024-04-20T00:00:00.000Z",
+      "createdAt": "2025-08-04T16:51:26.093Z",
+      "updatedAt": "2026-10-05T03:37:33.524Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.w400.webp"
+      },
+      "banner": {
+        "url": "https://i.imgur.com/SYsfZni.jpeg",
+        "thumbnail": "https://i.imgur.com/SYsfZni.jpeg"
+      },
+      "gallery": [
+        {
+          "id": "0443bcda-90e7-4837-a301-706acf7a580a",
+          "caption": "Drone launcher.",
+          "url": "https://i.imgur.com/XzEQCoX.jpeg",
+          "thumbnail": "https://i.imgur.com/XzEQCoX.jpeg"
+        },
+        {
+          "id": "110d219b-fffd-4750-bc5b-57f79dc59d51",
+          "caption": "Selfie with teammates at the Houston World Championship.",
+          "url": "https://i.imgur.com/4dF4A8B.jpeg",
+          "thumbnail": "https://i.imgur.com/4dF4A8B.jpeg"
+        },
+        {
+          "id": "169dab1e-e2d6-4181-8523-0b5c3a6724ae",
+          "caption": "Selfie with my team captain Udula.",
+          "url": "https://i.imgur.com/ulkZDqh.jpeg",
+          "thumbnail": "https://i.imgur.com/ulkZDqh.jpeg"
+        },
+        {
+          "id": "26a1b0f4-57b3-4a4b-9cd6-4ca43706723b",
+          "caption": "FIRST logo outside the George Brown Convention Center at the Houston World Championship.",
+          "url": "https://i.imgur.com/RvZfRu3.jpeg",
+          "thumbnail": "https://i.imgur.com/RvZfRu3.jpeg"
+        },
+        {
+          "id": "2ba43468-c555-4445-9de3-0b590e4d6be9",
+          "caption": "Posing with another team at the Houston World Championship.",
+          "url": "https://i.imgur.com/WFuRLhb.jpeg",
+          "thumbnail": "https://i.imgur.com/WFuRLhb.jpeg"
+        },
+        {
+          "id": "2c13cb3d-4112-4e60-9efb-ca7c6ede3ac1",
+          "caption": "Selfie at the Houston World Championship.",
+          "url": "https://i.imgur.com/S5eBxWC.jpeg",
+          "thumbnail": "https://i.imgur.com/S5eBxWC.jpeg"
+        },
+        {
+          "id": "2db3ff03-7c53-40e0-a9cc-c4b5e5427de4",
+          "caption": "Our amazing robot pit at the Kingston Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/xo5f1OJ.jpeg",
+          "thumbnail": "https://i.imgur.com/xo5f1OJ.jpeg"
+        },
+        {
+          "id": "2f0807eb-c8ca-4ca6-a8bb-110aa3cc2c1c",
+          "caption": "Pluto V3 on the practice field at the Houston World Championship.",
+          "url": "https://i.imgur.com/nCQlFKg.jpeg",
+          "thumbnail": "https://i.imgur.com/nCQlFKg.jpeg"
+        },
+        {
+          "id": "2fd813c6-a743-4883-9eb4-4dac072511e1",
+          "caption": "Robot on the practice field at the Kingston Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/VVcDMDa.jpeg",
+          "thumbnail": "https://i.imgur.com/VVcDMDa.jpeg"
+        },
+        {
+          "id": "336cfbc1-64ac-4188-a0ca-adf10e819c6d",
+          "caption": "Pluto V1.",
+          "url": "https://i.imgur.com/KhQxmku.jpeg",
+          "thumbnail": "https://i.imgur.com/KhQxmku.jpeg"
+        },
+        {
+          "id": "3f856736-1ebd-4f5a-932d-8f6abd833b18",
+          "caption": "Pluto V3 outside our hotel at Houston as we practice judging for the Houston World Championship.",
+          "url": "https://i.imgur.com/fN0hSo4.jpeg",
+          "thumbnail": "https://i.imgur.com/fN0hSo4.jpeg"
+        },
+        {
+          "id": "44a18f64-89f8-4e61-81d1-9f2e6af99a92",
+          "caption": "Team picture with photographers at the Houston World Championship.",
+          "url": "https://i.imgur.com/MrS72WX.jpeg",
+          "thumbnail": "https://i.imgur.com/MrS72WX.jpeg"
+        },
+        {
+          "id": "45e2ba59-f363-4451-ba80-2cf0b432e730",
+          "caption": "Pushing autonomous code before our match.",
+          "url": "https://i.imgur.com/inDHGa2.jpeg",
+          "thumbnail": "https://i.imgur.com/inDHGa2.jpeg"
+        },
+        {
+          "id": "49d141cf-8fba-4cdd-aefe-1dc4594e438a",
+          "caption": "Pluto V3 on the competition field at the Houston World Championship.",
+          "url": "https://i.imgur.com/CTrldqU.jpeg",
+          "thumbnail": "https://i.imgur.com/CTrldqU.jpeg"
+        },
+        {
+          "id": "4a044e89-5594-4b41-b921-d16622313e88",
+          "caption": "Judging interview at the Mississauga Qualifier.",
+          "url": "https://devolotics.github.io/gallery/dev_i0.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i0.jpg"
+        },
+        {
+          "id": "4b4cae07-513d-47cc-a3d7-2792a015fc4d",
+          "caption": "We are Team 19498 — Devolotics!\n\nWe started out as a team of scattered recruits from across the school and are now a team of close friends. Along our journey, we discovered the importance of knowing our team members well, splitting our workload to tailor each member’s strengths.\n\nWe’ve also learned that humor is our fuel — we can’t work without laughter! We’ve made comedic skits on YouTube and created what feels like thousands of inside jokes.",
+          "url": "https://devolotics.github.io/gallery/dev_i8.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i8.jpg"
+        },
+        {
+          "id": "4d12ff53-97de-4065-9577-e340870d3af7",
+          "caption": "My team posing in front of robot pits at the Kingston Ontario Provincial Championship.",
+          "url": "https://devolotics.github.io/gallery/dev_i3.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i3.jpg"
+        },
+        {
+          "id": "4dbebafe-9be6-4c0e-8a26-7838cb862038",
+          "caption": "Pluto V1 active intake.",
+          "url": "https://i.imgur.com/u7ChW96.jpeg",
+          "thumbnail": "https://i.imgur.com/u7ChW96.jpeg"
+        },
+        {
+          "id": "512fb4ce-e222-4d32-8ba1-541a16f91d31",
+          "caption": "2023-2024 FIRST TECH CHALLENGE ONTARIO PROVINCIALS at Kingston.\nInspire Award 2nd Place",
+          "url": "https://devolotics.github.io/gallery/dev_team1.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_team1.jpg"
+        },
+        {
+          "id": "54d0d1c4-884f-4f3a-89dc-eeeee7f37326",
+          "caption": "Pushing robot to queue for our match at the Houston World Championship.",
+          "url": "https://i.imgur.com/MUXRDZ1.jpeg",
+          "thumbnail": "https://i.imgur.com/MUXRDZ1.jpeg"
+        },
+        {
+          "id": "5a2df1d4-6775-47b4-8a46-88110c593a95",
+          "caption": "Robot on competition field at the Kingston Ontario Provincial Championship.",
+          "url": "https://devolotics.github.io/gallery/dev_i6.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i6.jpg"
+        },
+        {
+          "id": "5af7ae15-478a-4904-b820-3f5fc7763855",
+          "caption": "Selfie at the Houston World Championship.",
+          "url": "https://i.imgur.com/zvUTLKS.jpeg",
+          "thumbnail": "https://i.imgur.com/zvUTLKS.jpeg"
+        },
+        {
+          "id": "6426e710-5892-48e8-8624-af037a1008b7",
+          "caption": "Setting up our robot pits at the Mississauga Qualifier. This was my first-ever robotics competition.",
+          "url": "https://i.imgur.com/FDpD9oR.jpeg",
+          "thumbnail": "https://i.imgur.com/FDpD9oR.jpeg"
+        },
+        {
+          "id": "73b8e7ba-6ae3-4a8c-a8c7-4c439647feb3",
+          "caption": "Us watching the robot matches at the Kingston Ontario Provincial Championship.",
+          "url": "https://devolotics.github.io/gallery/dev_i5.jpeg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i5.jpeg"
+        },
+        {
+          "id": "75da4cec-5ae0-4693-9d26-f5b1ba5e556c",
+          "caption": "Pushing code right before our robot match at the Mississauga Qualifier.",
+          "url": "https://devolotics.github.io/gallery/dev_i7.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_i7.jpg"
+        },
+        {
+          "id": "78683d2a-6e4a-46ff-bcce-eee600b9823d",
+          "caption": "Selfie at the Houston World Championship.",
+          "url": "https://i.imgur.com/uI4nKlE.jpeg",
+          "thumbnail": "https://i.imgur.com/uI4nKlE.jpeg"
+        },
+        {
+          "id": "787cf191-54ff-4f5f-a1c9-24d717087fa4",
+          "caption": "Queuing for our match at the Houston World Championship.",
+          "url": "https://i.imgur.com/drZPqB8.jpeg",
+          "thumbnail": "https://i.imgur.com/drZPqB8.jpeg"
+        },
+        {
+          "id": "7af65d29-80f6-4086-b1da-395b84a09bd5",
+          "caption": "2023-2024 FIRST TECH CHALLENGE ONTARIO PROVINCIALS at Kingston.\nInspire Award 2nd Place",
+          "url": "https://devolotics.github.io/gallery/dev_team0.jpg",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_team0.jpg"
+        },
+        {
+          "id": "87b31854-deb7-4435-abfc-947b7f416e38",
+          "caption": "Pluto V3 on the practice field at the Houston World Championship.",
+          "url": "https://i.imgur.com/pLEIAAa.jpeg",
+          "thumbnail": "https://i.imgur.com/pLEIAAa.jpeg"
+        },
+        {
+          "id": "8808ff37-2b15-4ac0-b873-03cec082ba44",
+          "caption": "2023-2024 FIRST TECH CHALLENGE North Scarborough Qualifier.\nFinalist Alliance – 1st Team Selected, Innovate Award sponsored by RTX.",
+          "url": "https://devolotics.github.io/gallery/dev_team9.png",
+          "thumbnail": "https://devolotics.github.io/gallery/dev_team9.png"
+        },
+        {
+          "id": "8fcd8535-316f-4353-9709-95df2f9c200b",
+          "caption": "Robot team gathered around practice field at the Houston World Championship to see our robot working.",
+          "url": "https://i.imgur.com/oKLCGIH.jpeg",
+          "thumbnail": "https://i.imgur.com/oKLCGIH.jpeg"
+        },
+        {
+          "id": "91609f8f-34bc-4b70-94d6-eecb5df0d2b5",
+          "caption": "Pluto V1 active intake pivot.",
+          "url": "https://i.imgur.com/1Ah1CVo.jpeg",
+          "thumbnail": "https://i.imgur.com/1Ah1CVo.jpeg"
+        },
+        {
+          "id": "953a840e-1751-4d88-988b-bd8ac6320c4c",
+          "caption": "Pluto V1.",
+          "url": "https://i.imgur.com/BxBwyVV.jpeg",
+          "thumbnail": "https://i.imgur.com/BxBwyVV.jpeg"
+        },
+        {
+          "id": "96847aeb-ea7f-4833-a682-4e2e59d5e20d",
+          "caption": "Practicing for judging interview outside our hotel at 2:00am for the Houston World Championship.",
+          "url": "https://i.imgur.com/Ik0eaZE.jpeg",
+          "thumbnail": "https://i.imgur.com/Ik0eaZE.jpeg"
+        },
+        {
+          "id": "9952d4f7-dca4-4e4d-b744-4697a408ec7e",
+          "caption": "The team dapped up after winning 1st Place Inspire Award — the highest award — at the Mississauga Qualifier.",
+          "url": "https://i.imgur.com/Sg5ju9R.jpeg",
+          "thumbnail": "https://i.imgur.com/Sg5ju9R.jpeg"
+        },
+        {
+          "id": "9cc06beb-d478-4994-a4dd-e255d0203331",
+          "caption": "Loot from the Houston World Championship.",
+          "url": "https://i.imgur.com/sv1rf52.jpeg",
+          "thumbnail": "https://i.imgur.com/sv1rf52.jpeg"
+        },
+        {
+          "id": "b62f4716-6df3-4818-a9d1-993075130f85",
+          "caption": "First FTC medal for 1st Place Inspire Award.",
+          "url": "https://i.imgur.com/gA5mXLU.jpeg",
+          "thumbnail": "https://i.imgur.com/gA5mXLU.jpeg"
+        },
+        {
+          "id": "bb59e026-be1b-4e9f-9d2d-ceaa44f6f7dc",
+          "caption": "Team photo after winning 1st Place Inspire Award — the highest honor at the Mississauga Qualifier!",
+          "url": "https://i.imgur.com/Xe55BaS.jpeg",
+          "thumbnail": "https://i.imgur.com/Xe55BaS.jpeg"
+        },
+        {
+          "id": "bef3685b-ff13-4584-b720-7cb4082cb379",
+          "caption": "1/4 of the FTC crowd at the Houston World Championship.",
+          "url": "https://i.imgur.com/7QdUecp.jpeg",
+          "thumbnail": "https://i.imgur.com/7QdUecp.jpeg"
+        },
+        {
+          "id": "c4f97aa8-02a9-410d-a3ab-30a55795e497",
+          "caption": "Posing in RO2D2 (Romanian team) pits at the Houston World Championship.",
+          "url": "https://i.imgur.com/GmTKaLy.jpeg",
+          "thumbnail": "https://i.imgur.com/GmTKaLy.jpeg"
+        },
+        {
+          "id": "ceb20193-299f-4039-90ba-6945f8c1fef3",
+          "caption": "Pluto V2 at the Kingston Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/I2kN570.jpeg",
+          "thumbnail": "https://i.imgur.com/I2kN570.jpeg"
+        },
+        {
+          "id": "e3c72e51-d600-479a-8feb-ab6463adf0bd",
+          "caption": "Waiting to test our code on the practice field at the Houston World Championship.",
+          "url": "https://i.imgur.com/8I3RUc9.jpeg",
+          "thumbnail": "https://i.imgur.com/8I3RUc9.jpeg"
+        },
+        {
+          "id": "f6b2e16c-a469-495d-a169-c7fc5673a414",
+          "caption": "My team watching the robot matches at the Houston World Championship.",
+          "url": "https://i.imgur.com/d94qKJc.jpeg",
+          "thumbnail": "https://i.imgur.com/d94qKJc.jpeg"
+        },
+        {
+          "id": "f9fdede8-f54d-4bdb-b3da-140bc5a914e1",
+          "caption": "One of the matches we won at the Houston World Championship (Blue Alliance)",
+          "url": "https://i.imgur.com/ICBuf8E.jpeg",
+          "thumbnail": "https://i.imgur.com/ICBuf8E.jpeg"
+        },
+        {
+          "id": "fbf24219-c5ca-42b0-ac7e-79660267f323",
+          "caption": "Screens for the robot matches at the Houston World Championship.",
+          "url": "https://i.imgur.com/gDR6i61.jpeg",
+          "thumbnail": "https://i.imgur.com/gDR6i61.jpeg"
+        },
+        {
+          "id": "fe519877-5c7d-46ac-bec7-f96711396518",
+          "caption": "Our robot pit for the Houston World Championship.",
+          "url": "https://i.imgur.com/rJ3IUFu.jpeg",
+          "thumbnail": "https://i.imgur.com/rJ3IUFu.jpeg"
+        },
+        {
+          "id": "fed367b2-de8b-4fec-bea9-0ea777043d49",
+          "caption": "Robot’s first time at the George Brown Convention Center for the Houston World Championship.",
+          "url": "https://i.imgur.com/9ROpWkc.jpeg",
+          "thumbnail": "https://i.imgur.com/9ROpWkc.jpeg"
+        },
+        {
+          "id": "feea6f7f-19c6-4041-b092-e83c6e6f5b33",
+          "caption": "Me as the second robot driver on the competition field at the Houston World Championship.",
+          "url": "https://i.imgur.com/28wWEA7.jpeg",
+          "thumbnail": "https://i.imgur.com/28wWEA7.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://devolotics.github.io/",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/cchryx/19498DevoloticsCenterstage_2023-2024",
+          "label": ""
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6e-5Uo1dRic&ab_channel=FIRSTTechChallenge",
+          "label": ""
+        },
+        {
+          "url": "https://docs.ftclib.org/ftclib",
+          "label": ""
+        },
+        {
+          "url": "https://www.firstinspires.org/robotics/ftc",
+          "label": ""
+        },
+        {
+          "url": "https://www.revrobotics.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.studica.com/?srsltid=AfmBOopG-r1qbDE0aQ4NQVAcRPl6QxUNtlfehB8e5wcaub7WLqn4ZDZm",
+          "label": ""
+        },
+        {
+          "url": "https://www.onshape.com/en/",
+          "label": ""
+        },
+        {
+          "url": "https://developer.android.com/studio",
+          "label": ""
+        },
+        {
+          "url": "https://gm0.org/en/latest/",
+          "label": ""
+        },
+        {
+          "url": "https://learnroadrunner.com/introduction.html",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/OpenFTC/EasyOpenCV",
+          "label": ""
+        },
+        {
+          "url": "https://ftc-docs.firstinspires.org/en/latest/programming_resources/vision/tensorflow_cs_2023/tensorflow-cs-2023.html",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "5021ca76-b19e-414d-85fe-46a4643350fc",
+          "name": "3D Printing",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/3d-printing.svg"
+        },
+        {
+          "id": "f02b25fd-215d-4758-bc2c-2815735a835e",
+          "name": "Computer-Aided Design (CAD)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/computer-aided-design-cad.svg"
+        },
+        {
+          "id": "1fd75cd2-5152-47db-bb49-8be4af4e6f35",
+          "name": "Engineering",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/engineering.svg"
+        },
+        {
+          "id": "1c5e7109-5faa-441b-ac8d-755ba0955110",
+          "name": "Onshape",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/onshape.svg"
+        },
+        {
+          "id": "d5feed9e-8ca3-482b-a00c-ca2e55740371",
+          "name": "OpenCV",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/opencv.svg"
+        },
+        {
+          "id": "cfcd9b42-e3bb-408d-911e-dc9764d51765",
+          "name": "Robotics",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/robotics.svg"
+        },
+        {
+          "id": "852cb268-e0af-422d-a84b-f69e9f123693",
+          "name": "TensorFlow",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tensorflow.svg"
+        }
+      ],
+      "stats": {
+        "likes": 3,
+        "views": 5
+      },
+      "url": "https://inkference.app/project/64cecfaf-1fc9-4832-a0e8-676d6a74682e"
+    },
+    {
+      "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+      "title": "Hydra",
+      "summary": "Custom CNC robot with dual slides and turret intake. Iterative design and coding let us compete at FTC’s first New England Premier event.",
+      "description": "For the FTC Centerstage competition, I initially developed a pivot arm using the Studica drivetrain system, which allowed rapid prototyping and reliable performance during early matches. This setup helped our team quickly test core mechanisms and strategies.\n\nBuilding on that, I designed and fabricated a fully custom aluminum arm assembly to improve precision and durability. The new design features a transfer mechanism that coordinates two arms—one fixed and one turret-mounted—allowing greater reach and versatility in scoring tasks. The turret arm can rotate independently, enabling complex manipulation without repositioning the whole robot. I engineered the system with lightweight aluminum for strength and speed, integrated precise motor controls, and optimized sensor feedback for autonomous operation. Additionally, I implemented Pedro Pathing with spline trajectories for the autonomous period, enabling the robot to follow smooth, optimal paths that maximize scoring efficiency. This custom arm and advanced pathing significantly enhanced our robot’s functionality and competitive edge throughout the season. My contributions in mechanical design, programming, and iterative testing were key to achieving reliable performance in regional competitions.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2024-09-06T00:00:00.000Z",
+      "endDate": "2025-04-05T00:00:00.000Z",
+      "createdAt": "2025-08-04T17:07:19.414Z",
+      "updatedAt": "2026-10-05T03:36:10.800Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.w400.webp"
+      },
+      "banner": {
+        "url": "https://i.imgur.com/GcC4juy.jpeg",
+        "thumbnail": "https://i.imgur.com/GcC4juy.jpeg"
+      },
+      "gallery": [
+        {
+          "id": "00b4dd27-185d-4668-a3a9-116ca20b4682",
+          "caption": "Me filing Hydra V1.",
+          "url": "https://i.imgur.com/IRvzPFW.jpeg",
+          "thumbnail": "https://i.imgur.com/IRvzPFW.jpeg"
+        },
+        {
+          "id": "04c456f7-9850-4cc2-ab41-978a50a30579",
+          "caption": "New England Premier event robot pits.",
+          "url": "https://i.imgur.com/Bh2aMDK.jpeg",
+          "thumbnail": "https://i.imgur.com/Bh2aMDK.jpeg"
+        },
+        {
+          "id": "07fe6a4d-c72c-4cc4-80b1-dc6131b89e9e",
+          "caption": "Team picture at the New England Premier event.",
+          "url": "https://i.imgur.com/X8P8x9I.jpeg",
+          "thumbnail": "https://i.imgur.com/X8P8x9I.jpeg"
+        },
+        {
+          "id": "0cd39ade-1858-4cc7-80d3-5f2df8e14629",
+          "caption": "Hydra V2 build.",
+          "url": "https://i.imgur.com/skInUnx.jpeg",
+          "thumbnail": "https://i.imgur.com/skInUnx.jpeg"
+        },
+        {
+          "id": "0e38eff2-3b79-42bd-8a51-87547038a181",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/rmY4P5Z.jpeg",
+          "thumbnail": "https://i.imgur.com/rmY4P5Z.jpeg"
+        },
+        {
+          "id": "0ed73995-aa65-4631-8366-59011b165612",
+          "caption": "Hydra V2 at Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/mwvPEYl.jpeg",
+          "thumbnail": "https://i.imgur.com/mwvPEYl.jpeg"
+        },
+        {
+          "id": "11ed174a-29f2-47db-9f57-28d1f2dc5532",
+          "caption": "Hydra V1 at Bethune North Scarborough Fall Fiesta Scrimmage.",
+          "url": "https://i.imgur.com/JvNw0yU.jpeg",
+          "thumbnail": "https://i.imgur.com/JvNw0yU.jpeg"
+        },
+        {
+          "id": "13453eae-bbd2-405a-8b46-0c9f9e7f6395",
+          "caption": "Inspire 2nd Place Award at Waterloo Qualifier.",
+          "url": "https://i.imgur.com/NTOhONL.jpeg",
+          "thumbnail": "https://i.imgur.com/NTOhONL.jpeg"
+        },
+        {
+          "id": "1df08bbe-eba0-43fd-8c79-29e25d10e794",
+          "caption": "Hydra V2 at Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/GlOVk8a.jpeg",
+          "thumbnail": "https://i.imgur.com/GlOVk8a.jpeg"
+        },
+        {
+          "id": "1fd2131f-9b72-4d64-be8f-4c5478e0da3d",
+          "caption": "Hydra V2 build.",
+          "url": "https://i.imgur.com/rpUYOmR.jpeg",
+          "thumbnail": "https://i.imgur.com/rpUYOmR.jpeg"
+        },
+        {
+          "id": "266fd4e7-12aa-40f5-8f17-a550e97e357c",
+          "caption": "New England Premier event competition field.",
+          "url": "https://i.imgur.com/saJerii.jpeg",
+          "thumbnail": "https://i.imgur.com/saJerii.jpeg"
+        },
+        {
+          "id": "3c98cfe8-c2d6-41ce-be9c-84a835d8ef65",
+          "caption": "Outreach boards in our robot pit at the New England Premier event.",
+          "url": "https://i.imgur.com/IQIl99n.jpeg",
+          "thumbnail": "https://i.imgur.com/IQIl99n.jpeg"
+        },
+        {
+          "id": "403072b9-d551-4a2b-a6b7-f2951014be17",
+          "caption": "Hydra V1 render.",
+          "url": "https://i.imgur.com/lbbXM4a.jpeg",
+          "thumbnail": "https://i.imgur.com/lbbXM4a.jpeg"
+        },
+        {
+          "id": "424168a1-dd75-4f28-8696-b0b2abf641a5",
+          "caption": "Hydra V2 build.",
+          "url": "https://i.imgur.com/eYoBCwr.jpeg",
+          "thumbnail": "https://i.imgur.com/eYoBCwr.jpeg"
+        },
+        {
+          "id": "51910ac5-0aba-4385-9533-22e789bf51ca",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/eAaKczf.jpeg",
+          "thumbnail": "https://i.imgur.com/eAaKczf.jpeg"
+        },
+        {
+          "id": "53847b8e-c5e0-402f-9d1a-a63b18406af0",
+          "caption": "Motivate Award at the New England Premier event.",
+          "url": "https://i.imgur.com/g9Gusjo.jpeg",
+          "thumbnail": "https://i.imgur.com/g9Gusjo.jpeg"
+        },
+        {
+          "id": "5c12d347-8a48-448c-b689-ea800be267ba",
+          "caption": "Team picture with Bolt.m3 from Kazakhstan at the New England Premier event.",
+          "url": "https://i.imgur.com/72XgnH6.jpeg",
+          "thumbnail": "https://i.imgur.com/72XgnH6.jpeg"
+        },
+        {
+          "id": "6ca10458-6629-47d1-99fd-a3015781d00f",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/ZXl3D2V.jpeg",
+          "thumbnail": "https://i.imgur.com/ZXl3D2V.jpeg"
+        },
+        {
+          "id": "6ccc3d43-2a77-48bf-8011-61322f473dac",
+          "caption": "Team picture at the New England Premier event.",
+          "url": "https://i.imgur.com/zcz1wsf.jpeg",
+          "thumbnail": "https://i.imgur.com/zcz1wsf.jpeg"
+        },
+        {
+          "id": "6ef940a9-fe7a-4a97-932f-4414ca995997",
+          "caption": "Me building robot part.",
+          "url": "https://i.imgur.com/7XP9FjL.jpeg",
+          "thumbnail": "https://i.imgur.com/7XP9FjL.jpeg"
+        },
+        {
+          "id": "6fc8eea3-0822-454c-864d-28bd2efd657c",
+          "caption": "Hydra V2 build.",
+          "url": "https://i.imgur.com/SWjDHU9.jpeg",
+          "thumbnail": "https://i.imgur.com/SWjDHU9.jpeg"
+        },
+        {
+          "id": "7899c05b-9fdf-47ae-942c-037d0fe7e6a1",
+          "caption": "Hydra V1 mecanum drivetrain.",
+          "url": "https://i.imgur.com/hn3scfl.jpeg",
+          "thumbnail": "https://i.imgur.com/hn3scfl.jpeg"
+        },
+        {
+          "id": "7fd03032-26a7-4f41-b697-9953c6894f79",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/kPhFOgf.jpeg",
+          "thumbnail": "https://i.imgur.com/kPhFOgf.jpeg"
+        },
+        {
+          "id": "8541b4fa-6e58-46a3-819d-383761d7ade0",
+          "caption": "Hydra V2 at Ontario Provincial Championship.",
+          "url": "https://i.imgur.com/mcTkHLp.jpeg",
+          "thumbnail": "https://i.imgur.com/mcTkHLp.jpeg"
+        },
+        {
+          "id": "8b45797a-f4ad-457c-a017-f84e603af61c",
+          "caption": "Hydra V2 CAD.",
+          "url": "https://i.imgur.com/nxui5Ra.png",
+          "thumbnail": "https://i.imgur.com/nxui5Ra.png"
+        },
+        {
+          "id": "90e7aef5-79ea-4e1e-9a0e-154f2fc1226a",
+          "caption": "Hydra V2 transfer CAD.",
+          "url": "https://i.imgur.com/eCcLwIy.png",
+          "thumbnail": "https://i.imgur.com/eCcLwIy.png"
+        },
+        {
+          "id": "918185d4-8335-426e-a5c8-c7b0221056ee",
+          "caption": "Hydra V1 arm.",
+          "url": "https://i.imgur.com/N0liVoO.jpeg",
+          "thumbnail": "https://i.imgur.com/N0liVoO.jpeg"
+        },
+        {
+          "id": "94700d6d-fd00-4ba4-8c04-28b14d69239e",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/sQerAvA.jpeg",
+          "thumbnail": "https://i.imgur.com/sQerAvA.jpeg"
+        },
+        {
+          "id": "96464ea6-38c2-4be6-8455-9c85408b14ea",
+          "caption": "Hydra V2 with lights.",
+          "url": "https://i.imgur.com/07kxFmM.jpeg",
+          "thumbnail": "https://i.imgur.com/07kxFmM.jpeg"
+        },
+        {
+          "id": "9794c272-035e-4d41-a301-05ad63bb0524",
+          "caption": "Hydra V2 tinkercad brainstorm.",
+          "url": "https://i.imgur.com/WHcLsqo.png",
+          "thumbnail": "https://i.imgur.com/WHcLsqo.png"
+        },
+        {
+          "id": "9f772782-2b58-4685-aa7e-682ff7a48c4a",
+          "caption": "Hydra V1 Chassis.",
+          "url": "https://i.imgur.com/LcNtLh9.jpeg",
+          "thumbnail": "https://i.imgur.com/LcNtLh9.jpeg"
+        },
+        {
+          "id": "a07a0ac2-ed5f-4001-8e1d-0b50922a252c",
+          "caption": "Hydra V2 drivetrain.",
+          "url": "https://i.imgur.com/XkINcpK.jpeg",
+          "thumbnail": "https://i.imgur.com/XkINcpK.jpeg"
+        },
+        {
+          "id": "a2149bdb-d9d2-4f5a-970e-2c27442d7276",
+          "caption": "Hydra V1.",
+          "url": "https://i.imgur.com/k689qpe.jpeg",
+          "thumbnail": "https://i.imgur.com/k689qpe.jpeg"
+        },
+        {
+          "id": "ab50ce61-fbd6-4e6f-917c-afa4cc255c29",
+          "caption": "Me as a robot driver at the Waterloo Qualifier.",
+          "url": "https://i.imgur.com/FD5ZWLd.jpeg",
+          "thumbnail": "https://i.imgur.com/FD5ZWLd.jpeg"
+        },
+        {
+          "id": "addba467-9c83-4038-8225-f307cac9f21c",
+          "caption": "Hydra V2’s spool for vertical slides extensions.",
+          "url": "https://i.imgur.com/KhcgY8p.jpeg",
+          "thumbnail": "https://i.imgur.com/KhcgY8p.jpeg"
+        },
+        {
+          "id": "bd968257-8d03-4673-9aa1-b97831a704af",
+          "caption": "Hydra V2 CAD.",
+          "url": "https://i.imgur.com/dzwz8x4.png",
+          "thumbnail": "https://i.imgur.com/dzwz8x4.png"
+        },
+        {
+          "id": "c042132c-aa4c-4527-99c9-f427424fd0dd",
+          "caption": "Wire management for Hydra V2",
+          "url": "https://i.imgur.com/NLWj3Ri.jpeg",
+          "thumbnail": "https://i.imgur.com/NLWj3Ri.jpeg"
+        },
+        {
+          "id": "c31fda84-54fa-478b-89f2-b3af2a6a936b",
+          "caption": "Some of Hydra V2’s aluminum plates.",
+          "url": "https://i.imgur.com/iaE0M0J.jpeg",
+          "thumbnail": "https://i.imgur.com/iaE0M0J.jpeg"
+        },
+        {
+          "id": "c419ef55-200d-4dac-96f9-1eab1066c2df",
+          "caption": "Virtual 4 Bar linkage design for Hydra V2’s intake.",
+          "url": "https://i.imgur.com/wLi4fES.jpeg",
+          "thumbnail": "https://i.imgur.com/wLi4fES.jpeg"
+        },
+        {
+          "id": "d39e5411-a229-4aea-8587-7d5745963dc9",
+          "caption": "New England Premier event robot pits.",
+          "url": "https://i.imgur.com/M5HmACw.jpeg",
+          "thumbnail": "https://i.imgur.com/M5HmACw.jpeg"
+        },
+        {
+          "id": "d3feaef0-ee76-43c1-bba3-fdd00bb20c27",
+          "caption": "New England Premier event judging.",
+          "url": "https://i.imgur.com/9WiLoPo.jpeg",
+          "thumbnail": "https://i.imgur.com/9WiLoPo.jpeg"
+        },
+        {
+          "id": "e2a15e32-cc6f-4140-b8e6-afe59f92fd1f",
+          "caption": "Hydra V1",
+          "url": "https://i.imgur.com/8Am3FKL.jpeg",
+          "thumbnail": "https://i.imgur.com/8Am3FKL.jpeg"
+        },
+        {
+          "id": "e7084fb2-4489-4184-a721-837ce89ce8ca",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/UNV0DUA.jpeg",
+          "thumbnail": "https://i.imgur.com/UNV0DUA.jpeg"
+        },
+        {
+          "id": "edd85eac-4e19-4b18-ae22-88bfb3a31816",
+          "caption": "Waterloo Qualifier.",
+          "url": "https://i.imgur.com/0soBjgX.jpeg",
+          "thumbnail": "https://i.imgur.com/0soBjgX.jpeg"
+        },
+        {
+          "id": "eeea62b2-4199-49be-9da5-f0e0ba29826f",
+          "caption": "Hydra V2 at the competition field at the New England Premier event.",
+          "url": "https://i.imgur.com/BSSHEa5.jpeg",
+          "thumbnail": "https://i.imgur.com/BSSHEa5.jpeg"
+        },
+        {
+          "id": "f5a1bf44-9a05-4bd6-b91d-555b61fd8a61",
+          "caption": "New England Premier event.",
+          "url": "https://i.imgur.com/ziNGs4L.jpeg",
+          "thumbnail": "https://i.imgur.com/ziNGs4L.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://sites.google.com/view/intothedeep-hydra/hydra-v3/february?authuser=1",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/cchryx/Hydra-V3",
+          "label": ""
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ewlDPvRK4U4&t=2s&ab_channel=FIRSTTechChallenge",
+          "label": ""
+        },
+        {
+          "url": "https://www.onshape.com/en/",
+          "label": ""
+        },
+        {
+          "url": "https://gm0.org/en/latest/",
+          "label": ""
+        },
+        {
+          "url": "https://www.flickr.com/photos/firstcanada/albums/72177720324215113/page2",
+          "label": ""
+        },
+        {
+          "url": "https://www.firstinspires.org/robotics/ftc",
+          "label": ""
+        },
+        {
+          "url": "https://developer.android.com/studio",
+          "label": ""
+        },
+        {
+          "url": "https://www.gobilda.com/?srsltid=AfmBOopxabUkP3wBr4Ob-gmNBcmmV5HcpsU05Kuv6wNIfi_jhAxMpLMY",
+          "label": ""
+        },
+        {
+          "url": "https://bambulab.com/en-us",
+          "label": ""
+        },
+        {
+          "url": "https://pedropathing.com/",
+          "label": "Pedro Pathing"
+        },
+        {
+          "url": "https://youtube.com/@devolotics?si=TTjpfit-x55IpvfV",
+          "label": "Devolotics Youtube"
+        }
+      ],
+      "skills": [
+        {
+          "id": "5021ca76-b19e-414d-85fe-46a4643350fc",
+          "name": "3D Printing",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/3d-printing.svg"
+        },
+        {
+          "id": "9bf97a34-7843-4f50-8591-00ff8f707b12",
+          "name": "Actuators",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/actuators.svg"
+        },
+        {
+          "id": "f20ef881-f506-4b2a-a3e5-4a99b78d4ae7",
+          "name": "Android Studio",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/android-studio.svg"
+        },
+        {
+          "id": "4703b64d-f0f1-4c12-a9b2-9c13b5059f87",
+          "name": "Autodesk Tinkercad",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tinkercad.svg"
+        },
+        {
+          "id": "761bf3f9-ae00-4863-afcf-2ace1b7b1262",
+          "name": "Computer Numerical Control (CNC)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/computer-numerical-control-cnc.svg"
+        },
+        {
+          "id": "f02b25fd-215d-4758-bc2c-2815735a835e",
+          "name": "Computer-Aided Design (CAD)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/computer-aided-design-cad.svg"
+        },
+        {
+          "id": "64d918a8-62c2-4caa-9f4d-ebe81d20166e",
+          "name": "Java",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/java.svg"
+        },
+        {
+          "id": "f50d9ea2-d1ee-4e80-81d4-eb540c0282dc",
+          "name": "Motion Control",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/motion-control.svg"
+        },
+        {
+          "id": "1c5e7109-5faa-441b-ac8d-755ba0955110",
+          "name": "Onshape",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/onshape.svg"
+        },
+        {
+          "id": "8180623e-d671-4d6c-9a73-952a8456882f",
+          "name": "PIDs",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/pid-control.svg"
+        },
+        {
+          "id": "f38dfffd-5096-4d58-b15c-9147b5fb478b",
+          "name": "Sensors",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/sensors.svg"
+        },
+        {
+          "id": "6f246be3-405c-497d-ab87-862b978b89db",
+          "name": "Team Leadership",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/team-leadership.svg"
+        }
+      ],
+      "stats": {
+        "likes": 5,
+        "views": 17
+      },
+      "url": "https://inkference.app/project/00773c95-5f04-4096-ae82-67c038cb1b21"
+    },
+    {
+      "id": "cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
+      "title": "BigFluffyRobot",
+      "summary": "A boxing robot on a Bracket Bot, driven from a web dashboard and posed by human moves seen through a camera.",
+      "description": "A hackathon project: a Bracket Bot that boxes. You can drive it from a web dashboard, and it copies human boxing moves seen by a laptop camera. Pose detection runs in the browser, and the Python server turns the moves into arm motion.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2026-09-12T00:00:00.000Z",
+      "endDate": "2026-09-12T00:00:00.000Z",
+      "createdAt": "2026-10-02T05:21:00.535Z",
+      "updatedAt": "2026-10-05T03:34:28.518Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.w400.webp"
+      },
+      "banner": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/az8dmcebic1n876czeuq.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/az8dmcebic1n876czeuq.w400.webp"
+      },
+      "gallery": [
+        {
+          "id": "d87cda52-0b26-49bb-830f-ed2e6dadb912",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wfuh0ch0ixt5ky4jvm7n.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wfuh0ch0ixt5ky4jvm7n.w400.webp"
+        },
+        {
+          "id": "d0cd5526-146f-4b7d-a0d7-83a8e2ddc89b",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dihkteqflwpzvixtsatf.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dihkteqflwpzvixtsatf.w400.webp"
+        },
+        {
+          "id": "b57796c7-112a-4c1a-9dd0-b0726d2b8c9c",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dzesidtbuovg4uxg3lyv.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dzesidtbuovg4uxg3lyv.w400.webp"
+        },
+        {
+          "id": "e4aa6008-93e4-4066-b24f-47f2c93c71f3",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/vkwm5bzthtgah1h7taw4.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/vkwm5bzthtgah1h7taw4.w400.webp"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/BigFluffyRobot",
+          "label": ""
+        },
+        {
+          "url": "https://devpost.com/software/bigfluffyrobot",
+          "label": "Devpost"
+        }
+      ],
+      "skills": [],
+      "stats": {
+        "likes": 0,
+        "views": 2
+      },
+      "url": "https://inkference.app/project/cc6dffeb-bc8c-4b82-8381-86d51a87ba96"
+    },
+    {
+      "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+      "title": "Inkference",
+      "summary": "A portfolio and social app for builders. Show your work, chat live, plan your week, run a booth and join communities, all in one place.",
+      "description": "Inkference is a portfolio and social platform for builders. Instead of a plain resume, you get a living profile that shows what you've built, what you know and what you're working on right now.\n\nYou can share posts, chat live with friends and groups, plan your week, keep notes, trackers and sheets in your own Drive, run a small side business from a booth, and join communities and enterprises. It works in the browser and installs on your phone like a normal app.",
+      "stage": "BUILDING",
+      "status": "IN_PROGRESS",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2025-07-09T00:00:00.000Z",
+      "endDate": null,
+      "createdAt": "2025-08-07T01:43:01.715Z",
+      "updatedAt": "2026-10-03T04:10:25.415Z",
+      "icon": {
+        "url": "https://i.imgur.com/t219D4s.png",
+        "thumbnail": "https://i.imgur.com/t219D4s.png"
+      },
+      "banner": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/ie8mzoclyugphg4kewtg.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/ie8mzoclyugphg4kewtg.w400.webp"
+      },
+      "gallery": [
+        {
+          "id": "32436dc9-6230-45ae-8c3e-ab888fe29bc2",
+          "caption": "Settings.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/rlclel1ahwsitfdzztux.png",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/rlclel1ahwsitfdzztux.w400.webp"
+        },
+        {
+          "id": "1e4ce1cc-39c1-4853-8573-4d816e9724b0",
+          "caption": "Profile page.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/hlc28vef3rxbyefnwjhx.png",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/hlc28vef3rxbyefnwjhx.w400.webp"
+        },
+        {
+          "id": "29d4c786-93d1-477a-a345-69284f09ab86",
+          "caption": "Projects page.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/nlzrwjb62l03csdlyse6.png",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/nlzrwjb62l03csdlyse6.w400.webp"
+        },
+        {
+          "id": "7e1b3009-6987-458d-8a26-0c1247cb3e1d",
+          "caption": "Photo gallery.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/gndbfxzalengxnnff3nf.png",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/gndbfxzalengxnnff3nf.w400.webp"
+        },
+        {
+          "id": "bbef0af6-dd5e-4466-a381-2de808ae2d95",
+          "caption": "Profile: your projects, skills, links and resume on one page, with suggested accounts on the side.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/lk1gqp2h1cbaws7o58ut.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/lk1gqp2h1cbaws7o58ut.w400.webp"
+        },
+        {
+          "id": "4650fd7f-f11a-4cd0-b4c0-ee1ec5c21008",
+          "caption": "Project page: banner, stage, likes and views, team, write-up, gallery, milestones and a devlog.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/hwpie84ou1godwjnlnnx.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/hwpie84ou1godwjnlnnx.w400.webp"
+        },
+        {
+          "id": "31074ef4-c2bc-49c7-86e7-59b00bfe07e6",
+          "caption": "Explore: search people, posts, projects and #tags, with a Trending grid for today or this week.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/uvuxqkhiyblcxq9ryejz.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/uvuxqkhiyblcxq9ryejz.w400.webp"
+        },
+        {
+          "id": "3f3d1d30-a426-49c4-adbd-2ac36bfd11a4",
+          "caption": "Planner, Week view: cards on real dates with labels, due dates and reminders. Board and Month views too.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/zxuljynphffphtg6rudv.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/zxuljynphffphtg6rudv.w400.webp"
+        },
+        {
+          "id": "e6e9f3da-bf87-4a4c-a14e-aa12bde5ef2a",
+          "caption": "To-dos: Today, Upcoming and Important lists, plus your own lists. This one is the Inkference roadmap.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/r6immohmtxjp7cop40kj.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/r6immohmtxjp7cop40kj.w400.webp"
+        },
+        {
+          "id": "8e2def5c-d134-4aef-9559-a04e31718c30",
+          "caption": "Drive trackers: keep your place in shows, manga or books, with a one-tap button for the next episode.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/deeclcrvokdfngtjqxbm.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/deeclcrvokdfngtjqxbm.w400.webp"
+        },
+        {
+          "id": "6bdbe8ac-ecb1-4149-8dcd-ca33b85cc1f6",
+          "caption": "Booths: a small side business page with services, how ordering works, reviews and a printable business card.",
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/cwvnvugezmpojsvf0jrw.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/cwvnvugezmpojsvf0jrw.w400.webp"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://inkference.app/welcome",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/cchryx/Inkference",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "560c5023-e203-4247-96e7-d64bb24e3121",
+          "name": "ESLint",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/eslint.svg"
+        },
+        {
+          "id": "be9ef45f-6d0d-4ea9-9668-ae3a8309ebbc",
+          "name": "Google Search Console",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/qjaliecfsh94iqwy0rbv.png"
+        },
+        {
+          "id": "87435955-2efc-4921-810c-aec5743e4ad3",
+          "name": "Next.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/next-js.svg"
+        },
+        {
+          "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+          "name": "Node.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg"
+        },
+        {
+          "id": "16ee99f5-f414-4b82-a077-d3b6e9818c34",
+          "name": "Prisma ORM",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/wfjjf7o7buyefannbucf.jpg"
+        },
+        {
+          "id": "ca7e52d9-44a3-41f8-9efb-469a5f0df28b",
+          "name": "Progressive Web Applications (PWAs)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/kfao8rkr1jzkbf2cc8th.png"
+        },
+        {
+          "id": "13bb3f0e-b446-4b48-a73f-c49225483244",
+          "name": "React.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/react.svg"
+        },
+        {
+          "id": "ffa02d21-5761-4254-a7fa-528fef393331",
+          "name": "Search Engine Optimization (SEO)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/search-engine-optimization-seo.svg"
+        },
+        {
+          "id": "d1b157c7-1d4e-4ab5-baa2-2871b089bec1",
+          "name": "Tailwind CSS",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tailwind-css.svg"
+        },
+        {
+          "id": "91f54e23-7be3-48f4-9d93-3539fd29076b",
+          "name": "TypeScript",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/typescript.svg"
+        },
+        {
+          "id": "e22d2d5c-8796-43c7-9d2b-3aaff8e23053",
+          "name": "Web Hosting",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/web-hosting.svg"
+        }
+      ],
+      "stats": {
+        "likes": 4,
+        "views": 9
+      },
+      "url": "https://inkference.app/project/8aab756e-3c0c-4999-998b-0ee8ddebff13"
+    },
+    {
+      "id": "f2adffff-6582-4187-b7e5-a50c01457494",
+      "title": "Nozzle Nook",
+      "summary": "Everyday 3D printed gadgets and organizers I design, print and sell at my booth.",
+      "description": "Nozzle Nook is my line of 3D printed everyday items that I design, print and sell at my booth. The goal is simple: small, practical things that fix a small annoyance, are cheap to print, and are nice enough that people want to take one home. Every item is printed in layers, so you can see and feel that it was made by hand on a real machine.",
+      "stage": "BUILDING",
+      "status": "IN_PROGRESS",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2026-10-03T00:00:00.000Z",
+      "endDate": null,
+      "createdAt": "2026-10-03T03:59:08.553Z",
+      "updatedAt": "2026-10-03T04:03:53.287Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.w400.webp"
+      },
+      "banner": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aavjujk7df0qctlrhzcm.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aavjujk7df0qctlrhzcm.w400.webp"
+      },
+      "gallery": [],
+      "links": [],
+      "skills": [],
+      "stats": {
+        "likes": 0,
+        "views": 1
+      },
+      "url": "https://inkference.app/project/f2adffff-6582-4187-b7e5-a50c01457494"
+    },
+    {
+      "id": "516b3a9b-1684-4433-a11f-1351defd0ad9",
+      "title": "Playlistify",
+      "summary": "Mood-aware music recommendation engine in Python with a GUI, built as a CSC111 team project.",
+      "description": "A music recommendation engine for our CSC111 course project, built with 3 teammates. It uses a genre tree and a song graph to suggest songs that fit your mood. It runs as a GUI app or a console app.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2026-03-22T00:00:00.000Z",
+      "endDate": "2026-04-02T00:00:00.000Z",
+      "createdAt": "2026-10-02T05:14:14.117Z",
+      "updatedAt": "2026-10-02T05:52:50.065Z",
+      "icon": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.w400.webp"
+      },
+      "banner": {
+        "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/hoir5jomijdle7gjvr6h.jpg",
+        "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/hoir5jomijdle7gjvr6h.w400.webp"
+      },
+      "gallery": [
+        {
+          "id": "f697d46c-f23f-4f08-b46d-354d73101bc9",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pb7s41ixzbfrts4u4ki8.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pb7s41ixzbfrts4u4ki8.w400.webp"
+        },
+        {
+          "id": "847e1759-cc36-4b3a-abc3-4feafe7c8064",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/on2vo1tr3oahqwge6xre.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/on2vo1tr3oahqwge6xre.w400.webp"
+        },
+        {
+          "id": "6264a8f4-850e-47b4-b71e-3a2fdd7705fc",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/bge38ztqj51eeryzej6o.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/bge38ztqj51eeryzej6o.w400.webp"
+        },
+        {
+          "id": "e9367de0-d871-4dbb-ab47-fb2e4cd63435",
+          "caption": null,
+          "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/o4pamwtp6i7mdsrja7gi.jpg",
+          "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/o4pamwtp6i7mdsrja7gi.w400.webp"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/Playlistify",
+          "label": ""
+        }
+      ],
+      "skills": [],
+      "stats": {
+        "likes": 0,
+        "views": 2
+      },
+      "url": "https://inkference.app/project/516b3a9b-1684-4433-a11f-1351defd0ad9"
+    },
+    {
+      "id": "d2b1c55d-9e14-45fb-bfe9-89ac36416ff0",
+      "title": "Xenon Economy (Discord Bot)",
+      "summary": "An engaging economy bot with trading, earning, events, mini-games & player battles — grew to 100 servers during the COVID pandemic.",
+      "description": "I created a Discord economy bot during the COVID pandemic that quickly grew to over 100 servers and a community of 800+ users. The bot featured an engaging economy system where players could trade items, earn virtual currency through various activities, and participate in dynamic events that granted money and rare items. Users could also interact with one another via features like fighting duels and mini-games, which made the experience fun and interactive.\n\nThroughout this project, I learned and adapted to many technologies, including MongoDB for managing the database, Heroku for hosting the bot, and the Discord.js library to interface with Discord’s API. Keeping up with Discord.js’s frequent updates was challenging but rewarding. I also built and nurtured a growing community around the bot within the Discord server itself.\n\nUnfortunately, when Heroku discontinued its free hosting plan and I was unable to verify the bot, it went out of service, which was disappointing. However, this was an incredible learning journey for me, and I’m proud of how far the bot and community grew. It was a cool project, and I don’t plan to improve or continue it — it’s done, but definitely a great experience.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2022-04-11T04:00:00.000Z",
+      "endDate": "2023-05-04T04:00:00.000Z",
+      "createdAt": "2025-08-09T05:26:29.765Z",
+      "updatedAt": "2026-09-28T08:01:44.046Z",
+      "icon": {
+        "url": "https://i.imgur.com/nihVMpX.png",
+        "thumbnail": "https://i.imgur.com/nihVMpX.png"
+      },
+      "banner": {
+        "url": "https://i.imgur.com/2II2afh.png",
+        "thumbnail": "https://i.imgur.com/2II2afh.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://top.gg/bot/847528987831304192",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/cchryx/Xenon",
+          "label": ""
+        },
+        {
+          "url": "https://discord.gg/g46sqyrsSe",
+          "label": ""
+        },
+        {
+          "url": "https://discord.js.org/docs/",
+          "label": ""
+        },
+        {
+          "url": "https://discordjs.guide/#before-you-begin",
+          "label": ""
+        },
+        {
+          "url": "https://www.heroku.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.mongodb.com/",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "9a54cb82-4904-4817-9fa6-48952f7a0300",
+          "name": "Amazon Web Services (AWS)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/aws.svg"
+        },
+        {
+          "id": "ff8917c6-b795-4090-bdfb-44ba653607e3",
+          "name": "Discord API",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/tg2nod6pjoeww0smo7vh.png"
+        },
+        {
+          "id": "ba686f7e-39e0-4d91-b1eb-5683ef3a7c3c",
+          "name": "Heroku",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/heroku.svg"
+        },
+        {
+          "id": "6cb4331c-1a0b-4a77-b4d2-1ec590eb61c4",
+          "name": "MongoDB",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/mongodb.svg"
+        }
+      ],
+      "stats": {
+        "likes": 1,
+        "views": 2
+      },
+      "url": "https://inkference.app/project/d2b1c55d-9e14-45fb-bfe9-89ac36416ff0"
+    },
+    {
+      "id": "5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf",
+      "title": "Dank Exclusive (Discord Bot)",
+      "summary": "Created Dank Exclusive bot during COVID to boost server activity with leveling, automated events, booster perks, moderation, and automod features.",
+      "description": "During the COVID pandemic, I helped build the Dank Exclusive Discord bot to enhance server engagement and management. The main goal was to encourage activity by implementing a leveling system that rewarded users for participation, helping to keep the community lively during a difficult time. The bot automated event creation and hosting, making it easier for moderators to run giveaways, contests, and special server happenings without manual effort.\n\nOne key feature was automating perks for server boosters—those who support the server financially—by granting exclusive rewards and benefits automatically, which helped maintain ongoing server funding and kept boosters appreciated. Additionally, Dank Exclusive handled moderation tasks, including automoderation tools that filtered spam and enforced rules, helping maintain a positive and safe environment for all members.\n\nThis project deepened my understanding of bot development, server management, and how to balance automation with community interaction. It was rewarding to see how automation reduced the moderators’ workload and increased member participation. Overall, Dank Exclusive was a meaningful and practical bot that greatly improved the server experience during the pandemic.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2022-07-27T04:00:00.000Z",
+      "endDate": "2023-06-09T04:00:00.000Z",
+      "createdAt": "2025-08-09T05:42:39.078Z",
+      "updatedAt": "2025-08-09T05:42:39.078Z",
+      "icon": {
+        "url": "https://i.imgur.com/JCFffQn.png",
+        "thumbnail": "https://i.imgur.com/JCFffQn.png"
+      },
+      "banner": {
+        "url": "https://i.imgur.com/FYvvUuJ.png",
+        "thumbnail": "https://i.imgur.com/FYvvUuJ.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/Dank_Exclusive",
+          "label": ""
+        },
+        {
+          "url": "https://discord.com/invite/dankex",
+          "label": ""
+        },
+        {
+          "url": "https://discord.js.org/docs/",
+          "label": ""
+        },
+        {
+          "url": "https://discordjs.guide/#before-you-begin",
+          "label": ""
+        },
+        {
+          "url": "https://www.heroku.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.mongodb.com/",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "ff8917c6-b795-4090-bdfb-44ba653607e3",
+          "name": "Discord API",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/tg2nod6pjoeww0smo7vh.png"
+        },
+        {
+          "id": "ba686f7e-39e0-4d91-b1eb-5683ef3a7c3c",
+          "name": "Heroku",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/heroku.svg"
+        },
+        {
+          "id": "6cb4331c-1a0b-4a77-b4d2-1ec590eb61c4",
+          "name": "MongoDB",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/mongodb.svg"
+        },
+        {
+          "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+          "name": "Node.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg"
+        }
+      ],
+      "stats": {
+        "likes": 2,
+        "views": 3
+      },
+      "url": "https://inkference.app/project/5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf"
+    },
+    {
+      "id": "ecaff024-7baf-4a67-9bae-f137fbaf74fa",
+      "title": "Personal Website V1",
+      "summary": "Personal portfolio site built with ReactJS, showcasing improved skills in routing, components, and state management.",
+      "description": "This website was created as a portfolio to share my life. Although I previously struggled with ReactJS and relied on YouTube tutorials, I've now gained a better understanding of web development. I revisited ReactJS to build something new, learning to organize the website into different pages with components, implement routing, and use ReactJS functions like \"useEffect()\" and \"useState()\". While this website doesn't fully utilize ReactJS's capabilities, I plan to work on a future project, such as a social media or communications site, incorporating features like login/signup, live messaging, posts, and basic encryption security. I am also looking to learn how to use Google's Firebase for website hosting and integrate my database knowledge with MongoDB and Cloudinary for storing media files.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2024-07-01T00:00:00.000Z",
+      "endDate": "2024-07-03T00:00:00.000Z",
+      "createdAt": "2025-08-04T05:56:07.861Z",
+      "updatedAt": "2025-08-04T16:25:38.339Z",
+      "icon": {
+        "url": "https://cchryx.github.io/static/media/helios.3ebe861130fa1cd16bfa.png",
+        "thumbnail": "https://cchryx.github.io/static/media/helios.3ebe861130fa1cd16bfa.png"
+      },
+      "banner": {
+        "url": "https://res.cloudinary.com/decele1ao/image/upload/v1721584905/Project%20Helios/Projects/personalwebsite.png",
+        "thumbnail": "https://res.cloudinary.com/decele1ao/image/upload/c_limit,w_400,f_auto,q_auto/v1721584905/Project%20Helios/Projects/personalwebsite.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/cchryx.github.io",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "718b15d3-29c6-475a-9ea6-f0902abb103a",
+          "name": "Cascading Style Sheets (CSS)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/css.svg"
+        },
+        {
+          "id": "a4a2d188-9e50-4de5-8bb4-f36f4bb06592",
+          "name": "HTML",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/html.svg"
+        },
+        {
+          "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+          "name": "Node.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg"
+        },
+        {
+          "id": "13bb3f0e-b446-4b48-a73f-c49225483244",
+          "name": "React.js",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/react.svg"
+        }
+      ],
+      "stats": {
+        "likes": 2,
+        "views": 1
+      },
+      "url": "https://inkference.app/project/ecaff024-7baf-4a67-9bae-f137fbaf74fa"
+    },
+    {
+      "id": "ac0b7c67-1b0f-4125-8d42-363b2bda4ac8",
+      "title": "Noutes V1",
+      "summary": "PHP site with session-based login/signup, note creation, and a car shop with cart, live pricing, and lazy-loaded images for smoother performance.",
+      "description": "The purpose of creating this website was to learn how to implement PHP in web development. The website uses PHP's session storage to provide a fully functional signup and login mechanism. Users can create accounts, and their activities are saved in the session storage. When logged in, users can create notes with a title, description, and image. The website also features a car shop, demonstrating simple e-commerce functionality, including adding cars to a cart, clearing the cart, and live total price updates. Cars in the shop are represented by objects with images, prices, and descriptions to inform users about the details. Additionally, I learned how to implement lazy loading for images that take longer to load.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2023-10-03T00:00:00.000Z",
+      "endDate": "2023-10-10T00:00:00.000Z",
+      "createdAt": "2025-08-04T06:03:02.061Z",
+      "updatedAt": "2025-08-04T06:03:02.061Z",
+      "icon": null,
+      "banner": {
+        "url": "https://res.cloudinary.com/decele1ao/image/upload/v1721589831/Project%20Helios/Projects/noutes.png",
+        "thumbnail": "https://res.cloudinary.com/decele1ao/image/upload/c_limit,w_400,f_auto,q_auto/v1721589831/Project%20Helios/Projects/noutes.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/Noutes",
+          "label": ""
+        },
+        {
+          "url": "https://replit.com/@ChrisChen42/Noutes?s=app",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "718b15d3-29c6-475a-9ea6-f0902abb103a",
+          "name": "Cascading Style Sheets (CSS)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/css.svg"
+        },
+        {
+          "id": "a4a2d188-9e50-4de5-8bb4-f36f4bb06592",
+          "name": "HTML",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/html.svg"
+        },
+        {
+          "id": "6e9c3f55-3119-4141-9cd9-237fe4282adb",
+          "name": "PHP",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/php.svg"
+        }
+      ],
+      "stats": {
+        "likes": 3,
+        "views": 3
+      },
+      "url": "https://inkference.app/project/ac0b7c67-1b0f-4125-8d42-363b2bda4ac8"
+    },
+    {
+      "id": "001b6a61-f2a9-4e4c-94b0-8d1fc6679e9d",
+      "title": "Story of Star Boy RPG",
+      "summary": "2D Pygame catcher game with star collection, fuel/HP systems, boss battles, shooting, and an RPG-style storyline.",
+      "description": "I created a 2D catcher game using Pygame for my grade 11 computer science course submission. This game incorporated all the basics of Python programming taught throughout the year. It features the dropping and collection of stars, a fuel management system, an HP management system for both the player and bosses, and a mechanic allowing the player to shoot light pulses to defeat bosses. Additionally, a short storyline was included to enhance the game with RPG elements.",
+      "stage": "SHIPPED",
+      "status": "COMPLETE",
+      "role": "owner",
+      "contributedAs": null,
+      "startDate": "2024-06-01T00:00:00.000Z",
+      "endDate": "2024-06-24T00:00:00.000Z",
+      "createdAt": "2025-08-04T05:44:27.208Z",
+      "updatedAt": "2025-08-04T05:44:27.208Z",
+      "icon": {
+        "url": "https://i.imgur.com/RkM0J1C_d.webp?maxwidth=760&fidelity=grand",
+        "thumbnail": "https://i.imgur.com/RkM0J1C_d.webp?maxwidth=760&fidelity=grand"
+      },
+      "banner": {
+        "url": "https://res.cloudinary.com/decele1ao/image/upload/v1721590342/Project%20Helios/Projects/storyofstarboy.png",
+        "thumbnail": "https://res.cloudinary.com/decele1ao/image/upload/c_limit,w_400,f_auto,q_auto/v1721590342/Project%20Helios/Projects/storyofstarboy.png"
+      },
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://github.com/cchryx/StoryOfStarBoy",
+          "label": ""
+        },
+        {
+          "url": "https://replit.com/@ChrisChen42/Story-of-Star-Boy",
+          "label": ""
+        },
+        {
+          "url": "https://sites.google.com/student.tdsb.on.ca/chris-ics3u1-learning-blog/final-assignment?authuser=0",
+          "label": ""
+        },
+        {
+          "url": "https://replit.com/",
+          "label": ""
+        },
+        {
+          "url": "https://www.pygame.org/news",
+          "label": ""
+        }
+      ],
+      "skills": [
+        {
+          "id": "e7e7ad25-87c6-4241-b3a8-5e6e063f91de",
+          "name": "Pygame",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/yvieiqu1k53cqil5kh1n.png"
+        },
+        {
+          "id": "f77af06c-e000-4179-bc08-13a34685ca6c",
+          "name": "Python (Programming Language)",
+          "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/python.svg"
+        }
+      ],
+      "stats": {
+        "likes": 3,
+        "views": 6
+      },
+      "url": "https://inkference.app/project/001b6a61-f2a9-4e4c-94b0-8d1fc6679e9d"
+    }
+  ],
+  "skills": [
+    {
+      "id": "5021ca76-b19e-414d-85fe-46a4643350fc",
+      "name": "3D Printing",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/3d-printing.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
             "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
-            "title": "Hydra",
-            "summary": "Custom CNC robot with dual slides and turret intake. Iterative design and coding let us compete at FTC's first New England Premier event.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2024-09-05T00:00:00.000Z",
-            "endDate": "2025-04-04T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "Onshape"
-                },
-                {
-                    "name": "3D Printing"
-                },
-                {
-                    "name": "Java"
-                },
-                {
-                    "name": "CNC"
-                },
-                {
-                    "name": "PIDs"
-                },
-                {
-                    "name": "CAD"
-                }
-            ],
-            "stats": {
-                "views": 17,
-                "likes": 5
-            },
-            "url": "https://inkference.app/project/00773c95-5f04-4096-ae82-67c038cb1b21",
-            "role": null
-        },
-        {
+            "title": "Hydra"
+          },
+          {
             "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
-            "title": "Pluto",
-            "summary": "Built and programmed FTC robot PLUTO; placed #2 in Ontario and competed at 2024 Worlds. Focused on design, code, and autonomous systems.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2023-05-31T00:00:00.000Z",
-            "endDate": "2024-04-19T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pweogxdofbfdtuoc9ohb.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "Onshape"
-                },
-                {
-                    "name": "OpenCV"
-                },
-                {
-                    "name": "TensorFlow"
-                },
-                {
-                    "name": "Robotics"
-                },
-                {
-                    "name": "3D Printing"
-                }
-            ],
-            "stats": {
-                "views": 5,
-                "likes": 3
-            },
-            "url": "https://inkference.app/project/64cecfaf-1fc9-4832-a0e8-676d6a74682e",
-            "role": null
-        },
-        {
-            "id": "x-rsx-mars-rover-2026-2027",
-            "title": "RSX Mars Rover 2026-2027",
-            "stage": "BUILDING",
-            "startDate": "2026-09-18T00:00:00.000Z",
-            "endDate": null,
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.w400.webp"
-            },
-            "role": "Mech team member + 3D printer",
-            "skills": [],
-            "stats": {
-                "views": 3,
-                "likes": 0
-            },
-            "links": [],
-            "summary": "Building a Mars rover with UofT's Robotics for Space Exploration team to compete in international rover challenges.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "f2adffff-6582-4187-b7e5-a50c01457494",
-            "title": "Nozzle Nook",
-            "summary": "Everyday 3D printed gadgets and organizers I design, print and sell at my booth.",
-            "stage": "BUILDING",
-            "status": "In progress",
-            "startDate": "2026-10-02T00:00:00.000Z",
-            "endDate": null,
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/z3bvzyepf1eneqltbrk6.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "3D Printing"
-                },
-                {
-                    "name": "Onshape"
-                }
-            ],
-            "stats": {
-                "views": 1,
-                "likes": 0
-            },
-            "url": "https://inkference.app/project/f2adffff-6582-4187-b7e5-a50c01457494",
-            "role": null
-        },
-        {
-            "id": "x-lastpick.gg",
-            "title": "LastPick.gg",
-            "stage": "IDEA",
-            "startDate": "2026-09-30T00:00:00.000Z",
-            "endDate": null,
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/re0oc3il65ofwuwaptn1.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/re0oc3il65ofwuwaptn1.w400.webp"
-            },
-            "role": null,
-            "skills": [],
-            "stats": {
-                "views": 2,
-                "likes": 0
-            },
-            "links": [],
-            "summary": "An algorithmic draft engine predicting League of Legends match outcomes and exposing enemy win conditions.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
-            "title": "BigFluffyRobot",
-            "summary": "A boxing robot on a Bracket Bot, driven from a web dashboard and posed by human moves seen through a camera.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2026-09-11T00:00:00.000Z",
-            "endDate": "2026-09-11T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/aqa18psaszjsjnhcuhq0.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "Python"
-                }
-            ],
-            "stats": {
-                "views": 2,
-                "likes": 0
-            },
-            "url": "https://inkference.app/project/cc6dffeb-bc8c-4b82-8381-86d51a87ba96",
-            "role": null
-        },
-        {
-            "id": "x-playlistify",
-            "title": "Playlistify",
-            "stage": "SHIPPED",
-            "startDate": "2026-03-21T00:00:00.000Z",
-            "endDate": "2026-04-01T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/wjcpmhokrzw0v9q6zum5.w400.webp"
-            },
-            "role": "CSC111 team project",
-            "skills": [
-                {
-                    "name": "Python"
-                }
-            ],
-            "stats": {
-                "views": 2,
-                "likes": 0
-            },
-            "links": [],
-            "summary": "Mood-aware music recommendation engine in Python with a GUI, built as a CSC111 team project.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
-            "title": "Noutes (Final Product)",
-            "summary": "A social app with styled posts (Noutes), real-time chat, explore feed, infinite scroll, profile editing, and secure auth with email verification.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2024-10-21T00:00:00.000Z",
-            "endDate": "2024-11-18T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/livqmqa9xebdpqddnl0e.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "React.js"
-                },
-                {
-                    "name": "MongoDB"
-                },
-                {
-                    "name": "Socket.io"
-                },
-                {
-                    "name": "Next.js"
-                },
-                {
-                    "name": "TypeScript"
-                }
-            ],
-            "stats": {
-                "views": 4,
-                "likes": 2
-            },
-            "url": "https://inkference.app/project/4ab0dd37-1903-4ead-98e4-e14f4db3d479",
-            "role": null
-        },
-        {
-            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
-            "title": "Noutes V2",
-            "summary": "Noutes V2 is a TypeScript social app using React, Appwrite, and Tailwind. Features include auth, dynamic posts, responsive UI, and form validation.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2024-08-06T00:00:00.000Z",
-            "endDate": "2024-08-10T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/pv6cgqyrznoc3plh5fhm.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "React.js"
-                },
-                {
-                    "name": "TypeScript"
-                },
-                {
-                    "name": "Tailwind CSS"
-                },
-                {
-                    "name": "Vite"
-                }
-            ],
-            "stats": {
-                "views": 3,
-                "likes": 2
-            },
-            "url": "https://inkference.app/project/2687a52e-d5d9-4555-90c2-793cb90bfce6",
-            "role": null
-        },
-        {
-            "id": "x-personal-website-v1",
-            "title": "Personal Website V1",
-            "stage": "SHIPPED",
-            "startDate": "2024-06-30T00:00:00.000Z",
-            "endDate": "2024-07-02T00:00:00.000Z",
-            "icon": null,
-            "role": null,
-            "skills": [
-                {
-                    "name": "React.js"
-                },
-                {
-                    "name": "CSS"
-                },
-                {
-                    "name": "HTML"
-                }
-            ],
-            "stats": {
-                "views": 1,
-                "likes": 2
-            },
-            "links": [],
-            "summary": "Personal portfolio site built with ReactJS, showcasing improved skills in routing, components, and state management.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "x-story-of-star-boy-rpg",
-            "title": "Story of Star Boy RPG",
-            "stage": "SHIPPED",
-            "startDate": "2024-05-31T00:00:00.000Z",
-            "endDate": "2024-06-23T00:00:00.000Z",
-            "icon": {
-                "url": "https://i.imgur.com/RkM0J1C.png",
-                "thumbnail": "https://i.imgur.com/RkM0J1C.png"
-            },
-            "role": null,
-            "skills": [
-                {
-                    "name": "Pygame"
-                },
-                {
-                    "name": "Python"
-                }
-            ],
-            "stats": {
-                "views": 6,
-                "likes": 3
-            },
-            "links": [],
-            "summary": "2D Pygame catcher game with star collection, fuel/HP systems, boss battles, shooting, and an RPG-style storyline.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "9bf97a34-7843-4f50-8591-00ff8f707b12",
+      "name": "Actuators",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/actuators.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "9a54cb82-4904-4817-9fa6-48952f7a0300",
+      "name": "Amazon Web Services (AWS)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/aws.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "d2b1c55d-9e14-45fb-bfe9-89ac36416ff0",
+            "title": "Xenon Economy (Discord Bot)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f20ef881-f506-4b2a-a3e5-4a99b78d4ae7",
+      "name": "Android Studio",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/android-studio.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "4703b64d-f0f1-4c12-a9b2-9c13b5059f87",
+      "name": "Autodesk Tinkercad",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tinkercad.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "718b15d3-29c6-475a-9ea6-f0902abb103a",
+      "name": "Cascading Style Sheets (CSS)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/css.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "ac0b7c67-1b0f-4125-8d42-363b2bda4ac8",
+            "title": "Noutes V1"
+          },
+          {
+            "id": "ecaff024-7baf-4a67-9bae-f137fbaf74fa",
+            "title": "Personal Website V1"
+          },
+          {
             "id": "ce163efd-13ec-4da6-91b6-84c1ee336276",
-            "title": "Devolotics Website",
-            "summary": "First professional website for Team Devolotics, built for outreach and sponsorship, with dynamic design, galleries, and mobile compatibility.",
-            "stage": "SHIPPED",
-            "status": "Complete",
-            "startDate": "2023-07-03T00:00:00.000Z",
-            "endDate": "2023-10-11T00:00:00.000Z",
-            "icon": {
-                "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.w400.webp",
-                "thumbnail": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/dq19nptdvy4eimqed4ei.w400.webp"
-            },
-            "banner": null,
-            "links": [],
-            "skills": [
-                {
-                    "name": "CSS"
-                },
-                {
-                    "name": "HTML"
-                }
-            ],
-            "stats": {
-                "views": 2,
-                "likes": 3
-            },
-            "url": "https://inkference.app/project/ce163efd-13ec-4da6-91b6-84c1ee336276",
-            "role": "Team Devolotics"
-        },
+            "title": "Devolotics Website"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "761bf3f9-ae00-4863-afcf-2ace1b7b1262",
+      "name": "Computer Numerical Control (CNC)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/computer-numerical-control-cnc.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f02b25fd-215d-4758-bc2c-2815735a835e",
+      "name": "Computer-Aided Design (CAD)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/computer-aided-design-cad.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          },
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "ff8917c6-b795-4090-bdfb-44ba653607e3",
+      "name": "Discord API",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/tg2nod6pjoeww0smo7vh.png",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf",
+            "title": "Dank Exclusive (Discord Bot)"
+          },
+          {
+            "id": "d2b1c55d-9e14-45fb-bfe9-89ac36416ff0",
+            "title": "Xenon Economy (Discord Bot)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "1fd75cd2-5152-47db-bb49-8be4af4e6f35",
+      "name": "Engineering",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/engineering.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "560c5023-e203-4247-96e7-d64bb24e3121",
+      "name": "ESLint",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/eslint.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "be9ef45f-6d0d-4ea9-9668-ae3a8309ebbc",
+      "name": "Google Search Console",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/qjaliecfsh94iqwy0rbv.png",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "ba686f7e-39e0-4d91-b1eb-5683ef3a7c3c",
+      "name": "Heroku",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/heroku.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf",
+            "title": "Dank Exclusive (Discord Bot)"
+          },
+          {
+            "id": "d2b1c55d-9e14-45fb-bfe9-89ac36416ff0",
+            "title": "Xenon Economy (Discord Bot)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "a4a2d188-9e50-4de5-8bb4-f36f4bb06592",
+      "name": "HTML",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/html.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "ac0b7c67-1b0f-4125-8d42-363b2bda4ac8",
+            "title": "Noutes V1"
+          },
+          {
+            "id": "ecaff024-7baf-4a67-9bae-f137fbaf74fa",
+            "title": "Personal Website V1"
+          },
+          {
+            "id": "ce163efd-13ec-4da6-91b6-84c1ee336276",
+            "title": "Devolotics Website"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "64d918a8-62c2-4caa-9f4d-ebe81d20166e",
+      "name": "Java",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/java.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Software",
+      "years": 2,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "9c7b7eea-7953-4082-b9c1-6ad790846f9a",
+      "name": "JavaScript",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/javascript.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Software",
+      "years": 4,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "6cb4331c-1a0b-4a77-b4d2-1ec590eb61c4",
+      "name": "MongoDB",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/mongodb.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf",
+            "title": "Dank Exclusive (Discord Bot)"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          },
+          {
+            "id": "d2b1c55d-9e14-45fb-bfe9-89ac36416ff0",
+            "title": "Xenon Economy (Discord Bot)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f50d9ea2-d1ee-4e80-81d4-eb540c0282dc",
+      "name": "Motion Control",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/motion-control.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "87435955-2efc-4921-810c-aec5743e4ad3",
+      "name": "Next.js",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/next-js.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Software",
+      "years": 3,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "7e42828e-7cdd-45d6-b2f1-b8967d35938f",
+      "name": "Node.js",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/node-js.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": null,
+      "years": 3,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "5546ae5a-7913-4f2b-9df3-f4dd5c47b8cf",
+            "title": "Dank Exclusive (Discord Bot)"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          },
+          {
+            "id": "ecaff024-7baf-4a67-9bae-f137fbaf74fa",
+            "title": "Personal Website V1"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "1c5e7109-5faa-441b-ac8d-755ba0955110",
+      "name": "Onshape",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/onshape.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Design",
+      "years": 3,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          },
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "d5feed9e-8ca3-482b-a00c-ca2e55740371",
+      "name": "OpenCV",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/opencv.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "6e9c3f55-3119-4141-9cd9-237fe4282adb",
+      "name": "PHP",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/php.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "ac0b7c67-1b0f-4125-8d42-363b2bda4ac8",
+            "title": "Noutes V1"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "8180623e-d671-4d6c-9a73-952a8456882f",
+      "name": "PIDs",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/pid-control.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "16ee99f5-f414-4b82-a077-d3b6e9818c34",
+      "name": "Prisma ORM",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/wfjjf7o7buyefannbucf.jpg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "ca7e52d9-44a3-41f8-9efb-469a5f0df28b",
+      "name": "Progressive Web Applications (PWAs)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/kfao8rkr1jzkbf2cc8th.png",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "e7e7ad25-87c6-4241-b3a8-5e6e063f91de",
+      "name": "Pygame",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/fa4ada61-cd81-4a63-8fdc-29dd1c293fc8/photos/yvieiqu1k53cqil5kh1n.png",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "001b6a61-f2a9-4e4c-94b0-8d1fc6679e9d",
+            "title": "Story of Star Boy RPG"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f77af06c-e000-4179-bc08-13a34685ca6c",
+      "name": "Python (Programming Language)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/python.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Software",
+      "years": 2,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "001b6a61-f2a9-4e4c-94b0-8d1fc6679e9d",
+            "title": "Story of Star Boy RPG"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "13bb3f0e-b446-4b48-a73f-c49225483244",
+      "name": "React.js",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/react.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          },
+          {
+            "id": "ecaff024-7baf-4a67-9bae-f137fbaf74fa",
+            "title": "Personal Website V1"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "cfcd9b42-e3bb-408d-911e-dc9764d51765",
+      "name": "Robotics",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/robotics.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "ffa02d21-5761-4254-a7fa-528fef393331",
+      "name": "Search Engine Optimization (SEO)",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/search-engine-optimization-seo.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f38dfffd-5096-4d58-b15c-9147b5fb478b",
+      "name": "Sensors",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/sensors.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "7bee50c6-d797-43b2-aac9-ff790e3bcff9",
+      "name": "Socket.io",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/socket-io.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "d1b157c7-1d4e-4ab5-baa2-2871b089bec1",
+      "name": "Tailwind CSS",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tailwind-css.svg",
+      "listed": true,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "6f246be3-405c-497d-ab87-862b978b89db",
+      "name": "Team Leadership",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/team-leadership.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+            "title": "Hydra"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "852cb268-e0af-422d-a84b-f69e9f123693",
+      "name": "TensorFlow",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/tensorflow.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "64cecfaf-1fc9-4832-a0e8-676d6a74682e",
+            "title": "Pluto"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "91f54e23-7be3-48f4-9d93-3539fd29076b",
+      "name": "TypeScript",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/typescript.svg",
+      "listed": true,
+      "level": "Advanced",
+      "category": "Software",
+      "years": 3,
+      "lastUsed": null,
+      "usingNow": true,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          },
+          {
+            "id": "4ab0dd37-1903-4ead-98e4-e14f4db3d479",
+            "title": "Noutes (Final Product)"
+          },
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "f0e6c203-7f2d-4345-81ca-cee75105a95b",
+      "name": "Vite",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/vite.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": false,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "2687a52e-d5d9-4555-90c2-793cb90bfce6",
+            "title": "Noutes V2"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    },
+    {
+      "id": "e22d2d5c-8796-43c7-9d2b-3aaff8e23053",
+      "name": "Web Hosting",
+      "icon": "https://f005.backblazeb2.com/file/Inkference/image/skills/common/web-hosting.svg",
+      "listed": false,
+      "level": null,
+      "category": null,
+      "years": null,
+      "lastUsed": null,
+      "usingNow": false,
+      "suggestedNow": true,
+      "usedIn": {
+        "projects": [
+          {
+            "id": "8aab756e-3c0c-4999-998b-0ee8ddebff13",
+            "title": "Inkference"
+          }
+        ],
+        "experiences": [],
+        "merits": []
+      }
+    }
+  ],
+  "experience": [
+    {
+      "kind": "project",
+      "id": "53ae031c-ca62-404e-9aa4-e70ffa1806dd",
+      "title": "Mech Team Member + 3D Printer",
+      "team": null,
+      "isOwner": false,
+      "current": true,
+      "startDate": "2026-10-02T03:13:57.617Z",
+      "endDate": null,
+      "project": {
+        "id": "53ae031c-ca62-404e-9aa4-e70ffa1806dd",
+        "title": "RSX Mars Rover 2026-2027",
+        "icon": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/izs6jlo78jthd8k8si2v.jpg",
+        "url": "https://inkference.app/project/53ae031c-ca62-404e-9aa4-e70ffa1806dd"
+      }
+    },
+    {
+      "kind": "enterprise",
+      "id": "85bb55f8-d512-4dbc-a065-a79039ba189a",
+      "organization": "Inkference",
+      "organizationUrl": "https://inkference.app/enterprise/inkference",
+      "logo": {
+        "url": "https://inkference.app/icon512_maskable.png",
+        "thumbnail": "https://inkference.app/icon512_maskable.png"
+      },
+      "current": true,
+      "positions": [
         {
-            "id": "x-noutes-v1",
-            "title": "Noutes V1",
-            "stage": "SHIPPED",
-            "startDate": "2023-10-02T00:00:00.000Z",
-            "endDate": "2023-10-09T00:00:00.000Z",
-            "icon": null,
-            "role": null,
-            "skills": [
-                {
-                    "name": "PHP"
-                },
-                {
-                    "name": "CSS"
-                },
-                {
-                    "name": "HTML"
-                }
-            ],
-            "stats": {
-                "views": 3,
-                "likes": 3
-            },
-            "links": [],
-            "summary": "PHP site with session-based login/signup, note creation, and a car shop with cart, live pricing, and lazy-loaded images.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "x-dank-exclusive-(discord-bot)",
-            "title": "Dank Exclusive (Discord Bot)",
-            "stage": "SHIPPED",
-            "startDate": "2022-07-27T00:00:00.000Z",
-            "endDate": "2023-06-09T00:00:00.000Z",
-            "icon": {
-                "url": "https://i.imgur.com/JCFffQn.png",
-                "thumbnail": "https://i.imgur.com/JCFffQn.png"
-            },
-            "role": null,
-            "skills": [
-                {
-                    "name": "MongoDB"
-                },
-                {
-                    "name": "Node.js"
-                },
-                {
-                    "name": "Heroku"
-                },
-                {
-                    "name": "Discord API"
-                }
-            ],
-            "stats": {
-                "views": 3,
-                "likes": 2
-            },
-            "links": [],
-            "summary": "Discord bot built during COVID to boost server activity with leveling, automated events, booster perks, moderation, and automod.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
-        },
-        {
-            "id": "x-xenon-economy-(discord-bot)",
-            "title": "Xenon Economy (Discord Bot)",
-            "stage": "SHIPPED",
-            "startDate": "2022-04-11T00:00:00.000Z",
-            "endDate": "2023-05-04T00:00:00.000Z",
-            "icon": {
-                "url": "https://i.imgur.com/nihVMpX.png",
-                "thumbnail": "https://i.imgur.com/nihVMpX.png"
-            },
-            "role": null,
-            "skills": [
-                {
-                    "name": "MongoDB"
-                },
-                {
-                    "name": "AWS"
-                },
-                {
-                    "name": "Heroku"
-                },
-                {
-                    "name": "Discord API"
-                }
-            ],
-            "stats": {
-                "views": 2,
-                "likes": 1
-            },
-            "links": [],
-            "summary": "An economy bot with trading, earning, events, mini-games and player battles. It grew to 100 servers during the COVID pandemic.",
-            "url": "https://inkference.app/profile/cchryx",
-            "banner": null
+          "id": "d557a3fc-7a2a-475d-8d1b-c23c81eb6467",
+          "title": "Founder",
+          "team": null,
+          "employmentType": null,
+          "description": null,
+          "startDate": "2026-09-28T23:50:50.344Z",
+          "endDate": null,
+          "verified": true
         }
-    ],
-    "skills": [
-        {
-            "name": "Onshape",
-            "level": "Advanced",
-            "category": "Design",
-            "usingNow": true
-        },
-        {
-            "name": "Java",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "Node.js",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "Next.js",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "TypeScript",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "JavaScript",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "Python",
-            "level": "Advanced",
-            "category": "Software",
-            "usingNow": true
-        },
-        {
-            "name": "React.js",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "3D Printing",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "MongoDB",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "PHP",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "CSS",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "HTML",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "PWAs",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        },
-        {
-            "name": "Tailwind CSS",
-            "level": null,
-            "category": null,
-            "usingNow": false
-        }
-    ],
-    "experience": [
-        {
-            "kind": "experience",
-            "id": "ssa",
-            "title": "Operations Executive & Volunteer Coordinator",
-            "organization": "Scarborough STEM Alliance",
-            "description": null,
-            "location": null,
-            "current": true,
-            "startDate": null,
-            "endDate": null
-        }
-    ]
+      ]
+    },
+    {
+      "kind": "project",
+      "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+      "title": "Programmer, Robot Builder",
+      "team": null,
+      "isOwner": true,
+      "current": true,
+      "startDate": "2025-08-04T17:07:19.414Z",
+      "endDate": null,
+      "project": {
+        "id": "00773c95-5f04-4096-ae82-67c038cb1b21",
+        "title": "Hydra",
+        "icon": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/projects/qszpdc3gwew48wxbtbjl.jpg",
+        "url": "https://inkference.app/project/00773c95-5f04-4096-ae82-67c038cb1b21"
+      }
+    },
+    {
+      "kind": "experience",
+      "id": "de7bc9f7-73d1-4797-9361-69bd7398b507",
+      "title": "Operations Executive & Volunteer Coordinator",
+      "organization": "Scarborough STEM Alliance",
+      "organizationUrl": null,
+      "website": null,
+      "logo": null,
+      "description": "Training volunteers, organizing robotics & coding lessons, and hosting events to inspire youth involvement and passion for STEM.",
+      "highlights": [],
+      "location": "200 Fundy Bay Blvd, Scarborough, ON M1W 3G1, Canada",
+      "locationType": "On-site",
+      "employmentType": "Volunteer",
+      "status": "Complete",
+      "current": false,
+      "startDate": "2023-06-13T04:00:00.000Z",
+      "endDate": "2024-02-05T05:00:00.000Z",
+      "verified": false,
+      "skills": []
+    }
+  ]
 }
