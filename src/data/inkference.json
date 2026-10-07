@@ -3,7 +3,11 @@
     "me": {
         "name": "Chris Chen",
         "username": "cchryx",
-        "headline": null,
+        "headline": {
+            "title": null,
+            "organization": "Inkference",
+            "organizationUrl": "https://inkference.app"
+        },
         "bio": "CS student at the University of Toronto, St. George, Class of 2030.\n\nI build things people actually use. Right now that's Inkference, a portfolio and social app with portfolios, live chat, planners, and communities, all built and shipped by me.\n\nBefore that, I spent my high school years on FTC robotics. With Pluto we placed #2 in Ontario and went to the 2024 World Championship.",
         "avatar": {
             "url": "https://f005.backblazeb2.com/file/Inkference/image/ebd0bfef-8b14-4693-9b3e-122687048078/profile/hliq5s7v3ongwj3apuvw.w400.webp",

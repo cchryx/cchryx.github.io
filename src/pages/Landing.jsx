@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Nav from "../components/Nav";
-import Wings from "../components/Wings";
-import MechHead from "../components/MechHead";
 import ProjectCard from "../components/ProjectCard";
 import { Hud, SectionHead, Tag } from "../components/Hud";
 import {
@@ -21,12 +19,11 @@ import {
 import resumePDF from "../assets/PDFs/chrischenresume.pdf";
 
 const bioParts = (me.bio || "").split(/\n\s*\n/).filter(Boolean);
-
 const FEATURED = 6;
 
 export default function Landing() {
     const loc = useLocation();
-    
+
     useEffect(() => {
         const id = loc.state && loc.state.scrollTo;
         if (id) {
@@ -37,16 +34,9 @@ export default function Landing() {
         }
     }, [loc.state]);
 
-    const building = projects.filter((p) => String(p.stage).toUpperCase().includes("BUILD")).length;
     const avatar = imgUrl(me.avatar);
-
-    const stats = [
-        { k: "Projects", v: projects.length },
-        { k: "In development", v: building },
-        { k: "Skills", v: skills.length },
-        { k: "Profile views", v: totalViews },
-    ];
-
+    const banner = imgUrl(me.banner);
+    const org = me.headline && me.headline.organization;
     const featured = projects.slice(0, FEATURED);
     const ranked = skills.filter((s) => levelPct(s.level) != null);
     const others = skills.filter((s) => levelPct(s.level) == null);
@@ -55,117 +45,84 @@ export default function Landing() {
         <>
             <Nav />
 
-            {/* HERO */}
-            <section className="hero" id="top">
-                <div className="hero-grid">
-                    <div className="hero-copy">
-                        <p className="eyebrow">
-                            <span className="dot" /> Toronto, Canada
-                        </p>
-                        <h1 className="hero-title">{displayName}</h1>
-                        <p className="hero-sub">
-                            {me.headline && me.headline.title
-                                ? `${me.headline.title} at ${me.headline.organization}`
-                                : "Builder, roboticist and computer science student at the University of Toronto."}
-                        </p>
-                        <p className="hero-lead">I design and build software and robots, and I ship projects people actually use.</p>
-                        <div className="hero-actions">
-                            <button
-                                className="btn"
-                                onClick={() => document.getElementById("missions").scrollIntoView({ behavior: "smooth" })}
-                            >
-                                View projects
-                            </button>
-                            <a className="btn btn-ghost" href={resumePDF} download="chrischenresume.pdf">
-                                Download resume
-                            </a>
-                        </div>
+            {/* PROFILE HEADER */}
+            <section className="profile" id="top">
+                <div className="profile-card">
+                    <div className="profile-banner" style={banner ? { backgroundImage: `url(${banner})` } : undefined}>
+                        <span className="banner-fade" />
                     </div>
-
-                    <div className="hero-art">
-                        <div className="stage">
-                            <Wings />
-                            <span className="halo" />
-                            <div className="portrait">
-                                {avatar ? <img src={avatar} alt={displayName} /> : <MechHead />}
-                                <i className="cr cr-tl" />
-                                <i className="cr cr-tr" />
-                                <i className="cr cr-bl" />
-                                <i className="cr cr-br" />
+                    <div className="profile-body">
+                        <div className="avatar-wrap">{avatar ? <img className="avatar" src={avatar} alt={displayName} /> : <span className="avatar" />}</div>
+                        <div className="profile-main">
+                            <div className="profile-id">
+                                <h1 className="name">{displayName}</h1>
+                                <p className="handle">@{me.username || "cchryx"}</p>
                             </div>
-                            <p className="readout">UNIT 01 // {displayName.toUpperCase()}</p>
+                            <div className="profile-actions">
+                                <a className="btn" href={resumePDF} download="chrischenresume.pdf">
+                                    Resume
+                                </a>
+                                {me.profileUrl ? (
+                                    <a className="btn btn-ghost" href={me.profileUrl} target="_blank" rel="noreferrer">
+                                        Inkference profile
+                                    </a>
+                                ) : null}
+                            </div>
+                        </div>
+
+                        <ul className="stat-pill">
+                            <li>
+                                <b>{projects.length}</b> Projects
+                            </li>
+                            <li>
+                                <b>{skills.length}</b> Skills
+                            </li>
+                            <li>
+                                <b>{totalViews}</b> Views
+                            </li>
+                        </ul>
+
+                        <div className="bio">
+                            {bioParts.map((t, i) => (
+                                <p key={i}>{t}</p>
+                            ))}
+                        </div>
+
+                        <div className="profile-meta">
+                            {org ? (
+                                <a className="work-chip" href={me.headline.organizationUrl || "#"} target="_blank" rel="noreferrer">
+                                    <small>Working at</small> {org}
+                                </a>
+                            ) : null}
+                            <span className="loc-chip">Toronto, ON</span>
+                            {(me.links || []).map((l) => (
+                                <a key={l.url} className="loc-chip link-chip" href={l.url} target="_blank" rel="noreferrer">
+                                    {l.host || hostOf(l.url)}
+                                </a>
+                            ))}
                         </div>
                     </div>
                 </div>
-                <ul className="hero-stats">
-                    {stats.map((s) => (
-                        <li key={s.k}>
-                            <b>{s.v.toLocaleString()}</b>
-                            <small>{s.k}</small>
-                        </li>
-                    ))}
-                </ul>
             </section>
 
-            {/* 01 PILOT */}
-            <section className="sec" id="pilot">
-                <SectionHead no="01" title="About" sub="A little about me." />
-                <div className="pilot-grid">
-                    <Hud tone="blue" className="pilot-card">
-                        <div className="pilot-avatar">
-                            {avatar ? <img src={avatar} alt={displayName} /> : <MechHead />}
-                        </div>
-                        <dl className="spec">
-                            <div>
-                                <dt>Name</dt>
-                                <dd>{displayName}</dd>
-                            </div>
-                            <div>
-                                <dt>Username</dt>
-                                <dd>@{me.username || "cchryx"}</dd>
-                            </div>
-                            <div>
-                                <dt>Location</dt>
-                                <dd>Toronto, ON</dd>
-                            </div>
-                            <div>
-                                <dt>School</dt>
-                                <dd>University of Toronto</dd>
-                            </div>
-                        </dl>
-                    </Hud>
-                    <Hud tone="blue" className="pilot-bio">
-                        <h3 className="panel-title">Bio</h3>
-                        {bioParts.map((t, i) => (
-                            <p key={i}>{t}</p>
-                        ))}
-                        {me.profileUrl ? (
-                            <a className="btn btn-sm" href={me.profileUrl} target="_blank" rel="noreferrer">
-                                View Inkference profile
-                            </a>
-                        ) : null}
-                    </Hud>
-                </div>
-            </section>
-
-            {/* 02 MISSIONS */}
+            {/* PROJECTS */}
             <section className="sec" id="missions">
-                <SectionHead no="02" title="Projects" sub="Recent work, pulled live from Inkference." />
+                <SectionHead no="Projects" title="Things I've built" sub="Pulled from Inkference." />
                 <div className="proj-grid">
                     {featured.map((p, i) => (
                         <ProjectCard key={p.id} p={p} index={i} />
                     ))}
                 </div>
                 <div className="center">
-                    <Link className="btn" to="/projects">
+                    <Link className="btn btn-ghost" to="/projects">
                         See all {projects.length} projects
                     </Link>
                 </div>
             </section>
 
-            {/* 03 SYSTEMS */}
+            {/* SKILLS */}
             <section className="sec" id="systems">
-                <SectionHead no="03" title="Skills" sub="What I work with and how well." />
+                <SectionHead no="Skills" title="What I work with" sub="Levels come from my Inkference profile." />
                 <Hud tone="yellow" className="systems">
                     {ranked.length ? (
                         <ul className="bars">
@@ -173,7 +130,7 @@ export default function Landing() {
                                 <li key={s.name}>
                                     <div className="bar-top">
                                         <span>{s.name}</span>
-                                        <small >
+                                        <small>
                                             {String(s.level).charAt(0).toUpperCase() + String(s.level).slice(1).toLowerCase()}
                                             {s.usingNow ? " · In use" : ""}
                                         </small>
@@ -198,14 +155,14 @@ export default function Landing() {
                 </Hud>
             </section>
 
-            {/* 04 RECORD */}
+            {/* EXPERIENCE */}
             <section className="sec" id="record">
-                <SectionHead no="04" title="Experience" sub="Roles and responsibilities." />
+                <SectionHead no="Experience" title="Where I've worked" sub="Roles and responsibilities." />
                 <ol className="timeline">
                     {experience.map((e) => {
                         const title =
                             e.title || (e.positions && e.positions[0] && e.positions[0].title) || (e.project && e.project.title);
-                        const org = e.organization || (e.project && e.project.title) || "";
+                        const orgName = e.organization || (e.project && e.project.title) || "";
                         const start = fmtMonth(e.startDate || (e.positions && e.positions[0] && e.positions[0].startDate));
                         const end = fmtMonth(e.endDate);
                         return (
@@ -216,7 +173,7 @@ export default function Landing() {
                                         <h3>{title}</h3>
                                         {e.current ? <Tag tone="yellow">Current</Tag> : null}
                                     </div>
-                                    <p className="tl-org">{org}</p>
+                                    <p className="tl-org">{orgName}</p>
                                     {start ? (
                                         <p className="dim sm">
                                             {start} to {e.current ? "Present" : end || ""}
@@ -230,9 +187,9 @@ export default function Landing() {
                 </ol>
             </section>
 
-            {/* 06 OFF DUTY */}
+            {/* BEYOND CODE */}
             <section className="sec" id="offduty">
-                <SectionHead no="05" title="Beyond code" sub="Skateboarding and art." />
+                <SectionHead no="Beyond code" title="Off the keyboard" sub="Skateboarding and art." />
                 <div className="off-grid">
                     <Hud tone="blue" className="off-card">
                         <div className="off-media">
@@ -266,9 +223,9 @@ export default function Landing() {
                 </div>
             </section>
 
-            {/* 05 COMMS */}
+            {/* CONTACT */}
             <section className="sec" id="comms">
-                <SectionHead no="06" title="Contact" sub="Find me online." />
+                <SectionHead no="Contact" title="Say hello" sub="Find me online." />
                 <div className="comms">
                     {(me.links || []).map((l) => (
                         <a key={l.url} className="comm" href={l.url} target="_blank" rel="noreferrer">

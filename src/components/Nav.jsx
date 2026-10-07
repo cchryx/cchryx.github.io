@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { displayName } from "../lib/data";
+import { displayName, imgUrl, me } from "../lib/data";
 
 const LINKS = [
-    { label: "About", id: "pilot" },
     { label: "Projects", id: "missions" },
     { label: "Skills", id: "systems" },
     { label: "Experience", id: "record" },
@@ -15,6 +14,7 @@ export default function Nav() {
     const [open, setOpen] = useState(false);
     const nav = useNavigate();
     const loc = useLocation();
+    const avatar = imgUrl(me.avatar);
 
     const go = (id) => {
         setOpen(false);
@@ -29,11 +29,8 @@ export default function Nav() {
     return (
         <header className="nav">
             <Link to="/" className="nav-logo" onClick={() => setOpen(false)}>
-                <span className="nav-mark" />
-                <span className="nav-name">
-                    <b>{displayName}</b>
-                    <small>Developer and roboticist</small>
-                </span>
+                {avatar ? <img className="nav-avatar" src={avatar} alt="" /> : <span className="nav-avatar" />}
+                <span className="nav-name">{displayName}</span>
             </Link>
 
             <nav className={`nav-links ${open ? "open" : ""}`}>
@@ -47,7 +44,6 @@ export default function Nav() {
                 </Link>
             </nav>
 
-            
             <button className="nav-burger" aria-label="Menu" onClick={() => setOpen(!open)}>
                 <i />
                 <i />
